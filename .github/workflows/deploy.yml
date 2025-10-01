@@ -34,85 +34,18 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 18.x
+
       - name: Install MyST Markdown
         run: npm install -g mystmd
 
-      # - name: Setup Typst
-      #   uses: typst-community/setup-typst@v4
-
-      # - name: Build Typst source with MyST
-      #   run: myst build --typst
-      
-      # - name: Setup TeX Live
-      #   uses: teatimeguest/setup-texlive-action@v3
-      #   with:
-      #     packages: |  
-      #       adjustbox            
-      #       amsfonts
-      #       amsmath    
-      #       amssymb
-      #       amsthm
-      #       authblk
-      #       babel
-      #       background
-      #       booktabs
-      #       caption
-      #       changepage
-      #       curvenote
-      #       datetime
-      #       doi
-      #       enumitem
-      #       fancyhdr
-      #       fancyvrb  
-      #       float
-      #       fmtcount
-      #       fontawesome5
-      #       fontenc
-      #       framed
-      #       framed
-      #       geometry
-      #       glossaries
-      #       graphbox
-      #       graphicx
-      #       hyperref
-      #       hyperref
-      #       inputenc
-      #       latexmk
-      #       lineno
-      #       lipsum
-      #       lmodern
-      #       mdframed
-      #       microtype
-      #       natbib
-      #       needspace
-      #       newfloat
-      #       nicefrac
-      #       pdfcol
-      #       preprint
-      #       scalerel
-      #       scheme-basic
-      #       sidecap
-      #       tcolorbox
-      #       tikz
-      #       times
-      #       titlesec   
-      #       txfonts
-      #       ulem       
-      #       url
-      #       varwidth  
-      #       xcolor
-      #       xetex
-      #       xkeyval
-      #       zref
-
-      # - name: Build PDF Assets
-      #   run: myst build --pdf
       - name: Build HTML Assets
         run: myst build --html
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: './_build/html'
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

@@ -1,8 +1,7 @@
 name: Sync Changed Files to GitLab
 
 on:
-  push:
-    branches: [main]
+  workflow_dispatch:
 
 jobs:
   sync-changes:
