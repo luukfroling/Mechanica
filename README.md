@@ -31,10 +31,10 @@ The book covers the following chapters:
 6. **Collisions**
    
 **Special Relativity**
-7. **Lorentz Transformation** 
-8. **Velocity Transformation** 
-9. **Spacetime and 4vectors** 
-10. **4-Momentum**
+7. **Lorentz Transformation**  
+8. **Velocity Transformation**  
+9. **Spacetime and 4vectors**  
+10. **4-Momentum**  
 11. **Relativistic dynamics and collisions**
 
 ## 🛠️ Building the Book
@@ -81,7 +81,7 @@ This book was created by a team of lecturers from the **Delft Institute of Appli
 - [Hanna den Hertog](https://www.linkedin.com/in/hanna-den-hertog/)
 - [Luuk Froling](https://www.linkedin.com/in/luuk-froling/)
 - [Dion Hoeksma](https://www.linkedin.com/in/dion-hoeksema-96205318a/)
-
+- [Winston de Greef](https://winstondegreef.com/)
 
 ## 🤝 Contributing
 

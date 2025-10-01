@@ -80,7 +80,7 @@ project:
         
         - file: content/classic/ChX0_TwoBody.ipynb
           children:
-           - file: content/classic/ChX0_ex.ipynb
+            - file: content/classic/ChX0_ex.ipynb
 
 
 #######################################################################
