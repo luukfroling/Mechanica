@@ -73,15 +73,7 @@ ct'_2-ct'_1 &=& \gamma \left ( ct_2 -\frac{V}{c} x_2 \right ) -\gamma \left ( ct
 
 From the last line it is clear that also the $y,z$ components of the velocity $\vec{u}$ will be influenced by the transformation although the relative motion between the two observers is only along the $x$-direction. Substituting the expressions for the space and time difference into $v'_{x'}$, we obtain
 
-```{warning} Changed below
-<!-- $$
-\begin{array}{rcl}
-u'_{x'}&=&  \displaystyle{\frac{\gamma \Delta x - \gamma \frac{V}{c}\Delta ct}{\gamma \Delta ct - \gamma \frac{V}{c}\Delta x} = \frac{\frac{\Delta x}{\Delta t}-V}{1-\frac{V}{c^2}\frac{\Delta x}{\Delta t}}}\\
-\\
-&=& \displaystyle{\frac{u_x-V}{1-\frac{Vu_x}{c^2}}}
-\end{array}
-$$ -->
-```
+
 $$
 \begin{align}
   u'_{x'} &= \frac{\gamma \Delta x - \gamma \frac{V}{c}\Delta c t}

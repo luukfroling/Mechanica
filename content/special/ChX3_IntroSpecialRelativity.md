@@ -312,7 +312,7 @@ At some moment in time-space the comet impacts the moon and a photon is moving i
 In the animation below the whole scenery is shown from the perspective of $S$ on the left side and from $S'$ on the right side. The diagrams are made such, that the event "Space Ship passes Earth" is simultaneous in both diagrams, i.e. it happens for both observers at their time equal to 0. All other events happen at different times according to the clocks of the observers.
 
 
-```{figure} ../images/SSEarth2_animation.gif
+```{figure} ../images/SSearth2_animation.*
 :label: fig:SSEarth2_animation.gif
 :width: 100%
 :align: center
