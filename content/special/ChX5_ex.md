@@ -74,8 +74,6 @@ e.  Make a Minkowski diagram (from the perspective of $S$) and draw the grid-lin
 
 ```
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 ## Answers
 
 ```{solution} 15.1
