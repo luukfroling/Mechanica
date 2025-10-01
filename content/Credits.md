@@ -72,7 +72,7 @@ This is the first version of this book. Although many have work on it and severa
 * Prof.Dr. Bernd Rieger, Department of Imaging Physics, Delft University of Technology
 * Dr. Freek Pols, Science \& Engineering Education, Delft University of Technology
 
-Special thanks to Hanna den Hertog for (re)making most of the drawings, Luuk Fröling for his technical support and Dion Hoeksema for converting the .js scripts to .py files. Also thanks to Vebe Helmes, Alexander Lopes-Cardozo, Sep Schouwenaar and Winston de Greef for their comments and suggestions.
+Special thanks to Hanna den Hertog for (re)making most of the drawings, Luuk Fröling for his technical support and Dion Hoeksema for converting the .js scripts to .py files. Also thanks to Vebe Helmes, Alexander Lopes-Cardozo, Sep Schouwenaar, Winston de Greef and Boas Bakker for their comments and suggestions.
 
 
 ### About the authors
