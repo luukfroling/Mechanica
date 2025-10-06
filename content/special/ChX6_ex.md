@@ -59,8 +59,7 @@ Find the frequency that $S$ measures and the angle the traveling photon makes wi
 
 
 ```
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 ## Answers
 
 ```{solution} 16.1

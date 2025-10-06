@@ -52,9 +52,6 @@ Obviously, if more than one force acts, the net work done on the particle determ
 
 $$ W_1 + W_2 = \int_1^2 \vec{F}_1 \cdot d\vec{r} + \int_1^2 \vec{F}_2 \cdot d\vec{r} = \int_1^2 \vec{F}_1 \cdot d\vec{r} - \int_1^2 \vec{F}_1 \cdot d\vec{r} = 0 $$
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 ## Worked Examples
 
@@ -76,7 +73,7 @@ $$
 $$
 ```
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 ```{exercise} Compressing a spring [^TI]
 :label: ex_ch4_spring
@@ -94,7 +91,6 @@ $$ W = \int_{x_1}^{x_2} F \mathrm{d}x = \int_{0}^{x} kx \mathrm{d}x = \frac{1}{2
 
 ```
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 ````{exercise} Work in a force field
 :label: ex_workinF

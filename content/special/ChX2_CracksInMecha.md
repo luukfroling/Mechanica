@@ -398,7 +398,7 @@ Extra reading [Hoe de ether verdween uit de natuurkunde](../images/HoeDeEtherVer
 
 
 ```{exercise}
-:label: 15.1
+:label: 15.1a
 
 Assume the Michelson-Morley experiment uses arms of length $L = 11 \mathrm{m}$ and an aether wind speed $v$ due to the motion of the earth around the sun.  
 Distance earth-sun: $150 \cdot 10^6 \mathrm{km}$.  
@@ -414,7 +414,7 @@ Note: in the experiment of 1887, Michelson and Morley had used multiple mirrors 
 ```
 
 
-```{solution} 15.1
+```{solution} 15.1a
 :class: dropdown
 
 The orbit of the earth around the sun is almost circular. Thus, we can estimate the velocity of the earth as $V = \frac{2\pi R}{T}$ with $R=150 \cdot 10^6 \mathrm{km}$ and $T = 1 \mathrm{year} = 31.6 10^6 \mathrm{s}$. This gives $V = 30 \mathrm{km/s}$.

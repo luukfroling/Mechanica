@@ -29,7 +29,7 @@ This book is based on [Mudde & Rieger 2025](https://interactivetextbooks.tudelft
 
 ### Special features
 
-In this book you will find some 'special' features. Some of these are emphasized by their own style:
+In this book you will find some 'special' features. Some of these are indicated by their own formatting:
 
 ```{exercise} &#127798;
 Each chapter includes a variety of exercises tailored to the material. We distinguish between exercises embedded within the instructional text and those presented on separate pages. The in-text exercises should be completed while reading, as they offer immediate feedback on whether the concepts and mathematics are understood. The separate exercise sets are intended for practice after reading the text and attending the lectures.
@@ -38,7 +38,7 @@ To indicate the level of difficulty, each exercise is marked with 1, 2, or 3 &#1
 ```
 
 ```{intermezzo} Intermezzos
-Intermezzos contain background information on the topic, of the people working on the concepts.
+Intermezzos contain background information on the topic, or on the people that worked on relevant concepts.
 ```
 
 ```{experiment} Experiments
@@ -57,13 +57,13 @@ We include in-browser python code, as well as downloadable .py files which can b
 print("The square root of 2 is: ", 2 ** 0.5)
 ```
 
-New concepts, such as *{abbr}`Free body diagram (a simplified drawing that shows all the external forces acting on a single object, isolated from its surroundings.)`*, are introduced with a hoover-over. If you move your mouse over the italicized part of the text, you will get a short explanation. 
+New concepts, such as *{abbr}`Free body diagram (a simplified drawing that shows all the external forces acting on a single object, isolated from its surroundings.)`*, are introduced with a hover-over. If you move your mouse over the italicized part of the text, you will get a short explanation. 
 
-The book can be read online. There is, however, the opportunity to download the materials and play with the code offline as well. We advise to use [Jupyter Lab in combination with MyST](https://mystmd.org/guide/quickstart-jupyter-lab-myst).
+The book can be read online. There is, however, the opportunity to download the materials and play with the code offline as well. We advise you to use [Jupyter Lab in combination with MyST](https://mystmd.org/guide/quickstart-jupyter-lab-myst).
 
 ### Feedback
 
-This is the first version of this book. Although many have work on it and several iterations have been made, there might still be issues. Do you see a mistake, do you have suggestions for exercises, are parts missing or abundant. Tell us! You can use the `Feedback` button at the top right button. You will need a (free) GitHub account to report an issue!
+This is the first version of this book. Although many have work on it and several iterations have been made, there might still be issues. Do you see a mistake? Do you have suggestions for exercises? Are parts missing or abundant? Tell us! You can use the `Feedback` button in the top right of the screen. You will need a (free) GitHub account to report an issue!
 
 
 ## Authors
@@ -72,7 +72,7 @@ This is the first version of this book. Although many have work on it and severa
 * Prof.Dr. Bernd Rieger, Department of Imaging Physics, Delft University of Technology
 * Dr. Freek Pols, Science \& Engineering Education, Delft University of Technology
 
-Special thanks to Hanna den Hertog for (re)making most of the drawings, Luuk Fröling for his technical support and Dion Hoeksema for converting the .js scripts to .py files. Also thanks to Vebe Helmes, Alexander Lopes-Cardozo, Sep Schouwenaar and Winston de Greef for their comments and suggestions.
+Special thanks to Hanna den Hertog for (re)making most of the drawings, Luuk Fröling for his technical support and Dion Hoeksema for converting the .js scripts to .py files. Also thanks to Vebe Helmes, Alexander Lopes-Cardozo, Sep Schouwenaar, Winston de Greef and Boas Bakker for their comments and suggestions.
 
 
 ### About the authors

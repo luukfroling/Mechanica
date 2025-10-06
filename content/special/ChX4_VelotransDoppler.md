@@ -75,12 +75,15 @@ From the last line it is clear that also the $y,z$ components of the velocity $\
 
 
 $$
-\begin{array}{rcl}
-u'_{x'}&=&  \displaystyle{\frac{\gamma \Delta x - \gamma \frac{V}{c}\Delta ct}{\gamma \Delta ct - \gamma \frac{V}{c}\Delta x} = \frac{\frac{\Delta x}{\Delta t}-V}{1-\frac{V}{c^2}\frac{\Delta x}{\Delta t}}}\\
-\\
-&=& \displaystyle{\frac{u_x-V}{1-\frac{Vu_x}{c^2}}}
-\end{array}
+\begin{align}
+  u'_{x'} &= \frac{\gamma \Delta x - \gamma \frac{V}{c}\Delta c t}
+                 {\gamma \Delta c t - \gamma \frac{V}{c}\Delta x}
+           = \frac{\frac{\Delta x}{\Delta t} - V}
+                  {1 - \frac{V}{c^2} \frac{\Delta x}{\Delta t}} \\
+          &= \frac{u_x - V}{1 - \frac{V u_x}{c^2}}
+\end{align}
 $$
+
 
 For the transverse components $y,z$, we obtain due to the change of the time interval
 
@@ -118,7 +121,7 @@ Effect on sound waves due to motion.
 For the case of an observer with speed $v_{obs}$ and speed of sound in the medium $u$ and moving source $v_{src}$ (e.g. car) the classical formula of the frequency shift is
 
 $$
-f_{obs} = f_{src}\frac{u\pm v_{obs}}{u\mp v_{src}}
+f_{obs} = f_{src}\frac{u\pm v_{obs}}{u ∓ v_{src}}
 $$
 
 where for the stationary observer and medium, we have $+/-$ and for the moving observer and stationary source $-/+$.
@@ -192,7 +195,7 @@ Please observe that the $gamma$ factor is of $\gamma(u)$ that means even for onl
 
 ### Cosmic background radiation
 
-The most well-known frequency shift is the red-shift from the expanding universe. Light coming from a star has a certain frequency as observed in the rest frame of the star. This frequency corresponds to a quantum mechanical drop in energy level. The photon emitted in this energy transition has a well known wave length and frequency. That is, of course, in the rest frame of the process. Anybody observing these photons while traveling with respect to the star will see a Doppler-shifted frequency. If the star is moving away from the observer, the wave length seems longer and thus the frequency lower: the light is shifted to the red end of the spectrum. If on the other hand the star is moving towards the observer, the waves seem compressed and the frequency detected is higher: the light is shifted to the blue end of the spectrum. Hence, astronomers talk about red sifted and blue shitfed light.
+The most well-known frequency shift is the red-shift from the expanding universe. Light coming from a star has a certain frequency as observed in the rest frame of the star. This frequency corresponds to a quantum mechanical drop in energy level. The photon emitted in this energy transition has a well known wave length and frequency. That is, of course, in the rest frame of the process. Anybody observing these photons while traveling with respect to the star will see a Doppler-shifted frequency. If the star is moving away from the observer, the wave length seems longer and thus the frequency lower: the light is shifted to the red end of the spectrum. If on the other hand the star is moving towards the observer, the waves seem compressed and the frequency detected is higher: the light is shifted to the blue end of the spectrum. Hence, astronomers talk about red sifted and blue shifted light.
 
 The astronomer [Edwin Hubble](https://en.wikipedia.org/wiki/Edwin_Hubble) first found in the 1920s that the universe does not only consists out of our own galaxy, the milky way, but there must be (many) other galaxies, which were called *nebula* at that time. Second he could show that all further away galaxies move away from us by measuring the Doppler shift of well-known emission lines of stars and their distance from periodic intensity variation of Cepheid Variable stars. It turned out that the distance of the galaxies $d$ was roughly linearly proportional to the red-shift which is again linearly related to the the radial velocity $v$ as we derived. This is known now as Hubble's law $v=H_0 d$ with the Hubble constant ($H_0 \sim 70\ km/s/Mpc$). Further away galaxies move faster away, but why? And why is no galaxy approaching us?
 

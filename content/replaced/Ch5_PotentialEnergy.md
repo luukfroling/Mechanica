@@ -348,6 +348,3 @@ The second derivative of the potential indicated by $\partial^2 V$ is the Hessia
 
 Conceptually the extrema of the function are again the hills and valleys. The classification of the extrema has next to hills and valleys also saddle points etc. In this course we will not bother about these more dimensional cases, but only stick to simple ones.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

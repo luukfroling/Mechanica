@@ -53,7 +53,7 @@ Notice directly that the distance $\Delta s^2$ can be negative! (And we are OK w
 It is straightforward to show that the above distance $ds^2$ is indeed a Lorentz Invariant, i.e. $ds'^2 = ds^2$. Suppose we have two events: $E_1: (ct,x,y,z)$ and $E_2: (c(t+dt),x+dx,y+dy,z+dz)$. We can transform these to $S'$ via the standard Lorentz Transformation:
 
 $$
-\begin{array}{rcl}
+\begin{array}{rrccll}
 ct'_2 &=& \gamma \left ( c(t+dt) - \frac{V}{c}(x+dx) \right ) \Rightarrow &cdt' &=& \gamma \left ( cdt - \frac{V}{c}dx \right ) \\
 x'_2 &=& \gamma \left ( (x+dx) - \frac{V}{c}c(t+dt) \right ) \Rightarrow &cdx' &=& \gamma \left ( dx - \frac{V}{c}cdt \right ) \\
 y'_2 &=& y_2 \Rightarrow &dy' &=& dy\\
@@ -241,7 +241,7 @@ We plot the coordinate system of $S'$ (<span style="color:blue">blue</span>) in 
 Both lines of $S'$ make the same angle $\alpha$ with the coordinates axis of $S$. They lie symmetric around the light line $x=ct$ (diagonal with $\alpha=45$ deg). The higher the speed $V$ the higher the angle and the closer the lines lie to the light line. See the animation below, where the $(ct',x')$ axis are plotted in the $(ct,x)$ diagram of $S$ for different values of $V/c$.
 
 
-```{figure} ../images/Minkowski_animation.gif
+```{figure} ../images/Minkowski_animation.*
 :label: fig:Minkowski_animation.gif
 :width: 450px
 :align: center
@@ -267,7 +267,7 @@ With this information in hand, we can investigate how events are transferred fro
 In the animation below, we see the effect of different values of $V/c$ on the lines of constant $ct'$ and $x'$ as seen by $S$. For clarity, these are only drawn for $V/c \geq 0$
 
 
-```{figure} ../images/Minkowski2_animation.gif
+```{figure} ../images/Minkowski2_animation.*
 :label: fig:Minkowski2_animation.gif
 :width: 80%
 :align: center
@@ -385,7 +385,7 @@ In the animation below a Minkowski diagram is plotted as $S$ would do. The motio
 The green dashed lines is the grid of $S'$ translated to the world of $S$. The pink dashed lines show the corresponding coordinates of the particle in the world of $S'$: they intersect the $ct'$ and $x'$ axes at the position and time as $S'$ would use. Notice that the clock of $S'$ is indeed slow. Of course the $x'$ coordinate of the particle stays relatively small: $S'$ is 'chasing' the particle.
 
 
-```{figure} ../images/MinkowskiMovingParticle_animation.gif
+```{figure} ../images/MinkowskiMovingParticle_animation.*
 :label: fig:MinkowskiMovingParticle_animation.gif
 :width: 80%
 :align: center
