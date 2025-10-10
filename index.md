@@ -34,21 +34,3 @@ Versie 0.0.2
 </div>
 
 
-%%%% FOOTER
-<!-- :::::{div}
-:class: footer col-screen
-
-::::{grid} 2 2 2 1
-:::{div}
-A book by TUD.
-:::
-
-:::{div}
-This book has been copyright checked by the TUD.
-
-:::
-
-
-:::::
-
-:::::: -->

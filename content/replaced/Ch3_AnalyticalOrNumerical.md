@@ -316,7 +316,7 @@ fig
 Velocity of a hail stone falling from 1km height taking air friction into account.
 ```
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 ## Exercises ##
 
 ```{exercise}

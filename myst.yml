@@ -15,7 +15,7 @@ project:
     - name: C. Freek. J. Pols    
   github: https://github.com/FreekPols/Mechanica
   copyright: Delft University of Technology, CC BY NC 4.0
-  date: 2025-08-25 # YYYY/MM/DD
+  date: 2025-09-28 # YYYY/MM/DD
   # abstract:
   description: A book on mechanics at AP of TUD
 
@@ -65,22 +65,23 @@ project:
           children:
             - file: content/classic/Ch6_ex.ipynb
 
-        # - file: content/classic/Ch7_ConservationEquations.ipynb
-        #   children:
-        #     - file: content/classic/Ch7_ex.ipynb
+        - file: content/classic/Ch7_ConservationEquations.ipynb
+          children:
+            - file: content/classic/Ch7_ex.ipynb
 
-        # - file: content/classic/Ch8_Oscillations.ipynb
-        #   children:
-        #     - file: content/classic/Ch8_ex.ipynb
-            
-        # - file: content/classic/Ch9_Collisions.ipynb
-        #   children:
-        #     - file: content/classic/Ch9_ex.ipynb
+        - file: content/classic/Ch8_Oscillations.ipynb
+          children:
+            - file: content/classic/Ch8_ex.ipynb
+
+        - file: content/classic/Ch9_Collisions.ipynb
+          children:
+            - file: content/classic/Ch9_ex.ipynb
+
         
-        # - file: content/classic/ChX0_TwoBody.ipynb
-        #   children:
-        #     - file: content/classic/ChX0_ex.ipynb
-    
+        - file: content/classic/ChX0_TwoBody.ipynb
+          children:
+            - file: content/classic/ChX0_ex.ipynb
+
 
 #######################################################################
     - file: content/special/SpecialRelativity.md
@@ -88,18 +89,23 @@ project:
         - file: content/special/ChX2_CracksInMecha.md
           children:
             - file: content/special/ChX2_ex.md
+
         - file: content/special/ChX3_IntroSpecialRelativity.md
           children:
             - file: content/special/ChX3_ex.md
+
         - file: content/special/ChX4_VelotransDoppler.md
           children:
             - file: content/special/ChX4_ex.md
+
         - file: content/special/ChX5_FourVectors.md
           children:
             - file: content/special/ChX5_ex.md
+
         - file: content/special/ChX6_FourMomentum.md
-        #   children:
-        #     - file: content/special/ChX6_ex.md
+          children:
+            - file: content/special/ChX6_ex.md
+
         - file: content/special/ChX7_RelDynColl.md
           children:
             - file: content/special/ChX7_ex.md

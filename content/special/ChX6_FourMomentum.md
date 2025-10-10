@@ -334,7 +334,7 @@ $$
 
 This converts back to $E=mc^2$ in the rest frame.
 
-```{figure} ../images/chx6_einsteintriangle.*
+```{figure} ../images/einsteintriangle.*
 :label: fig:chx6_einsteintriangle.svg
 :width: 70%
 
@@ -352,7 +352,7 @@ $$
 P^2 = m^2c^2
 $$
 
-This is of course LT invariant, as $m$ and $c$ are LT invariants (and the momentum is a 4-vector), but more importantly we can use this for computations of [relativistic collisions](./ChX7_RelDynColl.md#example-compton-scattering). By the conservation of 4-momentum we can of course compute all collisions by equating the 4 components of the momentum before and after the collision. It is often, however, mathematically easier to write down the conservation of momentum and then square it. Because you can write down $P^2=m^2c^2$ directly, this saves often computations.
+This is of course LT invariant, as $m$ and $c$ are LT invariants (and the momentum is a 4-vector), but more importantly we can use this for computations of [relativistic collisions](./ChX7_RelDynColl.md). By the conservation of 4-momentum we can of course compute all collisions by equating the 4 components of the momentum before and after the collision. It is often, however, mathematically easier to write down the conservation of momentum and then square it. Because you can write down $P^2=m^2c^2$ directly, this saves often computations.
 
 ## Photons
 
