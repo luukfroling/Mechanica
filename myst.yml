@@ -4,8 +4,10 @@ project:
   plugins:
     - https://github.com/TUD-JB-Templates/JB2_plugins/releases/download/exercise/pdf_exercise.mjs
     - https://github.com/jupyter-book/myst-plugins/releases/download/Admonitions/experiment-admonition.mjs
-    - https://github.com/TUD-JB-Templates/JB2_plugins/releases/download/intermezzo/intermezzo.mjs
+    - https://github.com/jupyter-book/myst-plugins/releases/download/Admonitions/intermezzo-admonition.mjs
     - https://github.com/TUD-JB-Templates/JB2_plugins/releases/download/example/example.mjs
+    # - plugins/aside.mjs
+    # - https://github.com/jupyter-book/myst-plugins/releases/download/Admonitions/example-admonition.mjs
     # - https://github.com/jupyter-book/myst-plugins/releases/download/iframe-to-qr-pdf/iframe-to-qr-pdf.mjs
     - plugins/iframe2.mjs    
     - plugins/typst_eq.mjs              # for unknown symbols in typst
@@ -19,7 +21,7 @@ project:
   copyright: Delft University of Technology, CC BY NC 4.0
   date: 2025-09-28 # YYYY/MM/DD
   # abstract:
-  description: A book on mechanics at AP of TUD
+  description: A book on classical mechanics and special relativity, specifically written for the first year applied physics program at Delft University of Technology.
 
   numbering:
     title: true
@@ -141,5 +143,7 @@ site:
   actions:
     - title: Feedback
       url: https://github.com/FreekPols/Mechanica/issues
+    - title: PDF 
+      url: exports/MechaRela.pdf
 
   template: book-theme

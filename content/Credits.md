@@ -1,16 +1,21 @@
 ---
 title: Introduction
 
-abstract: This book provides an introduction for freshman students into the world of classical mechanics and special relativity theory. Much of physics is build on the basic ideas from classical mechanics. Hence an early introduction to the topic can be beneficial for new students. However, at the start of studying physics, lots of the required math is not available yet. That means that all kind of concepts that are very useful can not be invoked in the lectures and teaching. That does not have to be a disadvantage. It can also be used to help the students by introducing some math and coupling it directly to the physics, making more clear why mathematics should be studied and what its 'practical use' is. With this book, we aim to introduce new students directly at the start of their studies into the world of physics, more specifically the world of Newton, Galilei and many others who laid the foundation of physics. We aim to help students getting a good understanding of the theory, i.e. the framework of physics. What is 'work' and why do we use it? Why is kinetic energy $\frac{1}{2}mv^2$ and not $\frac{1}{3}mv^2$ or $\frac{1}{2}mv^3$? Both 3's are fundamentally wrong, but what is behind it?
-
 numbering:
   title:
     enabled: false
+  headings: false
 
 kernelspec:
   name: python3
   display_name: 'Python 3'
 ---
+
+```{card}
+This book provides an introduction for freshman students into the world of classical mechanics and special relativity theory. Much of physics is build on the basic ideas from classical mechanics. Hence an early introduction to the topic can be beneficial for new students. However, at the start of studying physics, lots of the required math is not available yet. That means that all kind of concepts that are very useful can not be invoked in the lectures and teaching. That does not have to be a disadvantage. It can also be used to help the students by introducing some math and coupling it directly to the physics, making more clear why mathematics should be studied and what its 'practical use' is. With this book, we aim to introduce new students directly at the start of their studies into the world of physics, more specifically the world of Newton, Galilei and many others who laid the foundation of physics. We aim to help students getting a good understanding of the theory, i.e. the framework of physics. What is 'work' and why do we use it? Why is kinetic energy $\frac{1}{2}mv^2$ and not $\frac{1}{3}mv^2$ or $\frac{1}{2}mv^3$? Both 3's are fundamentally wrong, but what is behind it?
+```
++++ { "page-break": true }
++++ 
 
 ## About this book
 
@@ -24,7 +29,7 @@ With this e-book our aim is to provide learning material that is:
 * easy to modify and thus improve over the years
 * interactive, provide additional demos and exercises next to the lectures
 
-This book is based on [Mudde & Rieger 2025](https://interactivetextbooks.tudelft.nl/dev/mechanica/). <!-- replace link by DOI --> That book was already beyond introductory level and pressumed a solid basis in both calculus and basic mechanics. All texts in this book were revised, additional examples and exercises were included, picture and drawings have been updated and interactive materials have been included. Hence, this book should be considered a stand-alone new version. Note that we made good use of other open educational resources, several exercises stem from such resources.
+This book is based on [Mudde & Rieger 2025](https://interactivetextbooks.tudelft.nl/dev/mechanica/). <!-- replace link by DOI --> That book was already beyond introductory level and presumed a solid basis in both calculus and basic mechanics. All texts in this book were revised, additional examples and exercises were included, picture and drawings have been updated and interactive materials have been included. Hence, this book should be considered a stand-alone new version. Note that we made good use of other open educational resources, several exercises stem from such resources.
 
 
 ### Special features
@@ -55,6 +60,10 @@ We include in-browser python code, as well as downloadable .py files which can b
 
 ```{code-cell} python
 print("The square root of 2 is: ", 2 ** 0.5)
+```
+
+```{raw:typst}
+The interactive elements, such as Python code - hover over functionality etc, only work in the online environment, not in the pdf. Where possible we included qr codes and links to the online clips.
 ```
 
 New concepts, such as *{abbr}`Free body diagram (a simplified drawing that shows all the external forces acting on a single object, isolated from its surroundings.)`*, are introduced with a hover-over. If you move your mouse over the italicized part of the text, you will get a short explanation. 
@@ -104,6 +113,8 @@ Bernd Rieger is Antoni van Leeuwenhoek Professor in the Department of Imaging Ph
 
 Freek Pols is an assistant professor in the [Science \& Engineering Education](https://www.tudelft.nl/en/faculty-of-applied-sciences/about-faculty/departments/science-engineering-education-seed) group at the faculty of Applied Sciences of [Delft University of Technology](http://www.tudelft.nl/) in The Netherlands.
 
++++ { "page-break": true }
++++
 
 ## Open Educational Resource
 
