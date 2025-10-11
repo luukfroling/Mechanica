@@ -6,6 +6,7 @@ project:
     - https://github.com/jupyter-book/myst-plugins/releases/download/Admonitions/experiment-admonition.mjs
     - https://github.com/jupyter-book/myst-plugins/releases/download/Admonitions/intermezzo-admonition.mjs
     - https://github.com/TUD-JB-Templates/JB2_plugins/releases/download/example/example.mjs
+    - https://github.com/jupyter-book/myst-plugins/releases/download/updated-date-frontmatter/update-date-frontmatter.mjs
     # - plugins/aside.mjs
     # - https://github.com/jupyter-book/myst-plugins/releases/download/Admonitions/example-admonition.mjs
     # - https://github.com/jupyter-book/myst-plugins/releases/download/iframe-to-qr-pdf/iframe-to-qr-pdf.mjs

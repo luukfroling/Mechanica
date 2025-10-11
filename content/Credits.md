@@ -6,6 +6,8 @@ numbering:
     enabled: false
   headings: false
 
+updated: 2025-10-11
+
 kernelspec:
   name: python3
   display_name: 'Python 3'
@@ -17,9 +19,10 @@ This book provides an introduction for freshman students into the world of class
 +++ { "page-break": true }
 +++ 
 
+
 ## About this book
 
-Classical mechanics is the starting point of physics. Over the centuries, via [Newton's](https://en.wikipedia.org/wiki/Isaac_Newton) three fundamental laws formulated around 1687, we have built a solid framework describing the material world around us. On these pages, you will find a text book with animations, demos and exercises for studying introductory classical mechanics. Moreover, we will consider the first steps of [Einstein's](https://en.wikipedia.org/wiki/Albert_Einstein) Special Theory of Relativity published 1905.
+Classical mechanics is the starting point of physics. Over the centuries, via [Newton's](https://en.wikipedia.org/wiki/Isaac_Newton) three fundamental laws formulated around 1687, we have built a solid framework describing the material world around us. On these pages, you will find a textbook with animations, demos, interactive elements and exercises for studying introductory classical mechanics. Moreover, we will consider the first steps of [Einstein's](https://en.wikipedia.org/wiki/Albert_Einstein) Special Theory of Relativity published 1905.
 
 This material is made to support first year students from the BSc Applied Physics at Delft University of Technology during their course *Classical Mechanics and Relativity Theory*, MechaRela for short. But, of course, anybody interested in Classical Mechanics and Special Relativity is more than welcome to use this book.
 
@@ -27,9 +30,9 @@ With this e-book our aim is to provide learning material that is:
 
 * self-contained
 * easy to modify and thus improve over the years
-* interactive, provide additional demos and exercises next to the lectures
+* interactive by providing demos, interactive elements and exercises next to the lectures
 
-This book is based on [Mudde & Rieger 2025](https://interactivetextbooks.tudelft.nl/dev/mechanica/). <!-- replace link by DOI --> That book was already beyond introductory level and presumed a solid basis in both calculus and basic mechanics. All texts in this book were revised, additional examples and exercises were included, picture and drawings have been updated and interactive materials have been included. Hence, this book should be considered a stand-alone new version. Note that we made good use of other open educational resources, several exercises stem from such resources.
+This book is based on [Mudde & Rieger 2025](https://interactivetextbooks.tudelft.nl/dev/mechanica/). <!-- replace link by DOI --> That book was already beyond introductory level and presumed a solid basis in both calculus and basic mechanics. All texts in this book were revised, additional examples and exercises were included, picture and drawings have been updated and interactive materials have been included. Hence, this book should be considered a stand-alone new version. Note that we made good use of other open educational resources, several exercises stem from such resources. Where we use external materials, we acknowledge and credit the original sources.
 
 
 ### Special features
@@ -43,7 +46,7 @@ To indicate the level of difficulty, each exercise is marked with 1, 2, or 3 &#1
 ```
 
 ```{intermezzo} Intermezzos
-Intermezzos contain background information on the topic, or on the people that worked on relevant concepts.
+Intermezzos contain background information on the topic or on the people that worked on relevant concepts.
 ```
 
 ```{experiment} Experiments
@@ -54,13 +57,13 @@ We include some basic experiments that can be done at home.
 We provide various examples showcasing, e.g., calculations.
 ```
 
-```{tip} Python
+````{tip} Python
 We include in-browser python code, as well as downloadable .py files which can be executed locally. If there is an in-browser, press the ON-button to 'enable compute'. Try it by pushing the ON-button and subsequently the play button and see the output in de code-cell below.
-```
 
 ```{code-cell} python
 print("The square root of 2 is: ", 2 ** 0.5)
 ```
+````
 
 ```{raw:typst}
 The interactive elements, such as Python code - hover over functionality etc, only work in the online environment, not in the pdf. Where possible we included qr codes and links to the online clips.
@@ -68,7 +71,8 @@ The interactive elements, such as Python code - hover over functionality etc, on
 
 New concepts, such as *{abbr}`Free body diagram (a simplified drawing that shows all the external forces acting on a single object, isolated from its surroundings.)`*, are introduced with a hover-over. If you move your mouse over the italicized part of the text, you will get a short explanation. 
 
-The book can be read online. There is, however, the opportunity to download the materials and play with the code offline as well. We advise you to use [Jupyter Lab in combination with MyST](https://mystmd.org/guide/quickstart-jupyter-lab-myst).
+The book can be read online. There is, however, the opportunity to download the materials as Jupyter Notebook file and play with the code offline as well. We advise you to use [Jupyter Lab in combination with MyST](https://mystmd.org/guide/quickstart-jupyter-lab-myst).
+
 
 ### Feedback
 
@@ -76,42 +80,41 @@ This is the first version of this book. Although many have work on it and severa
 
 
 ## Authors
-
-* Prof.Dr. Robert F. Mudde, Department of Chemical Engineering, Delft University of Technology
-* Prof.Dr. Bernd Rieger, Department of Imaging Physics, Delft University of Technology
-* Dr. Freek Pols, Science \& Engineering Education, Delft University of Technology
-
-Special thanks to Hanna den Hertog for (re)making most of the drawings, Luuk Fröling for his technical support and Dion Hoeksema for converting the .js scripts to .py files. Also thanks to Vebe Helmes, Alexander Lopes-Cardozo, Sep Schouwenaar, Winston de Greef and Boas Bakker for their comments and suggestions.
-
-
-### About the authors
-
-`````{aside}
-````{figure}
+`````{grid} 1 2 3 3
+````{card}
 ```{figure} images/RFMudde.jpg
-:width: 40%
-:alt: Portrait photo of Robert Mudde, wearing glasses and a red tie.
+:width: 80%
 
+Prof.Dr. Robert F. Mudde, Department of Chemical Engineering, Delft University of Technology
 ``` 
+````
 
+````{card}
 ```{figure} images/BRieger.png
-:width: 40%
-:alt: Portrait photo of Bernd Rieger, wearing glasses and a blue dress shirt.
+:width: 80%
 
+Prof.Dr. Bernd Rieger, Department of Imaging Physics, Delft University of Technology
 ``` 
+````
+
+````{card}
 ```{figure} images/Freek.jpg
-:width: 40%
+:width: 80%
 :alt: Portrait photo of Freek Pols, wearing glasses and a gray Henley shirt.
 
+Dr. ir. Freek Pols, Science and Engineering Education, Delft University of Technology
 ``` 
-
-```` 
+````
 `````
 Robert Mudde is Distinguished Professor of Science Education at the faculty of Applied Sciences of [Delft University of Technology](http://www.tudelft.nl/) in The Netherlands.
 
 Bernd Rieger is Antoni van Leeuwenhoek Professor in the Department of Imaging Physics at the faculty of Applied Sciences of [Delft University of Technology](http://www.tudelft.nl/) in The Netherlands.
 
 Freek Pols is an assistant professor in the [Science \& Engineering Education](https://www.tudelft.nl/en/faculty-of-applied-sciences/about-faculty/departments/science-engineering-education-seed) group at the faculty of Applied Sciences of [Delft University of Technology](http://www.tudelft.nl/) in The Netherlands.
+
+Special thanks to Hanna den Hertog for (re)making most of the drawings, Luuk Fröling for his technical support and Dion Hoeksema for converting the .js scripts to .py files. Also thanks to Vebe Helmes, Alexander Lopes-Cardozo, Sep Schouwenaar, Winston de Greef and Boas Bakker for their comments and suggestions.
+
+
 
 +++ { "page-break": true }
 +++
