@@ -95,6 +95,19 @@ function replaceAllTextBalanced(src) {
   });
 }
 
+// \hline → horizontale regel (in Typst kun je dit vervangen door "---" of iets soortgelijks)
+function replaceAllHline(src) {
+  // Alleen vervangen als het op zichzelf staat, niet binnen woorden
+  return src.replace(/\\hline\b/g, "---");
+}
+
+// \mathsf{...} → math.sf(...)
+function replaceAllMathsfBalanced(src) {
+  return replaceBalancedCommand(src, 'mathsf', (inner) => {
+    return `math.sf(${inner})`;
+  });
+}
+
 // \substack{a \\ b \\ c}  →  line(a, b, c)
 function replaceAllSubstackBalanced(src) {
   return replaceBalancedCommand(src, 'substack', (inner) => {
@@ -103,6 +116,48 @@ function replaceAllSubstackBalanced(src) {
     return `${parts.join(', ')}`;
   });
 }
+
+function replaceAllTfracBalanced(src) {
+  const cmd = 'tfrac';
+  const needle = `\\${cmd}`;
+  let i = 0;
+
+  while (true) {
+    const start = src.indexOf(needle, i);
+    if (start === -1) break;
+
+    // eerste {
+    const open1 = src.indexOf('{', start + needle.length);
+    if (open1 === -1) break;
+    let depth = 1, j = open1 + 1;
+    while (j < src.length && depth > 0) {
+      if (src[j] === '{') depth++;
+      else if (src[j] === '}') depth--;
+      j++;
+    }
+    if (depth !== 0) break;
+    const inner1 = src.slice(open1 + 1, j - 1);
+
+    // tweede {
+    const open2 = src.indexOf('{', j);
+    if (open2 === -1) break;
+    depth = 1;
+    let k = open2 + 1;
+    while (k < src.length && depth > 0) {
+      if (src[k] === '{') depth++;
+      else if (src[k] === '}') depth--;
+      k++;
+    }
+    if (depth !== 0) break;
+    const inner2 = src.slice(open2 + 1, k - 1);
+
+    const repl = `frac(${inner1}, ${inner2})`;
+    src = src.slice(0, start) + repl + src.slice(k);
+    i = start + repl.length;
+  }
+  return src;
+}
+
 
 function makeRewriter({ mappingPath, mapping } = {}) {
   const mapObj = loadMapping(mappingPath, mapping);
@@ -123,6 +178,9 @@ function makeRewriter({ mappingPath, mapping } = {}) {
     s = replaceAllTextBalanced(s);
     s = replaceAllSubstackBalanced(s);
     s = replaceAllHspace(s);
+    s = replaceAllMathsfBalanced(s);
+    s = replaceAllHline(s);
+    s = replaceAllTfracBalanced(s);
     return s;
   };
 

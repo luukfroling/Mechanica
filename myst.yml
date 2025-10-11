@@ -3,9 +3,11 @@ version: 1
 project:
   plugins:
     - https://github.com/TUD-JB-Templates/JB2_plugins/releases/download/exercise/pdf_exercise.mjs
-    - plugins/experiment.mjs
+    - https://github.com/jupyter-book/myst-plugins/releases/download/Admonitions/experiment-admonition.mjs
     - https://github.com/TUD-JB-Templates/JB2_plugins/releases/download/intermezzo/intermezzo.mjs
     - https://github.com/TUD-JB-Templates/JB2_plugins/releases/download/example/example.mjs
+    # - https://github.com/jupyter-book/myst-plugins/releases/download/iframe-to-qr-pdf/iframe-to-qr-pdf.mjs
+    - plugins/iframe2.mjs    
     - plugins/typst_eq.mjs              # for unknown symbols in typst
      
   title: Classical Mechanics & Special Relativity for Starters
@@ -47,68 +49,67 @@ project:
     - file: content/Credits.md      
       
     - file: content/classic/Mechanics.md
-    - title: Mechanics
-      children:    
-        - file: content/classic/Ch0_Language.ipynb
-          children:
-            - file: content/classic/Ch0_ex.ipynb        
+      # children:    
+    - file: content/classic/Ch0_Language.ipynb
+      children:
+        - file: content/classic/Ch0_ex.ipynb        
 
-        - file: content/classic/Ch2_NewtonsLaws.ipynb
-          children:
-            - file: content/classic/Ch2_ex.ipynb
+    - file: content/classic/Ch2_NewtonsLaws.ipynb
+      children:
+        - file: content/classic/Ch2_ex.ipynb
 
-        - file: content/classic/Ch4_WorkEnergy.ipynb
-          children:
-            - file: content/classic/Ch4_ex.ipynb
+    - file: content/classic/Ch4_WorkEnergy.ipynb
+      children:
+        - file: content/classic/Ch4_ex.ipynb
 
-        - file: content/classic/Ch6_AngularMomentum.ipynb
-          children:
-            - file: content/classic/Ch6_ex.ipynb
+    - file: content/classic/Ch6_AngularMomentum.ipynb
+      children:
+        - file: content/classic/Ch6_ex.ipynb
 
-        - file: content/classic/Ch7_ConservationEquations.ipynb
-          children:
-            - file: content/classic/Ch7_ex.ipynb
+    - file: content/classic/Ch7_ConservationEquations.ipynb
+      children:
+        - file: content/classic/Ch7_ex.ipynb
 
-        - file: content/classic/Ch8_Oscillations.ipynb
-          children:
-            - file: content/classic/Ch8_ex.ipynb
+    - file: content/classic/Ch8_Oscillations.ipynb
+      children:
+        - file: content/classic/Ch8_ex.ipynb
 
-        - file: content/classic/Ch9_Collisions.ipynb
-          children:
-            - file: content/classic/Ch9_ex.ipynb
+    - file: content/classic/Ch9_Collisions.ipynb
+      children:
+        - file: content/classic/Ch9_ex.ipynb
 
-        
-        - file: content/classic/ChX0_TwoBody.ipynb
-          children:
-            - file: content/classic/ChX0_ex.ipynb
+    
+    - file: content/classic/ChX0_TwoBody.ipynb
+      children:
+        - file: content/classic/ChX0_ex.ipynb
 
 
 #######################################################################
-    - file: content/special/SpecialRelativity.md
-      children:        
-        - file: content/special/ChX2_CracksInMecha.md
-          children:
-            - file: content/special/ChX2_ex.md
+    # - file: content/special/SpecialRelativity.md
+    #   children:        
+    #     - file: content/special/ChX2_CracksInMecha.md
+    #       children:
+    #         - file: content/special/ChX2_ex.md
 
-        - file: content/special/ChX3_IntroSpecialRelativity.md
-          children:
-            - file: content/special/ChX3_ex.md
+    #     - file: content/special/ChX3_IntroSpecialRelativity.md
+    #       children:
+    #         - file: content/special/ChX3_ex.md
 
-        - file: content/special/ChX4_VelotransDoppler.md
-          children:
-            - file: content/special/ChX4_ex.md
+    #     - file: content/special/ChX4_VelotransDoppler.md
+    #       children:
+    #         - file: content/special/ChX4_ex.md
 
-        - file: content/special/ChX5_FourVectors.md
-          children:
-            - file: content/special/ChX5_ex.md
+    #     - file: content/special/ChX5_FourVectors.md
+    #       children:
+    #         - file: content/special/ChX5_ex.md
 
-        - file: content/special/ChX6_FourMomentum.md
-          children:
-            - file: content/special/ChX6_ex.md
+    #     - file: content/special/ChX6_FourMomentum.md
+    #       children:
+    #         - file: content/special/ChX6_ex.md
 
-        - file: content/special/ChX7_RelDynColl.md
-          children:
-            - file: content/special/ChX7_ex.md
+    #     - file: content/special/ChX7_RelDynColl.md
+    #       children:
+    #         - file: content/special/ChX7_ex.md
 
     # - file: content/appendix/appendix.md
     #   children:
