@@ -66,25 +66,26 @@ project:
           children:
             - file: content/classic/3_WorkEnergy_ex.ipynb
 
-        - file: content/classic/Ch6_AngularMomentum.ipynb
+        - file: content/classic/4_AngularMomentum.md
           children:
-            - file: content/classic/Ch6_ex.ipynb
+            - file: content/classic/4_AngularMomentum_ex.ipynb
 
-        - file: content/classic/Ch7_ConservationEquations.ipynb
+        - file: content/classic/5_ConservationEquations.md
           children:
-            - file: content/classic/Ch7_ex.ipynb
+            - file: content/classic/5_ConservationEquations_ex.ipynb
 
         - file: content/classic/Ch8_Oscillations.ipynb
           children:
-            - file: content/classic/Ch8_ex.ipynb
+            - file: content/classic/6_Oscillations_ex.ipynb
 
-        - file: content/classic/Ch9_Collisions.ipynb
-          children:
-            - file: content/classic/Ch9_ex.ipynb
+        - file: content/classic/7_Collisions.md
 
-        - file: content/classic/ChX0_TwoBody.ipynb
           children:
-            - file: content/classic/ChX0_ex.ipynb
+            - file: content/classic/7_Collisions_ex.ipynb
+
+        - file: content/classic/8_TwoBody.md
+          children:
+            - file: content/classic/8_TwoBody_ex.ipynb
 
 
 #######################################################################
