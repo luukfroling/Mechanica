@@ -6,6 +6,7 @@ numbering:
     enabled: false
     offset: 0
 
+updated: October 11, 2025
 ---
 
 ```{card}

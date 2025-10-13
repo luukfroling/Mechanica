@@ -2,7 +2,7 @@ version: 1
 
 project:
   plugins:
-    - https://github.com/TUD-JB-Templates/JB2_plugins/releases/download/exercise/pdf_exercise.mjs
+    - https://github.com/jupyter-book/myst-plugins/releases/download/exercise-and-solution-pdf/exercise-admonition-pdf.mjs
     - https://github.com/jupyter-book/myst-plugins/releases/download/Admonitions/experiment-admonition.mjs
     - https://github.com/jupyter-book/myst-plugins/releases/download/Admonitions/intermezzo-admonition.mjs
     - https://github.com/TUD-JB-Templates/JB2_plugins/releases/download/example/example.mjs
@@ -55,6 +55,7 @@ project:
     - file: content/classic/Mechanics.md
       children:    
         - file: content/classic/Ch0_Language.ipynb
+        - file: content/classic/test.md
           children:
             - file: content/classic/Ch0_ex.ipynb        
 

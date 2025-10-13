@@ -6,7 +6,7 @@ numbering:
     enabled: false
   headings: false
 
-updated: 2025-10-11
+updated: October 11, 2025
 
 kernelspec:
   name: python3
@@ -80,7 +80,7 @@ This is the first version of this book. Although many have work on it and severa
 
 
 ## Authors
-`````{grid} 1 2 3 3
+:::{grid} 1 2 3 3
 ````{card}
 ```{figure} images/RFMudde.jpg
 :width: 80%
@@ -100,12 +100,12 @@ Prof.Dr. Bernd Rieger, Department of Imaging Physics, Delft University of Techno
 ````{card}
 ```{figure} images/Freek.jpg
 :width: 80%
-:alt: Portrait photo of Freek Pols, wearing glasses and a gray Henley shirt.
 
 Dr. ir. Freek Pols, Science and Engineering Education, Delft University of Technology
 ``` 
 ````
-`````
+:::
+
 Robert Mudde is Distinguished Professor of Science Education at the faculty of Applied Sciences of [Delft University of Technology](http://www.tudelft.nl/) in The Netherlands.
 
 Bernd Rieger is Antoni van Leeuwenhoek Professor in the Department of Imaging Physics at the faculty of Applied Sciences of [Delft University of Technology](http://www.tudelft.nl/) in The Netherlands.
@@ -153,3 +153,14 @@ The Intermezzos, which elaborate on the lives of various scientists and the effo
 ### How to cite this book
 
 R.F. Mudde, B. Rieger, C.F.J. Pols, *Classical Mechanics \& Special Relativity for Beginners*, CC BY-NC<!--TU Delft Open, 2025, [LINK DOI]-->
+
+```bibtex
+@book{MuddeRiegerPols2025,
+  author    = {Robert F. Mudde and Bernd Rieger and Freek Pols},
+  title     = {Classical Mechanics \& Special Relativity for Beginners},
+  year      = {2025},
+  publisher = {TU Delft Open},
+  note      = {CC BY-NC},
+  url       = {https://interactivetextbooks.tudelft.nl/mecharela}
+}
+```
