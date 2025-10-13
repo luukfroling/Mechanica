@@ -25,18 +25,18 @@ Introduction:
 ## Newton's Three Laws
 Much of physics, in particular Classical Mechanics, rests on three laws that carry Newton's name:
 
-```{admonition} Newton's first law (N1)
+```{important} Newton's first law (N1)
 If no force acts on an object, the object moves with constant velocity.
 ```
 
-```{admonition} Newton's second law (N2)
+```{important} Newton's second law (N2)
 If a (net) force acts on an object, the momentum of the object will change according to:
 
 $$ \frac{d\vec{p}}{dt} = \vec{F} $$ 
 
 ```
 
-```{admonition} Newton's third law (N3)
+```{important} Newton's third law (N3)
 If object 1 exerts a force $ \vec{F}_{12} $ on object 2, then object 2 exerts a force $\vec{F}_{21}$ 
 equal in magnitude and opposite in direction on object 1:
 

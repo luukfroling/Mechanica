@@ -10,7 +10,7 @@ project:
     # - plugins/aside.mjs
     # - https://github.com/jupyter-book/myst-plugins/releases/download/Admonitions/example-admonition.mjs
     # - https://github.com/jupyter-book/myst-plugins/releases/download/iframe-to-qr-pdf/iframe-to-qr-pdf.mjs
-    - plugins/iframe2.mjs    
+    # - plugins/iframe2.mjs    
     - plugins/typst_eq.mjs              # for unknown symbols in typst
      
   title: Classical Mechanics & Special Relativity for Starters
@@ -54,18 +54,17 @@ project:
       
     - file: content/classic/Mechanics.md
       children:    
-        - file: content/classic/Ch0_Language.ipynb
-        - file: content/classic/test.md
+        - file: content/classic/1_Language.md
           children:
-            - file: content/classic/Ch0_ex.ipynb        
+            - file: content/classic/1_Language_ex.ipynb        
 
-        - file: content/classic/Ch2_NewtonsLaws.ipynb
+        - file: content/classic/2_NewtonsLaws.md
           children:
-            - file: content/classic/Ch2_ex.ipynb
+            - file: content/classic/2_NewtonsLaws_ex.ipynb
 
-        - file: content/classic/Ch4_WorkEnergy.ipynb
+        - file: content/classic/3_WorkEnergy.md
           children:
-            - file: content/classic/Ch4_ex.ipynb
+            - file: content/classic/3_WorkEnergy_ex.ipynb
 
         - file: content/classic/Ch6_AngularMomentum.ipynb
           children:

@@ -7,7 +7,7 @@
  
 ```
 
-```{admonition} Solution
+```{important} Solution
 :class: tip, dropdown
 
 You can solve this by considering the time dilation for an earth observer, as the lifetime is with respect to the rest frame! The lifetime for an earth observer is therefor stretched to $\gamma \tau\sim 16\ \mu$s. Therefore muons only need to travel about 4 lifetimes, and a decent fraction ($1/16$) can still be measured on the earth surface. 

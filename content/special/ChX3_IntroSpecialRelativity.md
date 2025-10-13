@@ -342,7 +342,7 @@ Welcome the 'Magical World of Relativity'. And don't worry: you will get used to
     
 Here we have a look at the consequences of axioms 1 & 2. We know how two observers $S$ and $S'$ (moving away with $V$) transform their respective coordinates into each other, via the Lorentz transformation.
 
-```{admonition} LT
+```{important} LT
 **Lorentz Transformation**
 
 $$\begin{split}
