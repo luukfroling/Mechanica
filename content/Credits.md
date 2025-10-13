@@ -136,11 +136,11 @@ This website is a [Jupyter Book](https://jupyterbook.org/intro.html). Markdown s
 
 ### Images, videos, apps, intermezzos 
 
-The cover image is inspired by the work of [3blue1brown](https://www.3blue1brown.com/) developer Grant Sanderson. 
+The cover image is inspired by the work of [3Blue1Brown](https://www.3Blue1Brown.com/) developer Grant Sanderson. 
 
 All vector images have been made by Hanna den Hertog, and are available in vector format through the repository. For reuse, adapting and redistribution, adhere to the CC-BY licences.
 
-We embedded several clips from [3blue1brown](https://www.3blue1brown.com/) in accord with their [licences requirements](https://www.3blue1brown.com/contact#licensing-inquiry).
+We embedded several clips from [3Blue1Brown](https://www.3Blue1Brown.com/) in accord with their [licences requirements](https://www.3Blue1Brown.com/contact#licensing-inquiry).
 
 The embedded vpython apps are made freely available from [trinket](https://trinket.io/).
 
