@@ -82,6 +82,7 @@ This book was created by a team of lecturers from the **Delft Institute of Appli
 - [Luuk Froling](https://www.linkedin.com/in/luuk-froling/)
 - [Dion Hoeksma](https://www.linkedin.com/in/dion-hoeksema-96205318a/)
 - [Winston de Greef](https://winstondegreef.com/)
+- [Boas Bakker](https://boas.work/)
 
 ## 🤝 Contributing
 
