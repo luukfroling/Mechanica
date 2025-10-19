@@ -6,18 +6,18 @@ numbering:
     enabled: false
   headings: false
 
-updated: October 11, 2025
+updated: October 13, 2025
 
 kernelspec:
   name: python3
   display_name: 'Python 3'
 ---
 
++++{"tag": "no-pdf"}
 ```{card}
 This book provides an introduction for freshman students into the world of classical mechanics and special relativity theory. Much of physics is build on the basic ideas from classical mechanics. Hence an early introduction to the topic can be beneficial for new students. However, at the start of studying physics, lots of the required math is not available yet. That means that all kind of concepts that are very useful can not be invoked in the lectures and teaching. That does not have to be a disadvantage. It can also be used to help the students by introducing some math and coupling it directly to the physics, making more clear why mathematics should be studied and what its 'practical use' is. With this book, we aim to introduce new students directly at the start of their studies into the world of physics, more specifically the world of Newton, Galilei and many others who laid the foundation of physics. We aim to help students getting a good understanding of the theory, i.e. the framework of physics. What is 'work' and why do we use it? Why is kinetic energy $\frac{1}{2}mv^2$ and not $\frac{1}{3}mv^2$ or $\frac{1}{2}mv^3$? Both 3's are fundamentally wrong, but what is behind it?
 ```
-+++ { "page-break": true }
-+++ 
++++
 
 
 ## About this book
@@ -66,12 +66,13 @@ print("The square root of 2 is: ", 2 ** 0.5)
 ````
 
 ```{raw:typst}
-The interactive elements, such as Python code - hover over functionality etc, only work in the online environment, not in the pdf. Where possible we included qr codes and links to the online clips.
+The interactive elements, such as Python code, hover over functionality, embedded youtube clips etc, only work in the online environment, not in the pdf or printed book. Where possible we included qr codes and links to the online clips.
+
 ```
 
 New concepts, such as *{abbr}`Free body diagram (a simplified drawing that shows all the external forces acting on a single object, isolated from its surroundings.)`*, are introduced with a hover-over. If you move your mouse over the italicized part of the text, you will get a short explanation. 
 
-The book can be read online. There is, however, the opportunity to download the materials as Jupyter Notebook file and play with the code offline as well. We advise you to use [Jupyter Lab in combination with MyST](https://mystmd.org/guide/quickstart-jupyter-lab-myst).
+You have the opportunity to download some of the materials as Jupyter Notebook file and play with the code offline. We advise you to use [Jupyter Lab in combination with MyST](https://mystmd.org/guide/quickstart-jupyter-lab-myst).
 
 
 ### Feedback

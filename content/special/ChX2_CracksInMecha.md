@@ -2,12 +2,14 @@
 numbering:
   title:
     offset: 0
+
+
+updated: October 19, 2025
 ---
 
 # Cracks in Classical Mechanics
 
 As the years progressed, Classical Mechanics developed further and further. So, in the first half of the nineteenths century it felt like classical mechanics was an all encompassing theory and that physics would become a discipline of working out problems based on a well-established, complete theory. But that wasn't going to be the case at all. Around 1850-1860 several cracks in the theory started to become visible. And they were fundamental!
-
 ## Rutherford & the atom
 
 ### Atomic theory
@@ -85,7 +87,7 @@ The plum pudding model was abandoned in 1911. That year Ernest Rutherford (1871-
 Marie Curie (1867-1934). From [Wikimedia Commons](https://en.wikipedia.org/wiki/File:Marie_Curie_c._1920s.jpg), public domain.
 ```
 
-Rutherford, in cooperation with Hans Geiger (one of the inventors of what we now call the Geiger counter) and Ernest Masden, built an apparatus that could count the $\alpha$-particles. Moreover, he showed that the $\alpha$-particles were He-nuclei with a positive charge of $2e4$. In 1917, he showed that Nitrogen could become Oxygen by bombarding it with the $\alpha$-particles. This was the first time that someone succeeded in artificially changing one element into another.
+Rutherford, in cooperation with Hans Geiger (one of the inventors of what we now call the Geiger counter) and Ernest Masden, built an apparatus that could count the $\alpha$-particles. Moreover, he showed that the $\alpha$-particles were He-nuclei with a positive charge of $2e$. In 1917, he showed that Nitrogen could become Oxygen by bombarding it with the $\alpha$-particles. This was the first time that someone succeeded in artificially changing one element into another.
 
 **Scattering at a gold**
 
@@ -118,17 +120,17 @@ When the experiments were basically done, so goes the story, still a student was
 
 There is no way that the plum pudding model could explain this. The argumentation to show that, goes as follows. 
 
-- The size of the atoms of gold is known: they are on the order of $r_0 \approx 10^{-10}$m.  
+- The size of the atoms of gold is known: they are on the order of $r_0 \approx 10^{-10} \mathrm{m}$.  
 This value can be found from the density of gold, the mass of a gold atom and the mass and volume of the gold foil (or any other amount of gold). By treating the atoms as small spheres that are stacked back to back, the size of the atom is easily found.   
-- An $\alpha$-particle has a charge of 2e and is deflected by a gold atom due to the charge of the gold atom. As gold has number 79 in the periodic table, we know that the charge of a gold atom is +79e in the 'plum pudding' and -79e of all electrons floating in the pudding.  
-However, an $alpha$-particle is much heavier than an electron. Hence in the Coulomb interaction between the $\alpha$ -particle and an electron, the acceleration (of deflection) of the 'heavy' $\alpha$-particle is negligible: the electrons are pushed out of the way (or actually attracted); they don't influence the trajectory of the $\alpha$-particle.  
+- An $\alpha$-particle has a charge of $2e$ and is deflected by a gold atom due to the charge of the gold atom. As gold has number 79 in the periodic table, we know that the charge of a gold atom is +79e in the 'plum pudding' and -79e of all electrons floating in the pudding.  
+However, an $\alpha$-particle is much heavier than an electron. Hence in the Coulomb interaction between the $\alpha$ -particle and an electron, the acceleration (of deflection) of the 'heavy' $\alpha$-particle is negligible: the electrons are pushed out of the way (or actually attracted); they don't influence the trajectory of the $\alpha$-particle.  
 It is the positive charge of the pudding itself, that does the deflection. The atom (i.e. the pudding) can not move out of the way as it is part of the gold foil which is many orders of magnitude heavier than the incoming particle.     
 
 Rutherford knew the theory of Maxwell for Electro-Magnetism and could estimate The force an $\alpha$-particle would feel from the atom. He deduced that the force on the $\alpha$-particle is always smaller than:
 
 $$ F_c \leq \frac{q_\alpha Q_g}{4 \pi \epsilon_0} \frac{1}{r_0^2} $$ 
 
-with $Q$ the charge of the atom (i.e. +79e), $q_\alpha$ the charge (+2e) of the $\alpha$-particle, $\epsilon_0$ the permittivity of vacuum ($\frac{1}{4 \pi \epsilon} = 9 \cdot 10^9 Nm^2/C^2$) and $r_0$ the radius of a gold atom.
+with $Q$ the charge of the atom (i.e. +79e), $q_\alpha$ the charge ($+2e$) of the $\alpha$-particle, $\epsilon_0$ the permittivity of vacuum ($\frac{1}{4 \pi \epsilon} = 9 \cdot 10^9 \mathrm{Nm}^2/\mathrm{C}^2$) and $r_0$ the radius of a gold atom.
 
 The deflection of the particle is biggest if the Coulomb force is perpendicular to the trajectory. So, we take that for our estimate. The true effect, when passing through the atom, will be smaller.  
 
@@ -157,7 +159,7 @@ The time the particle is in the atom is estimated as follows. The particle has a
 
 $$ \frac{\Delta p}{p} \ll \frac{q_\alpha Q_g}{4 \pi \epsilon_0} \frac{1}{r_0^2} \cdot \frac{2r_0}{v_0} = \frac{q_\alpha Q_g}{2 \pi \epsilon_0} \frac{1}{r_0 v_0} \ll 1$$
 
-We have used the know charge of a gold atom (79e) and that of the $\alpha$-particle, the radius of the gold atom and the incoming velocity of the $\alpha$-particle, $v_0 \approx 1.6 \cdot 10^{7}$m/s.
+We have used the know charge of a gold atom ($79e$) and that of the $\alpha$-particle, the radius of the gold atom and the incoming velocity of the $\alpha$-particle, $v_0 \approx 1.6 \cdot 10^{7} \mathrm{m/s}$.
   
 
 
@@ -211,7 +213,7 @@ The principles used in scattering can be illustrated by revisiting Rutherford's 
 Scattering of an incoming particle at a fixed source.
 ```
 
-Consider fig.(7.7): a particle of mass $m$ and velocity $v$ is moving towards a fixed second particle. The latter is fixed in the origin and act like a force-source. The force is central, i.e. works along the direction of the red line in fig.(7.7). In the drawing the forces is repelling and the incoming particle will deviate from its straight line. Eventually it will continue moving over a straight line, when the influence of the force is no longer felt. The angle of the new direction with the incoming one, is $theta$, the scattering angle. We are looking for the relation between $b$, the distance at which the incoming particle would have passed by the origin if there was no force and the scattering angle $theta$.
+Consider {numref}`Figure {number} <fig:ScatteringPrinciple.png>`: a particle of mass $m$ and velocity $v$ is moving towards a fixed second particle. The latter is fixed in the origin and act like a force-source. The force is central, i.e. works along the direction of the red line in {numref}`Figure {number} <fig:ScatteringPrinciple.png>`. In the drawing the forces is repelling and the incoming particle will deviate from its straight line. Eventually it will continue moving over a straight line, when the influence of the force is no longer felt. The angle of the new direction with the incoming one, is $\theta$, the scattering angle. We are looking for the relation between $b$, the distance at which the incoming particle would have passed by the origin if there was no force and the scattering angle $\theta$.
 
 
 ```{figure} ../images/Scattering2D3D.png
@@ -222,13 +224,13 @@ Consider fig.(7.7): a particle of mass $m$ and velocity $v$ is moving towards a 
 left: scattering in 2D, right: scattering in 3D.
 ```
 
-In fig.(7.8) scattering in a 2D world and in the 3D world is schematically depicted. In the 3-dimensional world the scattering takes place in the solid angle $d\theta$. Like the 2d equivalent, where the scattering angle can go from 0 to $2\pi$ (that is the full circle), in 3d it goes from 0 to $4\pi$ reflecting that it is now a full sphere.
+In {numref}`Figure {number} <fig:Scattering2D3D.png>` scattering in a 2D world and in the 3D world is schematically depicted. In the 3-dimensional world the scattering takes place in the solid angle $d\theta$. Like the 2d equivalent, where the scattering angle can go from 0 to $2\pi$ (that is the full circle), in 3d it goes from 0 to $4\pi$ reflecting that it is now a full sphere.
 
 
 
 ## Kinetic theory of gases
 
-Already in the 18$^{th}$ century, work was done on what we call the kinetic theory of gases. The Swiss scientist Daniel Bernoulli proposed that gases were a large collection of molecules, i.e tiny particles moving in all directions. According to Bernoulli, their collision with walls was felt macroscopically as pressure and their averaged kinetic energy was in essence the temperature of the gas.
+Already in the 18$^{\text{th}}$ century, work was done on what we call the kinetic theory of gases. The Swiss scientist Daniel Bernoulli proposed that gases were a large collection of molecules, i.e tiny particles moving in all directions. According to Bernoulli, their collision with walls was felt macroscopically as pressure and their averaged kinetic energy was in essence the temperature of the gas.
 
 
 ````{figure}
@@ -259,9 +261,9 @@ For ideal gases, we have the ideal gas law: $pV = nRT$ with $n$ the number of mo
 
 The ideal gas law helps in understanding how gases behave under changing conditions. For instance, if we compress a given amount of gas, we may expect that the pressure goes up. But we also see that this depends on whether or not the temperature changes. And in principle the temperature will change.
 
-If we would do a compression experiment with a fixed number of molecules, $N$, and we would compress the gas such that no heat can escape from the container, then the changes in temperature, volume and pressure are such that $p V^\gamma = const$. This is called adiabatic compression. The quantity $gamma$ is the ratio of the specific heat at constant pressure over the specific heat at constant volume. Both these quantities are easily measured in experiments and, hence, $gamma$ can be found for many gases.
+If we would do a compression experiment with a fixed number of molecules, $N$, and we would compress the gas such that no heat can escape from the container, then the changes in temperature, volume and pressure are such that $p V^\gamma = const$. This is called adiabatic compression. The quantity $\gamma$ is the ratio of the specific heat at constant pressure over the specific heat at constant volume. Both these quantities are easily measured in experiments and, hence, $\gamma$ can be found for many gases.
 
-The kinetic theory predicts $gamma$ for various classes of gases. For instance, for monatomic gasses as Helium, it is $5/3 \approx 1.667$; for diatomic gases, such as Oxygen or Hydrogen, it should be $9/7 \approx 1.286$. And so on. Moreover, $gamma$ does, according to the kinetic theory, not depend on temperature.
+The kinetic theory predicts $\gamma$ for various classes of gases. For instance, for monatomic gasses as Helium, it is $5/3 \approx 1.667$; for diatomic gases, such as Oxygen or Hydrogen, it should be $9/7 \approx 1.286$. And so on. Moreover, $\gamma$ does, according to the kinetic theory, not depend on temperature.
 
 In the table below, the ratio of the specific heats $c_p /c_V$ is listed for a number of gasses.
 
@@ -279,13 +281,13 @@ In the table below, the ratio of the specific heats $c_p /c_V$ is listed for a n
 
 As we see, for the noble gases it is quite ok (at $T=293\text{K}$ !), but not so for the diatomic gases.
 
-For really high temperatures (~2000K) for both $O_2$ and $H_2$, $gamma$ it is close to 1.286. But if we go to low temperature, their respective $gamma$'s increase and $H_2$ reaches a value of 1.66! Hence, Maxwell concluded, that the laws of classical mechanics could not be the final answer. 
+For really high temperatures (~2000K) for both $O_2$ and $H_2$, $\gamma$ it is close to 1.286. But if we go to low temperature, their respective $\gamma$'s increase and $H_2$ reaches a value of 1.66! Hence, Maxwell concluded, that the laws of classical mechanics could not be the final answer. 
 
 As we have seen when discussing Rutherford's experiment, in the early twentieth century more cracks became visible. These led scientists to Quantum Mechanics.
 
 ## The problem with Maxwell's equations
 
-In the early 1860s [Maxwell](https://en.wikipedia.org/wiki/James_Clerk_Maxwell) extended Ampères law, in combination with Gauss and Faraday laws. This led to four coupled differential equations describing the generation of electro-magnetic fields from charges and currents. They are now just known as *the Maxwell equations*. They read in modern (differential) notation as follows for the electric  $\vec{E}(\vec{x},t)$ and magnetic $\vec{B}(\vec{x},t)$ field in free space
+In the early 1860s [Maxwell](https://en.wikipedia.org/wiki/James_Clerk_Maxwell) extended Ampères' law, in combination with Gauss and Faraday laws. This led to four coupled differential equations describing the generation of electro-magnetic fields from charges and currents. They are now just known as *the Maxwell equations*. They read in modern (differential) notation as follows for the electric  $\vec{E}(\vec{x},t)$ and magnetic $\vec{B}(\vec{x},t)$ field in free space
 
 $$
 \begin{array}{rcl}
@@ -361,7 +363,7 @@ Michelson & Morley setup
 ```
 
 
-The whole setup is mounted for stability on a heavy table that is floating in liquid mercury, to reduce vibrations coupling to the setup. If now one arm is parallel to the earth's orbit with $V=30$km/s, while the other is perpendicular to it, there will be some difference between the length of the two paths traveled: $\Delta \lambda_1$. If we rotate the setup by 90 degree (easily done in the mercury bath), then the roles of $L_1$ and $L_2$ are exchanged, leading to another phase shift $\Delta \lambda_2$. Therefore after rotation the fringes of the interference pattern on the detector should shift as
+The whole setup is mounted for stability on a heavy table that is floating in liquid mercury, to reduce vibrations coupling to the setup. If now one arm is parallel to the earth's orbit with $V=30 \mathrm{km/s}$, while the other is perpendicular to it, there will be some difference between the length of the two paths traveled: $\Delta \lambda_1$. If we rotate the setup by 90 degree (easily done in the mercury bath), then the roles of $L_1$ and $L_2$ are exchanged, leading to another phase shift $\Delta \lambda_2$. Therefore after rotation the fringes of the interference pattern on the detector should shift as
 
 $$
 \Delta \phi=2\pi\frac{\Delta \lambda_1 - \Delta \lambda_2}{\lambda} = 2\pi\frac{(L_1+L_2)}{\lambda}\frac{V^2}{c^2}
@@ -401,7 +403,7 @@ Extra reading [Hoe de ether verdween uit de natuurkunde](../images/HoeDeEtherVer
 :label: 15.1a
 
 Assume the Michelson-Morley experiment uses arms of length $L = 11 \mathrm{m}$ and an aether wind speed $v$ due to the motion of the earth around the sun.  
-Distance earth-sun: $150 \cdot 10^6 \mathrm{km}$.  
+Distance earth-sun: $150 \cdot 10^6 \; \mathrm{km}$.  
 
 1. Calculate the expected time difference $\Delta t$ between light traveling parallel and perpendicular to the aether wind.
 
@@ -409,7 +411,7 @@ The sun itself is orbiting the center of our Milky Way at an even higher speed: 
 
 2. What would this mean for the expected time difference in the Michelson and Morley experiment?
 
-Note: in the experiment of 1887, Michelson and Morley had used multiple mirrors in their set up for each of the two light beam paths to make the traveling length of the light, from the splitter to the mirror and the edge of the table and back, much longer than only the radius of the table and back. This is how they achieved a path length of $11 \mathrm{m}$. The table itself was of course not of a diameter of $22 \mathrm{m}$. 
+Note: in the experiment of 1887, Michelson and Morley had used multiple mirrors in their set up for each of the two light beam paths to make the traveling length of the light, from the splitter to the mirror and the edge of the table and back, much longer than only the radius of the table and back. This is how they achieved a path length of $11 \; \mathrm{m}$. The table itself was of course not of a diameter of $22 \; \mathrm{m}$. 
 
 ```
 
@@ -417,7 +419,7 @@ Note: in the experiment of 1887, Michelson and Morley had used multiple mirrors 
 ```{solution} 15.1a
 :class: dropdown
 
-The orbit of the earth around the sun is almost circular. Thus, we can estimate the velocity of the earth as $V = \frac{2\pi R}{T}$ with $R=150 \cdot 10^6 \mathrm{km}$ and $T = 1 \mathrm{year} = 31.6 10^6 \mathrm{s}$. This gives $V = 30 \mathrm{km/s}$.
+The orbit of the earth around the sun is almost circular. Thus, we can estimate the velocity of the earth as $V = \frac{2\pi R}{T}$ with $R=150 \cdot 10^6 \; \mathrm{km}$ and $T = 1 \mathrm{year} = 31.6 10^6 \; \mathrm{s}$. This gives $V = 30 \; \mathrm{km/s}$.
 
 We compute the traveling time from light leaving the beam splitter, reflecting at the mirror on the side of the table and reaching the beam splitter again. The rest of the path is identical for both light beams and does not lead to a time difference.
 
