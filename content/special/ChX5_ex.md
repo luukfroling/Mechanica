@@ -62,7 +62,7 @@ Draw the events in two diagrams. The first one has both $ct$ and $ct'$ as the ve
 ```{exercise} &#127798; &#127798; 
 :label: 15.5
 
-A Space Ship, with $S'$ on board, is moving at $V/c = 3/5$ with respect to Mission Control (where $S$ is located) on earth. Both $S$ and $S'$ have aligned their axes and synchronized their clocks in the usual way. 
+A spaceship, with $S'$ on board, is moving at $V/c = 3/5$ with respect to Mission Control (where $S$ is located) on earth. Both $S$ and $S'$ have aligned their axes and synchronized their clocks in the usual way. 
 
 Mission control receives at $t=1.7 ls$ images from the impact of a meteorite on the moon. The distance from Mission Control to the moon is 1.2ls (according to $S$). This event E1. Event E2 is the impact itself (that is where and when of the impact), Event 3 is the receiving of images of the impact by $S'$. Of course, images travel in space at the speed of light.
 
@@ -217,7 +217,7 @@ left: $S$ and $S'$ in the same diagram; right: Minkowski diagram.
 :align: center
 
 top left: $S$ , top right: $S'$, bottom: Minkowski diagram.  
-red: square - comet hits moon, diamond - photon registered by Space Ship, circle - photon detected by earth  
+red: square - comet hits moon, diamond - photon registered by spaceship, circle - photon detected by earth  
 blue: corresponding position of $S'$ according to $S$ and its Lorentz Transformation for $S'$  
 Minkowski diagram: pink lines show the intersection with the $ct'$ and $x'$ axes, i.e. the coordinates according to $S'$ 
 ``` 

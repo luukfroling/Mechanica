@@ -10,7 +10,7 @@ kernelspec:
 ---
 # Velocity Transformation & Doppler shift
 
-Imagine we have two space ships moving each with a speed of $\frac{3}{4}c$ as shown below. What is the speed that either the red or yellow space ships sees for the other space ship speed?
+Imagine we have two space ships moving each with a speed of $\frac{3}{4}c$ as shown below. What is the speed that either the red or yellow space ships sees for the other spaceship speed?
 
 We should, first of all realize, that the information regarding the velocity of the two space ships is given by an observer $S$ who is neither in the red nor the yellow ship. We need to transform this information to an observer in the red or in the yellow ship.
 

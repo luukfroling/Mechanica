@@ -318,7 +318,7 @@ From this diagram it is obvious that the events $B$ and $C$ are not the same, th
 
 ### The twin paradox
 
-Let there be  two twins, Alice and Bob. Bob leaves earth in a space ship with relativistic speed $\vec{v}$, while Alice remains back home on earth. At some time Bob turns around, with $-\vec{v}$ and comes back to Alice. Based on time dilation Alice will argue that Bob is younger than she due to $\Delta T = \gamma \Delta T_0$. For the $\gamma$-factor it does not matter if Bob is moving away or approaching as it is quadratic in the velocity. For each year she ages, her brother only ages $1/\gamma$ years. Bob can argue that due to the principle of relativity, he is at rest and his twin sister is moving away and then coming back, therefore she will be younger than he - and we have a paradox.
+Let there be  two twins, Alice and Bob. Bob leaves earth in a spaceship with relativistic speed $\vec{v}$, while Alice remains back home on earth. At some time Bob turns around, with $-\vec{v}$ and comes back to Alice. Based on time dilation Alice will argue that Bob is younger than she due to $\Delta T = \gamma \Delta T_0$. For the $\gamma$-factor it does not matter if Bob is moving away or approaching as it is quadratic in the velocity. For each year she ages, her brother only ages $1/\gamma$ years. Bob can argue that due to the principle of relativity, he is at rest and his twin sister is moving away and then coming back, therefore she will be younger than he - and we have a paradox.
 
 This paradox has two issues:
 

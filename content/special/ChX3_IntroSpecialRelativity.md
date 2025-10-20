@@ -201,14 +201,14 @@ $$ 1 \text{ lightsecond} = 1\ \mathrm{ls} = c \cdot 1\ \mathrm{sec} = 3.0 \cdot 
 
 For instance, it takes a photon about $8.3\ \mathrm{minutes}$ to travel from the sun to the Earth. Thus, the distance from the sun to the Earth is $8.3\ \mathrm{lmin} = 498\ \mathrm{ls}$. That is equivalent to $150 \cdot 10^6\ \mathrm{km}$.
 
-````{example} Space ship
+````{example} spaceship
 
-A space ship is flying at a velocity $0.8c$ passed Earth in the direction of the moon. The moon is at a distance of $1.2\ \mathrm{ls}$ (that is some $3.6 \cdot 10^8$m) from the Earth.
-The clocks on Earth and in the space ship are set to zero when the space ship passes the Earth.
+A spaceship is flying at a velocity $0.8c$ passed Earth in the direction of the moon. The moon is at a distance of $1.2\ \mathrm{ls}$ (that is some $3.6 \cdot 10^8$m) from the Earth.
+The clocks on Earth and in the spaceship are set to zero when the spaceship passes the Earth.
 
 At time $ct = 1.7\ \mathrm{ls}$ observer $S$ of the Earth observes that a big comet strikes the moon surface.
 
-When does $S'$, who is on the space ship, see this happening?
+When does $S'$, who is on the spaceship, see this happening?
 
 
 **Solution**
@@ -261,20 +261,20 @@ z'_2 &= z_2 = 0
 
 We will not further deal with the $y$ and $z$ coordinates as they are trivial.
 
-But, we might get our first surprise here. According to $S$ the impact of the comet happens at $t = 0.5s$ That is at a positive time. Then, Space Ship has passes the Earth and is on its way to the moon. Actually, at $t=0.5\mathrm{s}$ the location of Space Ship is, according to $S$: $x_{SS}(t) = V t = \frac{V}{c} ct \rightarrow x_{SS}(0.5s) = \frac{4}{5} 0.5 = 0.4\ \mathrm{ls}$. Space ship is already at 1/3 of the distance to the moon. 
+But, we might get our first surprise here. According to $S$ the impact of the comet happens at $t = 0.5\ \mathrm{s}$. That is at a positive time. Then, the spaceship has passed the Earth and is on its way to the moon. Actually, at $t=0.5\mathrm{s}$ the location of spaceship is, according to $S$: $x_{SS}(t) = V t = \frac{V}{c} ct \rightarrow x_{SS}(0.5s) = \frac{4}{5} 0.5 = 0.4\ \mathrm{ls}$. spaceship is already at 1/3 of the distance to the moon. 
 
 So far nothing strange.
 
-But now we consider $S'$. She says: the impact of the comet was at $t' = -0.767$. This means that according to her, the impact took place when she was still approaching the Earth. After all, negative times mean that Space Ship is approaching the Earth (and is to the left of it in our sketch), while positive times mean that Space Ship has passed the Earth and is moving away - thus is at the right side of Earth in our sketch. 
+But now we consider $S'$. She says: the impact of the comet was at $t' = -0.767$. This means that according to her, the impact took place when she was still approaching the Earth. After all, negative times mean that spaceship is approaching the Earth (and is to the left of it in our sketch), while positive times mean that spaceship has passed the Earth and is moving away - thus is at the right side of Earth in our sketch. 
 
-And this is so according to both $S$ and $S'$. They may use different times, but they have set their clocks to zero when Earth and Space ship were in 'the same position'.
+And this is so according to both $S$ and $S'$. They may use different times, but they have set their clocks to zero when Earth and spaceship were in 'the same position'.
 ````
 
 Ok, let's be puzzled for a while: how can $S'$ at the same time be both at the left side and at the right side of the Earth? That doesn't make any sense!!!! What is **wrong** with this new theory? The answer is: **nothing!**
 
 It is us, mixing stuff up. Who said that it is 'at the same time'?!? Nobody (with perhaps for a moment us as the exception). $S$ and $S'$ agree upon the event: a comet hits the moon. This physical phenomena is not disputed at all. It happened. They don't agree that it took place at the same time according to their clocks. 
 
-But this is not all: according to $S$ at the moment of the impact Space Ship was at a distance of $1.2 - 0.4 = 0.8\ \mathrm{ls}$ from the moon. But $S'$ just calculated that she was $1.33\ \mathrm{ls}$ from the moon. One can not be at two different distance form the moon at the same time!
+But this is not all: according to $S$ at the moment of the impact spaceship was at a distance of $1.2 - 0.4 = 0.8\ \mathrm{ls}$ from the moon. But $S'$ just calculated that she was $1.33\ \mathrm{ls}$ from the moon. One can not be at two different distance form the moon at the same time!
 
 Ok, let's push this somewhat further and see if we can get a contradiction.
 
@@ -284,9 +284,9 @@ That is remarkably easy: we know that according to $S'$ the event tokes place at
 
 Thus, the photon gets measure at event $E_3$: $x_3' = 0 \rightarrow ct'_3 = x'_2 + ct'_2 = 0.567\ \mathrm{ls}$. Thus we have our third event:
 
-$$\text{Space Ship observes impacting comet: } E_3 = (ct'_3,x'_3) = (0.567, 0)$$
+$$\text{spaceship observes impacting comet: } E_3 = (ct'_3,x'_3) = (0.567, 0)$$
 
-And as we by now kind of expected: indeed, then is Space Ship on the right side of the Earth. 
+And as we by now kind of expected: indeed, then is spaceship on the right side of the Earth. 
 What does $S$ say about this event? He receives the coordinates of $E3$ from $S'$ and plugs them in, in the inverse LT:
 
 $$ \begin{split}
@@ -300,16 +300,16 @@ Now does this make any sense? It does! If we concentrate on $S$ only and what he
 * $E_2$ - the comet actually hits the moon: $(ct_2,x_2) = (0.5, 1.2) \mathrm{ls}$
 * $E_3$ - $S'$ observes that the comet hits the moon: $(ct_3,x_3) = (0.945, 756) \mathrm{ls}$
 
-Obviously, if the actual impact is at positive $t$, then $S'$ will see it before $S$ does as for positive time $t$ $S'$ is closer the moon than $S$. And this is all reflected in the events. Moreover, if you would compute the events as $S$ will model things, you will find event $E_3$ just based on event $E_2$ and the motion of Space Ship according to $S$ (and when it will encounter a photon that was generated at the actual impact of the comet on the moon). Do the calculation yourself and see, that nothing strange happens.
+Obviously, if the actual impact is at positive $t$, then $S'$ will see it before $S$ does as for positive time $t$ $S'$ is closer the moon than $S$. And this is all reflected in the events. Moreover, if you would compute the events as $S$ will model things, you will find event $E_3$ just based on event $E_2$ and the motion of spaceship according to $S$ (and when it will encounter a photon that was generated at the actual impact of the comet on the moon). Do the calculation yourself and see, that nothing strange happens.
 
-We can draw the position of Earth, moon and space ship in space-time plot. It is customary to use as horizontal axis the $x$ or $x'$ coordinate and as the vertical one $ct$ or $ct'$. 
-$S$ will see the Earth and moon standing still and thus draw a vertical line in the space-time diagram for each of them: they do not change position, but their time is changing, i.e. the clock ticks. $S$ would draw for Space Ship a straight line moving from left bottom to upper right as the space ship moves in the positive direction. 
+We can draw the position of Earth, moon and spaceship in space-time plot. It is customary to use as horizontal axis the $x$ or $x'$ coordinate and as the vertical one $ct$ or $ct'$. 
+$S$ will see the Earth and moon standing still and thus draw a vertical line in the space-time diagram for each of them: they do not change position, but their time is changing, i.e. the clock ticks. $S$ would draw for spaceship a straight line moving from left bottom to upper right as the spaceship moves in the positive direction. 
 
-Similarly, $S'$ will draw a vertical line for Space Ship itself, as in the frame of reference of $S'$ the space ship, obviously, does not move. The Earth and moon move to the left, thus their trajectories are straight line from the bottom right to the upper left in the $(x', ct')$-diagram. 
+Similarly, $S'$ will draw a vertical line for spaceship itself, as in the frame of reference of $S'$ the spaceship, obviously, does not move. The Earth and moon move to the left, thus their trajectories are straight line from the bottom right to the upper left in the $(x', ct')$-diagram. 
 
 At some moment in time-space the comet impacts the moon and a photon is moving in the negative $x$-direction towards the Earth. Somewhat later, this photon is received by Earth. In the $(x,ct)$-diagram this is a straight line from lower right to upper left.
 
-In the animation below the whole scenery is shown from the perspective of $S$ on the left side and from $S'$ on the right side. The diagrams are made such, that the event "Space Ship passes Earth" is simultaneous in both diagrams, i.e. it happens for both observers at their time equal to 0. All other events happen at different times according to the clocks of the observers.
+In the animation below the whole scenery is shown from the perspective of $S$ on the left side and from $S'$ on the right side. The diagrams are made such, that the event "spaceship passes Earth" is simultaneous in both diagrams, i.e. it happens for both observers at their time equal to 0. All other events happen at different times according to the clocks of the observers.
 
 
 ```{figure} ../images/SSearth2_animation.*
@@ -322,8 +322,8 @@ An animation of events as seen by different observers.
 
 An animation is given above. 
 
-* the three squares represent the position of Earth, moon and Space Ship according to $S$ at $ct=-1$ls. In the diagram for $S$, these three are, of course, on a horizontal line as they are at the same time according to $S$. However, $S'$ sees that differently: there are absolutely not at the same time!!!
-* Earth, moon and Space Ship do travel in the space-time diagrams. Their trajectories are shown by dashed lines. Their space-time location is represented by the (moving) dots. The diagrams are made such, that indeed both observers pass each other at $ct=ct'=0$ and $x=x'=0$. The dots represent, where according to $S$ (left diagram) and $S'$ (right diagram) Earth, moon and Space Ship are at a certain time on the clock of that observer. Note that both position and time have really different values if you compare the diagrams of $S$ and $S'$.
+* the three squares represent the position of Earth, moon and spaceship according to $S$ at $ct=-1$ls. In the diagram for $S$, these three are, of course, on a horizontal line as they are at the same time according to $S$. However, $S'$ sees that differently: there are absolutely not at the same time!!!
+* Earth, moon and spaceship do travel in the space-time diagrams. Their trajectories are shown by dashed lines. Their space-time location is represented by the (moving) dots. The diagrams are made such, that indeed both observers pass each other at $ct=ct'=0$ and $x=x'=0$. The dots represent, where according to $S$ (left diagram) and $S'$ (right diagram) Earth, moon and spaceship are at a certain time on the clock of that observer. Note that both position and time have really different values if you compare the diagrams of $S$ and $S'$.
 * In both diagrams, at some point in time the comet impacts the moon and a photon starts traveling in the negative $x$ and $x'$-direction. The photon is shown by the blue dot. Again nothing happens at the same time. But the order of events is the same: first the photon is emitted and only after that it is observed. That should of course hold!
 * Notice that the photon is emitted at $ct=0.5$ls according to $S$ and observed at $ct=1.7\mathrm{ls}$. So for $S$, the photon traveled for 1.2ls (and covered a distance of $1.2\mathrm{ls}$: of course, photons travel with velocity c). However, for $S'$ this is quite different: the photon is emitted at $ct'=-23/30$, that is much earlier than $S$ reports. Moreover, it is only registered by $S$ on $ct'=85/30\mathrm{ls}$. It traveled for $3.6\ \mathrm{seconds}$ on the clock of $S'$!!
 
@@ -562,7 +562,7 @@ John Bell became famous by the [inequalities](https://en.wikipedia.org/wiki/Bell
     
 Why is this so important? It touches the heart of what is reality, is it deterministic and/or local now that quantum mechanics turned out *to be* the real thing? How we see reality now boils down to how we interpret quantum mechanics - and that is difficult to comprehend. The Copenhagen interpretation is so frustrating as the wave function collapses at measurement, however, the many-world interpretation that avoids the collapse is also not very appealing as it needs an infinite number of universes. This remains one of the important open ends in physics.
     
-In this thought experiment we have two space ships $B$ and $C$ initially at rest and space ship $A$  as observer. $B$ and $C$ are connected by a tight but fragile string between them. $A$ simultaneously signals $B$ and $C$ to accelerate equally, and $B$ and $C$ will have the same velocity at every time from the start. 
+In this thought experiment we have two space ships $B$ and $C$ initially at rest and spaceship $A$  as observer. $B$ and $C$ are connected by a tight but fragile string between them. $A$ simultaneously signals $B$ and $C$ to accelerate equally, and $B$ and $C$ will have the same velocity at every time from the start. 
 
 
 ```{figure} ../images/chx3_Bell_paradox.svg
