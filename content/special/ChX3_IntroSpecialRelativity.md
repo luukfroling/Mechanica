@@ -77,10 +77,10 @@ N.B. It is crucial to be very precise in your notation when it comes to coordina
 ### Lorentz Transformation and its inverse
 The Lorentz Transformation, like the Galilei Transformation is a communication protocol for $S$ and $S'$. It allows them to interpret information that they get from each other in their own 'world', i.e. coordinate system.
 
-For instance, if $S$ sees an object moving with $v_x$, $S'$ can 'translate' this information via the Lorentz Transform into $v'_{x'}$ and $v'_{y'}$ or so if applicable.
+For instance, if $S$ sees an object moving with $v_x$, $S'$ can 'translate' this information via the Lorentz Transformation into $v'_{x'}$ and $v'_{y'}$ or so if applicable.
 Of course, $S$ also needs such a translation scheme when receiving information from $S'$. That is: $S$ needs the inverse transformation.
 
-Luckily, the inverse is very easy to reconstruct from the Lorentz Transform itself. LT from $S$ to $S'$ is
+Luckily, the inverse is very easy to reconstruct from the Lorentz Transformation itself. LT from $S$ to $S'$ is
 
 $$
 \begin{array}{rcl}
@@ -244,7 +244,7 @@ $$ \text{ comet hits moon } E_2 = (ct_2,x_2,y_2,z_2) = (0.5, 1.2,0,0)$$
 
 Again notice that we have updated this event not only by using the actual time, but also the actual place, i.e. at $x_2$.
 
-$S$ passes this information on to $S'$. She has to translate it to her own coordinates and uses for that the Lorentz transform.
+$S$ passes this information on to $S'$. She has to translate it to her own coordinates and uses for that the Lorentz Transformation.
 
 First, she needs to calculate the $\gamma$-factor:
 

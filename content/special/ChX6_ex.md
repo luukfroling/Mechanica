@@ -4,7 +4,7 @@
 ```{exercise} &#127798;
 :label: 16.1
 
-Observer $S$ and $S'$ are connected via a Lorentz Transform of the form
+Observer $S$ and $S'$ are connected via a Lorentz Transformation of the form
 
 $$\begin{split}
 ct' &= \gamma \left ( ct - \frac{V}{c} x\right ) \\
@@ -23,7 +23,7 @@ Find, using the 4-velocity, the velocity of m according to $S$.
 ```{exercise} &#127798; 
 :label: 16.2
 
-Observer $S$ and $S'$ are connected via a Lorentz Transform of the form
+Observer $S$ and $S'$ are connected via a Lorentz Transformation of the form
 
 $$\begin{split}
 ct' &= \gamma \left ( ct - \frac{V}{c} x\right ) \\

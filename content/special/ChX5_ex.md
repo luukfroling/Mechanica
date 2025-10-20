@@ -66,7 +66,7 @@ A Space Ship, with $S'$ on board, is moving at $V/c = 3/5$ with respect to Missi
 
 Mission control receives at $t=1.7 ls$ images from the impact of a meteorite on the moon. The distance from Mission Control to the moon is 1.2ls (according to $S$). This event E1. Event E2 is the impact itself (that is where and when of the impact), Event 3 is the receiving of images of the impact by $S'$. Of course, images travel in space at the speed of light.
 
-a.  Lorentz transform the events to $S'$.
+a.  Transform the events to $S'$ using a Lorentz Transformation.
 b.  Find the position of $S'$ at the time of the three events according to $S$. This provides additional events.
 c.  Make a $(ct,x)$ diagram in which you plot all the above events. Draw the the world line of $S'$ in the diagram.
 d.  Do the same but now for $S'$.
@@ -218,7 +218,7 @@ left: $S$ and $S'$ in the same diagram; right: Minkowski diagram.
 
 top left: $S$ , top right: $S'$, bottom: Minkowski diagram.  
 red: square - comet hits moon, diamond - photon registered by Space Ship, circle - photon detected by earth  
-blue: corresponding position of $S'$ according to $S$ and its Lorentz transform for $S'$  
+blue: corresponding position of $S'$ according to $S$ and its Lorentz Transformation for $S'$  
 Minkowski diagram: pink lines show the intersection with the $ct'$ and $x'$ axes, i.e. the coordinates according to $S'$ 
 ``` 
 
