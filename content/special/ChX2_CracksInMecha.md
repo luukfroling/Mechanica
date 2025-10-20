@@ -165,7 +165,7 @@ Rutherford and his colleagues, had no other option than to conclude that the pos
 
 They redid the calculation, but now with $r_0$ as a free parameter to be backed out of the calculation. They changed the requirement of small scattering angles (i.e. small deviation from the original path) to the experimental finding that scattering angles of about 180$^\circ$ were possible. That gave that $r_0$ is on the order of $10^{-14}$m. 
 
-Conclusion: the atom has a nucleus that is much smaller than the size of the atom that contains all positive charge. The electrons must orbit this nucleus as a mini-solar system. These electrons 'define' the size of the atom.
+Conclusion: the atom has a nucleus, which contains all of its positive charge and is much smaller than the atom itself. The electrons must orbit this nucleus as a mini-solar system. These electrons 'define' the size of the atom.
 
 ```{figure} ../images/RutherfordAtom.png
 :label: fig:RutherfordAtom.png
