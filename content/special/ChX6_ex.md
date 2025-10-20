@@ -42,7 +42,7 @@ Find, using the 4-velocity, the velocity of m according to $S$.
 ```{exercise} &#127798; &#127798;
 :label: 16.3
 
-According to $S'$ a photon is emitted at $t'=0$ from position $L_0 = 1 ls$. It has a frequency $f_0$. $S'$ is traveling at $V/C = 3/5$ in the positive $x$-direction with respect to $S$. They have synchronized their clocks when their origins coincide.
+According to $S'$ a photon is emitted at $t'=0$ from position $L_0 = 1\ \mathrm{ls}$. It has a frequency $f_0$. $S'$ is traveling at $V/C = 3/5$ in the positive $x$-direction with respect to $S$. They have synchronized their clocks when their origins coincide.
 Determine the time of detection of the photon by $S'$ and by $S$.
 Find the frequency that $S$ measures. 
 

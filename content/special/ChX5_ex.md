@@ -64,7 +64,7 @@ Draw the events in two diagrams. The first one has both $ct$ and $ct'$ as the ve
 
 A spaceship, with $S'$ on board, is moving at $V/c = 3/5$ with respect to Mission Control (where $S$ is located) on earth. Both $S$ and $S'$ have aligned their axes and synchronized their clocks in the usual way. 
 
-Mission control receives at $t=1.7 ls$ images from the impact of a meteorite on the moon. The distance from Mission Control to the moon is 1.2ls (according to $S$). This event E1. Event E2 is the impact itself (that is where and when of the impact), Event 3 is the receiving of images of the impact by $S'$. Of course, images travel in space at the speed of light.
+Mission control receives at $t=1.7\ \mathrm{ls}$ images from the impact of a meteorite on the moon. The distance from Mission Control to the moon is 1.2ls (according to $S$). This event E1. Event E2 is the impact itself (that is where and when of the impact), Event 3 is the receiving of images of the impact by $S'$. Of course, images travel in space at the speed of light.
 
 a.  Transform the events to $S'$ using a Lorentz Transformation.
 b.  Find the position of $S'$ at the time of the three events according to $S$. This provides additional events.
