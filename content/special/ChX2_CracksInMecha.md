@@ -134,7 +134,7 @@ with $Q$ the charge of the atom (i.e. +79e), $q_\alpha$ the charge ($+2e$) of th
 
 The deflection of the particle is biggest if the Coulomb force is perpendicular to the trajectory. So, we take that for our estimate. The true effect, when passing through the atom, will be smaller.  
 
-- It is easiest to compute the change of momentum. The particle comes in with a know momentum $p$. If the change in momentum $\Delta p$ is much smaller than $p$ itself, the deflection will be small.
+It is easiest to compute the change of momentum. The particle comes in with a know momentum $p$. If the change in momentum $\Delta p$ is much smaller than $p$ itself, the deflection will be small.
 
 ```{figure} ../images/RutherfordDeltaP.png
 :label: fig:RutherfordDeltaP.png
@@ -145,13 +145,13 @@ Relation of angle of deflection and change in momentum.
 ```
 $$\tan \phi = \frac{\Delta p}{p} \Rightarrow \phi \approx \frac{\Delta p}{p} \text{ if } \phi \ll 1$$
   
--  The momentum change is due to the force $F_c$ working for a time period $\Delta t$ on the particle:
+The momentum change is due to the force $F_c$ working for a time period $\Delta t$ on the particle:
 
 $$ dP = Fdt -\rightarrow \Delta p \approx F_c \Delta t$$
 
-The time the particle is in the atom is estimated as follows. The particle has a velocity $v_0$ and it has to travel a distance $2r_0$ through the atom, thus $\Delta t \approx \frac{2r_0}{v_0} $. We assume that the change in momentum is small, so that we can still use $v_0$ as an estimate of the velocity with which the $\alpha$-particle travels.
+The time the particle is in the atom is estimated as follows: the particle has a velocity $v_0$ and it has to travel a distance $2r_0$ through the atom, thus $\Delta t \approx \frac{2r_0}{v_0} $. We assume that the change in momentum is small, so that we can still use $v_0$ as an estimate of the velocity with which the $\alpha$-particle travels.
   
--  If we put everything together, we find:
+If we put everything together, we find:
 
 $$ \frac{\Delta p}{p} \ll \frac{q_\alpha Q_g}{4 \pi \epsilon_0} \frac{1}{r_0^2} \cdot \frac{2r_0}{v_0} = \frac{q_\alpha Q_g}{2 \pi \epsilon_0} \frac{1}{r_0 v_0} \ll 1$$
 
