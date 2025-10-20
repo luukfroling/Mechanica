@@ -206,7 +206,7 @@ For instance, it takes a photon about $8.3\ \mathrm{minutes}$ to travel from the
 A space ship is flying at a velocity $0.8c$ passed Earth in the direction of the moon. The moon is at a distance of $1.2\ \mathrm{ls}$ (that is some $3.6 \cdot 10^8$m) from the Earth.
 The clocks on Earth and in the space ship are set to zero when the space ship passes the Earth.
 
-At time $t = 1.7\ \mathrm{ls}$ observer $S$ of the Earth observes that a big comet strikes the moon surface.
+At time $ct = 1.7\ \mathrm{ls}$ observer $S$ of the Earth observes that a big comet strikes the moon surface.
 
 When does $S'$, who is on the space ship, see this happening?
 
