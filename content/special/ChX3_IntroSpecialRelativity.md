@@ -232,7 +232,7 @@ That is, four coordinates are specified (in $m$ or $ls$ or ...). Note: this is i
 
 So, back to our example: we have our first event:
 
-$$ \text{ S observes 'comet hits moon' } E_1 = (ct_1,x_1,y_1,z_1) = (1.7, 0,0,0)$$
+$$ \text{ S observes `comet hits moon' } E_1 = (ct_1,x_1,y_1,z_1) = (1.7, 0,0,0)$$
 
 What does this mean? Observer $S$, who is sitting in $\mathcal{O} = (0,0,0)$ literally sees that the comet hits the moon. He does so at $ct_1 = 1.7\ \mathrm{ls}$. In terms of physics: a photon hits his eye at $ct_1$. The observer has zero-size, that is everything he observes is done at $(0,0,0)$.
 
