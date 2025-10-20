@@ -203,7 +203,7 @@ At end of the 1920s [Georges Lemaître](https://en.wikipedia.org/wiki/Georges_Le
 
 The Big Bang theory was highly debated early on, in particular by Einstein, but is now fully accepted. The strongest experimental evidence was the discovery of the *cosmic background radiation* in 1965 (by accident).
 
-The whole cosmos is nearly uniformly filled by a background radiation of about $2.7 \mathrm{K}$ (wavelength in the $\mu$m range) with small inhomogeneities as shown in the picture by the Planck satellite around 2013.
+The whole cosmos is nearly uniformly filled by a background radiation of about $2.7\ \mathrm{K}$ (wavelength in the $\mu$m range) with small inhomogeneities as shown in the picture by the Planck satellite around 2013.
 
 
 ```{figure} ../images/1280px-WMAP_2012.png
@@ -233,7 +233,7 @@ Here for the first time $h$, Planck's constant, was introduced to quantize energ
 
 Phenomenologically, the relation between the peak of the spectrum and the temperature was found by <a herf="https://en.wikipedia.org/wiki/Wilhelm_Wien">Wien</a> already earlier to be $\lambda_{peak} = \frac{b}{T}$ with $b$ Wien's constant $b\sim 2900\ \mu m\cdot K$.
 	
-NB: If you buy a light bulb for a lamp, then a temperature is indicated on the packaging, e.g. $2700 \mathrm{K}$ for "warm white", $4000 \mathrm{K}$ for "cool white" to describe the light color. Quantum physics at your local super market.
+NB: If you buy a light bulb for a lamp, then a temperature is indicated on the packaging, e.g. $2700\ \mathrm{K}$ for "warm white", $4000\ \mathrm{K}$ for "cool white" to describe the light color. Quantum physics at your local super market.
 
 ```{code-cell} python
 :tag: hide-input

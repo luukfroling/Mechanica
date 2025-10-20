@@ -130,7 +130,7 @@ Rutherford knew the theory of Maxwell for electromagnetism and could estimate th
 
 $$ F_c \leq \frac{q_\alpha Q_g}{4 \pi \epsilon_0} \frac{1}{r_0^2} $$ 
 
-with $Q$ the charge of the atom (i.e. +79e), $q_\alpha$ the charge ($+2e$) of the $\alpha$-particle, $\epsilon_0$ the permittivity of vacuum ($\frac{1}{4 \pi \epsilon} = 9 \cdot 10^9 \mathrm{Nm}^2/\mathrm{C}^2$) and $r_0$ the radius of a gold atom.
+with $Q$ the charge of the atom (i.e. +79e), $q_\alpha$ the charge ($+2e$) of the $\alpha$-particle, $\epsilon_0$ the permittivity of vacuum ($\frac{1}{4 \pi \epsilon} = 9 \cdot 10^9\ \mathrm{Nm}^2/\mathrm{C}^2$) and $r_0$ the radius of a gold atom.
 
 The deflection of the particle is biggest if the Coulomb force is perpendicular to the trajectory. So, we take that for our estimate. The true effect, when passing through the atom, will be smaller.  
 
@@ -398,7 +398,7 @@ Extra reading [Hoe de ether verdween uit de natuurkunde](../images/HoeDeEtherVer
 ```{exercise}
 :label: 15.1a
 
-Assume the Michelson-Morley experiment uses arms of length $L = 11 \mathrm{m}$ and an aether wind speed $v$ due to the motion of the earth around the sun.  
+Assume the Michelson-Morley experiment uses arms of length $L = 11\ \mathrm{m}$ and an aether wind speed $v$ due to the motion of the earth around the sun.  
 Distance earth-sun: $150 \cdot 10^6 \; \mathrm{km}$.  
 
 1. Calculate the expected time difference $\Delta t$ between light traveling parallel and perpendicular to the aether wind.
@@ -415,7 +415,7 @@ Note: in the experiment of 1887, Michelson and Morley had used multiple mirrors 
 ```{solution} 15.1a
 :class: dropdown
 
-The orbit of the earth around the sun is almost circular. Thus, we can estimate the velocity of the earth as $V = \frac{2\pi R}{T}$ with $R=150 \cdot 10^6 \; \mathrm{km}$ and $T = 1 \mathrm{year} = 31.6 10^6 \; \mathrm{s}$. This gives $V = 30 \; \mathrm{km/s}$.
+The orbit of the earth around the sun is almost circular. Thus, we can estimate the velocity of the earth as $V = \frac{2\pi R}{T}$ with $R=150 \cdot 10^6 \; \mathrm{km}$ and $T = 1\ \mathrm{year} = 31.6 10^6 \; \mathrm{s}$. This gives $V = 30 \; \mathrm{km/s}$.
 
 We compute the traveling time from light leaving the beam splitter, reflecting at the mirror on the side of the table and reaching the beam splitter again. The rest of the path is identical for both light beams and does not lead to a time difference.
 
@@ -432,7 +432,7 @@ $$t_\perp = \frac{L}{\sqrt{c^2 - V^2}} + \frac{L}{\sqrt{c^2 - V^2}} = \frac{2L}{
 
 Putting in the numbers, we find $ \Delta t = 3.67 \cdot 10^{-16} \mathrm{s}$
 
-This time difference may be way to small to measure. And indeed, no 'stop-watch' experiment will work. But Michelson & Morley used interferometry, i.e. interference of light. So, relevant is the difference in phase of the two light beams. This can be assessed by turning the time difference into a length: $\Delta s = c \Delta t =1.1 \cdot 10^{-7} \mathrm{m}$. Compare this to the wave length of the (yellow) light used by Michelson and Morley: $\lambda \approx 500 \mathrm{nm} = 5 \cdot 10^{-7} \mathrm{m}$.
+This time difference may be way to small to measure. And indeed, no 'stop-watch' experiment will work. But Michelson & Morley used interferometry, i.e. interference of light. So, relevant is the difference in phase of the two light beams. This can be assessed by turning the time difference into a length: $\Delta s = c \Delta t =1.1 \cdot 10^{-7} \mathrm{m}$. Compare this to the wave length of the (yellow) light used by Michelson and Morley: $\lambda \approx 500\ \mathrm{nm} = 5 \cdot 10^{-7} \mathrm{m}$.
 Conclusion: the expected time difference is well in reach of interferometry.
 
 ```

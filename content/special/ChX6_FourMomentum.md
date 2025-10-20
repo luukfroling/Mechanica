@@ -292,18 +292,18 @@ As gravitation acts on mass, it should also act on energy if they are the same! 
 
 ### Mass in units of energy
 
-The mass of an electron $m_e = 9.13\cdot 10^{-31} \mathrm{kg}$ is often given as $512 \mathrm{keV}$, [kilo electron Volts]. Mass of all elementary particles is given actually in units of $\mathrm{eV}$.
+The mass of an electron $m_e = 9.13\cdot 10^{-31} \mathrm{kg}$ is often given as $512\ \mathrm{keV}$, [kilo electron Volts]. Mass of all elementary particles is given actually in units of $\mathrm{eV}$.
 
 One electron volt is 
 
 $$
-1 \mathrm{eV} = 1.6\cdot 10^{-19} \mathrm{C} \cdot 1\mathrm{V} =  1.6\cdot 10^{-19} \mathrm{J}
+1\ \mathrm{eV} = 1.6\cdot 10^{-19} \mathrm{C} \cdot 1\mathrm{V} =  1.6\cdot 10^{-19} \mathrm{J}
 $$
 
 The conversion to mass via $E=mc^2$
 
 $$
-m_e c^2 = 8.2 \cdot 10^{-14}\mathrm{J} = \frac{8.2 \cdot 10^{-14}}{1.6\cdot 10^{-19}} = 512 \mathrm{keV}
+m_e c^2 = 8.2 \cdot 10^{-14}\mathrm{J} = \frac{8.2 \cdot 10^{-14}}{1.6\cdot 10^{-19}} = 512\ \mathrm{keV}
 $$
 
 ### The fame

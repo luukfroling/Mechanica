@@ -3,7 +3,7 @@
 ## Worked Examples
 
 ```{example} Momentum of an accelerated electron
-Momentum of an accelerated electron: compute the momentum and speed of an electron after acceleration in a potential of $V=300 \mathrm{kV}$.
+Momentum of an accelerated electron: compute the momentum and speed of an electron after acceleration in a potential of $V=300\ \mathrm{kV}$.
 
 From $E^2=(mc^2)^2+(pc)^2$ we have $p=\frac{1}{c}\sqrt{E^2-(mc^2)^2}$ and using $E=mc^2+E_{kin}$ we have
 	

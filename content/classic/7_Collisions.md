@@ -586,7 +586,7 @@ $$Q = c m \Delta T = C \Delta T$$
 where $c$ is the specific heat in J/(kgK) and $C$ the heat capacity in J/kg.
 
 ```{example} Falling iron ball
-An iron ball with a radius of $1 \mathrm{cm}$ falls from $1.5 \mathrm{m}$ height. Assume that all potential energy is converted in heat and only the ball increases in temperature. What will the temperature increase be?
+An iron ball with a radius of $1\ \mathrm{cm}$ falls from $1.5\ \mathrm{m}$ height. Assume that all potential energy is converted in heat and only the ball increases in temperature. What will the temperature increase be?
 ```
 
 
@@ -618,12 +618,12 @@ $$
 
 with $c= 460 \mathrm{J/(kgK)}$, 
 
-$\Delta T = \frac{9.81 \mathrm{m/s^2} 1.5 \mathrm{m}}{460 \mathrm{J/(kgK)}} = 0.03\mathrm{K}$
+$\Delta T = \frac{9.81 \mathrm{m/s^2} 1.5\ \mathrm{m}}{460 \mathrm{J/(kgK)}} = 0.03\mathrm{K}$
 
 Note that the increase in temperature does not depend on the mass of the object!
 ```
 ```{tab-item} Assess
-An increase of $0.03 \mathrm{K}$ is not noticeable, aligning with our everyday experience of dropping stuff and picking it up without burning our fingers.
+An increase of $0.03\ \mathrm{K}$ is not noticeable, aligning with our everyday experience of dropping stuff and picking it up without burning our fingers.
 ```
 
 `````

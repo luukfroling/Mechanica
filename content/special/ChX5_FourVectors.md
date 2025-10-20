@@ -276,7 +276,7 @@ In the animation below, we see the effect of different values of $V/c$ on the li
 
 ### The ladder & barn revisited
 
-We will now take a look back at the [ladder and barn paradox](./ChX3_IntroSpecialRelativity.md#paradox-twins-and-barns). We had a barn of $10 \mathrm{m}$ wide and a ladder of $26 \mathrm{m}$ long (both measured in their rest frame). The ladder was moving towards the barn with high velocity. We start by drawing the barn $S$ (black) and ladder $S'$ (<span style="color:blue">blue</span>) coordinate systems in the Minkowski diagram. Now we add the barn world line into the diagram (light blue) with 2 lines of constant space coordinate (parallel to $ct$) in $S$.
+We will now take a look back at the [ladder and barn paradox](./ChX3_IntroSpecialRelativity.md#paradox-twins-and-barns). We had a barn of $10\ \mathrm{m}$ wide and a ladder of $26\ \mathrm{m}$ long (both measured in their rest frame). The ladder was moving towards the barn with high velocity. We start by drawing the barn $S$ (black) and ladder $S'$ (<span style="color:blue">blue</span>) coordinate systems in the Minkowski diagram. Now we add the barn world line into the diagram (light blue) with 2 lines of constant space coordinate (parallel to $ct$) in $S$.
 
 ```{figure} ../images/chx5_mink1.svg
 :label: fig:chx5_mink1.svg
@@ -285,7 +285,7 @@ We will now take a look back at the [ladder and barn paradox](./ChX3_IntroSpecia
 
 ```
 
-Now we can add the <span style="color:red">ladder</span> to $S'$. It has rest length of $26 \mathrm{m}$ and in the $(x',ct')$ plane it is a world line of constant space coordinate, therefore parallel to $ct'$. The ladder itself is a line of constant time in $ct'$ and therefore parallel to $x'$.
+Now we can add the <span style="color:red">ladder</span> to $S'$. It has rest length of $26\ \mathrm{m}$ and in the $(x',ct')$ plane it is a world line of constant space coordinate, therefore parallel to $ct'$. The ladder itself is a line of constant time in $ct'$ and therefore parallel to $x'$.
 
 
 ```{figure} ../images/chx5_mink2.svg

@@ -385,7 +385,7 @@ $$ \label{eq:vert_mot} s(t) = \frac{1}{2}at^2 + v_0t + s_0$$
 ```{exercise} Tossing a stone in the air &#127798;
 :label: ex-toss
 
-At a height of $1.5 \mathrm{m}$ a stone is tossed in the air with a velocity of $10 \mathrm{m/s}$. 
+At a height of $1.5\ \mathrm{m}$ a stone is tossed in the air with a velocity of $10 \mathrm{m/s}$. 
 
 1. Calculate the maximum height that it reaches.
 2. Calculate the time it takes to reach this point.

@@ -69,7 +69,7 @@ $$ W_1 + W_2 = \int_1^2 \vec{F}_1 \cdot d\vec{r} + \int_1^2 \vec{F}_2 \cdot d\ve
 ```{exercise} Carrying a weight
 :label: ex_carrying
 
-You carry a heavy backpack $m = 20 \mathrm{kg}$ from Delft to Rotterdam ($20 \mathrm{km}$). What is the work that you have done against the gravitational force? 
+You carry a heavy backpack $m = 20\ \mathrm{kg}$ from Delft to Rotterdam ($20\ \mathrm{km}$). What is the work that you have done against the gravitational force? 
 ```
 
 ```{solution} ex_carrying

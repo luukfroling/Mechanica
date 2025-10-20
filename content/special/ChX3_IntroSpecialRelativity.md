@@ -197,16 +197,16 @@ As we have seen, we need to use the Lorentz Transformation instead of the Galile
 
 Note: we will frequently use high velocities and large distances. It is convenient not to write these in units like $m$ and $m/s$. The numbers in front of them become so large that keeping an overview becomes cumbersome. Therefore, we will change to a different unit for distance: the light second. That is per definition the distance a photon of light ray travels in one second:
 
-$$ 1 \text{ lightsecond} = 1 \mathrm{ls} = c \cdot 1 \mathrm{sec} = 3.0 \cdot 10^8 \mathrm{m} $$
+$$ 1 \text{ lightsecond} = 1\ \mathrm{ls} = c \cdot 1\ \mathrm{sec} = 3.0 \cdot 10^8\ \mathrm{m} $$
 
-For instance, it takes a photon about $8.3\ \mathrm{minutes}$ to travel from the sun to the Earth. Thus, the distance from the sun to the Earth is $8.3 \mathrm{lmin} = 498\ \mathrm{ls}$. That is equivalent to $150 \cdot 10^6\ \mathrm{km}$.
+For instance, it takes a photon about $8.3\ \mathrm{minutes}$ to travel from the sun to the Earth. Thus, the distance from the sun to the Earth is $8.3\ \mathrm{lmin} = 498\ \mathrm{ls}$. That is equivalent to $150 \cdot 10^6\ \mathrm{km}$.
 
 ````{example} Space ship
 
-A space ship is flying at a velocity $0.8c$ passed Earth in the direction of the moon. The moon is at a distance of $1.2 \mathrm{ls}$ (that is some $3.6 \cdot 10^8$m) from the Earth.
+A space ship is flying at a velocity $0.8c$ passed Earth in the direction of the moon. The moon is at a distance of $1.2\ \mathrm{ls}$ (that is some $3.6 \cdot 10^8$m) from the Earth.
 The clocks on Earth and in the space ship are set to zero when the space ship passes the Earth.
 
-At time $t = 1.7 \mathrm{ls}$ observer $S$ of the Earth observes that a big comet strikes the moon surface.
+At time $t = 1.7\ \mathrm{ls}$ observer $S$ of the Earth observes that a big comet strikes the moon surface.
 
 When does $S'$, who is on the space ship, see this happening?
 
@@ -236,7 +236,7 @@ $$ \text{ S observes 'comet hits moon' } E_1 = (ct_1,x_1,y_1,z_1) = (1.7, 0,0,0)
 
 What does this mean? Observer $S$, who is sitting in $\mathcal{O} = (0,0,0)$ literally sees that the comet hits the moon. He does so at $ct_1 = 1.7s$. In terms of physics: a photon hits his eye at $ct_1$. The observer has zero-size, that is everything he observes is done at $(0,0,0)$.
 
-Now, we need to realize, that the actual impact of the comet took place earlier. By how much? Well, a photon that was generated at this moment of impact due to the impact will have to travel $1.2 \mathrm{s}$ to reach $S$. That requires $1.2\mathrm{ls}$, as photons travel with the speed of light. 
+Now, we need to realize, that the actual impact of the comet took place earlier. By how much? Well, a photon that was generated at this moment of impact due to the impact will have to travel $1.2\ \mathrm{s}$ to reach $S$. That requires $1.2\mathrm{ls}$, as photons travel with the speed of light. 
 
 Thus, $S$ concludes that the actual impact -which is event $E_2$- took place at $ct_2 = 0.5ls$ and he writes down:
 
@@ -253,15 +253,15 @@ $$ \gamma = \frac{1}{\sqrt{ 1 -\frac{V^2}{c^2}} } = \frac{1}{\sqrt{1 - \frac{16}
 Now she computes her coordinates for the same event:
 
 $$ \begin{split}
-ct'_2 &= \gamma \left ( ct_2 - \frac{V}{c} x_2 \right ) = \frac{5}{3} \left (0.5 - \frac{4}{5}1.2 \right ) = - 0.767 \mathrm{ls}\\
-x'_2 &= \gamma \left ( x_2 - \frac{V}{c} ct_2 \right ) = \frac{5}{3} \left (1.2 - \frac{4}{5}0.5 \right ) = 1.333 \mathrm{ls} \\
+ct'_2 &= \gamma \left ( ct_2 - \frac{V}{c} x_2 \right ) = \frac{5}{3} \left (0.5 - \frac{4}{5}1.2 \right ) = - 0.767\ \mathrm{ls}\\
+x'_2 &= \gamma \left ( x_2 - \frac{V}{c} ct_2 \right ) = \frac{5}{3} \left (1.2 - \frac{4}{5}0.5 \right ) = 1.333\ \mathrm{ls} \\
 y'_2 &= y_2 = 0 \\
 z'_2 &= z_2 = 0
 \end{split} $$
 
 We will not further deal with the $y$ and $z$ coordinates as they are trivial.
 
-But, we might get our first surprise here. According to $S$ the impact of the comet happens at $t = 0.5s$ That is at a positive time. Then, Space Ship has passes the Earth and is on its way to the moon. Actually, at $t=0.5\mathrm{s}$ the location of Space Ship is, according to $S$: $x_{SS}(t) = V t = \frac{V}{c} ct \rightarrow x_{SS}(0.5s) = \frac{4}{5} 0.5 = 0.4 \mathrm{ls}$. Space ship is already at 1/3 of the distance to the moon. 
+But, we might get our first surprise here. According to $S$ the impact of the comet happens at $t = 0.5s$ That is at a positive time. Then, Space Ship has passes the Earth and is on its way to the moon. Actually, at $t=0.5\mathrm{s}$ the location of Space Ship is, according to $S$: $x_{SS}(t) = V t = \frac{V}{c} ct \rightarrow x_{SS}(0.5s) = \frac{4}{5} 0.5 = 0.4\ \mathrm{ls}$. Space ship is already at 1/3 of the distance to the moon. 
 
 So far nothing strange.
 
@@ -274,15 +274,15 @@ Ok, let's be puzzled for a while: how can $S'$ at the same time be both at the l
 
 It is us, mixing stuff up. Who said that it is 'at the same time'?!? Nobody (with perhaps for a moment us as the exception). $S$ and $S'$ agree upon the event: a comet hits the moon. This physical phenomena is not disputed at all. It happened. They don't agree that it took place at the same time according to their clocks. 
 
-But this is not all: according to $S$ at the moment of the impact Space Ship was at a distance of $1.2 - 0.4 = 0.8 \mathrm{ls}$ from the moon. But $S'$ just calculated that she was $1.33 \mathrm{ls}$ from the moon. One can not be at two different distance form the moon at the same time!
+But this is not all: according to $S$ at the moment of the impact Space Ship was at a distance of $1.2 - 0.4 = 0.8\ \mathrm{ls}$ from the moon. But $S'$ just calculated that she was $1.33\ \mathrm{ls}$ from the moon. One can not be at two different distance form the moon at the same time!
 
 Ok, let's push this somewhat further and see if we can get a contradiction.
 
-We do know, from $S$ that the event took place at $ct_2 = 0.5 \mathrm{ls}$. Then, definitely $S'$ has passed Earth. $S$ has reconstructed this event from observation Event $E_1$ $S'$ got the information of event $E_2$ from $S$ and backed out the coordinates of the event in her coordinate system. From these data, $S'$ can easily predict when she will see the impact. That is obviously later then the time of the event: the photons have to travel to her. How can we compute when $S'$ literally sees the event? 
+We do know, from $S$ that the event took place at $ct_2 = 0.5\ \mathrm{ls}$. Then, definitely $S'$ has passed Earth. $S$ has reconstructed this event from observation Event $E_1$ $S'$ got the information of event $E_2$ from $S$ and backed out the coordinates of the event in her coordinate system. From these data, $S'$ can easily predict when she will see the impact. That is obviously later then the time of the event: the photons have to travel to her. How can we compute when $S'$ literally sees the event? 
 
-That is remarkably easy: we know that according to $S'$ the event tokes place at $(ct'_2, x_2') = (-0.767 \mathrm{ls}, 1.333 \mathrm{ls})$. At that moment and that place a photon was generated that moves in her direction. Since the velocity of each photon is always $c$, we can easily find the time when $S'$ sees the photon, i.e. detect it at location $x'=0$. The photon has to travel a distance $1.33 ls$ at a speed of $1 c$. That will take 1.33s. The photon started traveling at time $ct_2 = -0.767$. It's trajectory according to $S'$ is $x'_p(t') = x'_p(0) - c (t' - t'_2)$.
+That is remarkably easy: we know that according to $S'$ the event tokes place at $(ct'_2, x_2') = (-0.767\ \mathrm{ls}, 1.333\ \mathrm{ls})$. At that moment and that place a photon was generated that moves in her direction. Since the velocity of each photon is always $c$, we can easily find the time when $S'$ sees the photon, i.e. detect it at location $x'=0$. The photon has to travel a distance $1.33 ls$ at a speed of $1 c$. That will take 1.33s. The photon started traveling at time $ct_2 = -0.767$. It's trajectory according to $S'$ is $x'_p(t') = x'_p(0) - c (t' - t'_2)$.
 
-Thus, the photon gets measure at event $E_3$: $x_3' = 0 \rightarrow ct'_3 = x'_2 + ct'_2 = 0.567 \mathrm{ls}$. Thus we have our third event:
+Thus, the photon gets measure at event $E_3$: $x_3' = 0 \rightarrow ct'_3 = x'_2 + ct'_2 = 0.567\ \mathrm{ls}$. Thus we have our third event:
 
 $$\text{Space Ship observes impacting comet: } E_3 = (ct'_3,x'_3) = (0.567, 0)$$
 
@@ -290,8 +290,8 @@ And as we by now kind of expected: indeed, then is Space Ship on the right side 
 What does $S$ say about this event? He receives the coordinates of $E3$ from $S'$ and plugs them in, in the inverse LT:
 
 $$ \begin{split}
-ct_3 &= \gamma \left ( ct'_3 + \frac{V}{c} x'_3 \right ) = \frac{5}{3} \left (0.567 + \frac{4}{5}0 \right ) = 0.945 \mathrm{ls}\\
-x_3 &= \gamma \left ( x'_3 + \frac{V}{c} ct'_3 \right ) = \frac{5}{3} \left (0 + \frac{4}{5}0.567 \right ) = 0.756 \mathrm{ls}
+ct_3 &= \gamma \left ( ct'_3 + \frac{V}{c} x'_3 \right ) = \frac{5}{3} \left (0.567 + \frac{4}{5}0 \right ) = 0.945\ \mathrm{ls}\\
+x_3 &= \gamma \left ( x'_3 + \frac{V}{c} ct'_3 \right ) = \frac{5}{3} \left (0 + \frac{4}{5}0.567 \right ) = 0.756\ \mathrm{ls}
 \end{split} $$
 
 Now does this make any sense? It does! If we concentrate on $S$ only and what he observes and knows:
@@ -325,7 +325,7 @@ An animation is given above.
 * the three squares represent the position of Earth, moon and Space Ship according to $S$ at $ct=-1$ls. In the diagram for $S$, these three are, of course, on a horizontal line as they are at the same time according to $S$. However, $S'$ sees that differently: there are absolutely not at the same time!!!
 * Earth, moon and Space Ship do travel in the space-time diagrams. Their trajectories are shown by dashed lines. Their space-time location is represented by the (moving) dots. The diagrams are made such, that indeed both observers pass each other at $ct=ct'=0$ and $x=x'=0$. The dots represent, where according to $S$ (left diagram) and $S'$ (right diagram) Earth, moon and Space Ship are at a certain time on the clock of that observer. Note that both position and time have really different values if you compare the diagrams of $S$ and $S'$.
 * In both diagrams, at some point in time the comet impacts the moon and a photon starts traveling in the negative $x$ and $x'$-direction. The photon is shown by the blue dot. Again nothing happens at the same time. But the order of events is the same: first the photon is emitted and only after that it is observed. That should of course hold!
-* Notice that the photon is emitted at $ct=0.5$ls according to $S$ and observed at $ct=1.7\mathrm{ls}$. So for $S$, the photon traveled for 1.2ls (and covered a distance of $1.2\mathrm{ls}$: of course, photons travel with velocity c). However, for $S'$ this is quite different: the photon is emitted at $ct'=-23/30$, that is much earlier than $S$ reports. Moreover, it is only registered by $S$ on $ct'=85/30\mathrm{ls}$. It traveled for $3.6 \mathrm{seconds}$ on the clock of $S'$!!
+* Notice that the photon is emitted at $ct=0.5$ls according to $S$ and observed at $ct=1.7\mathrm{ls}$. So for $S$, the photon traveled for 1.2ls (and covered a distance of $1.2\mathrm{ls}$: of course, photons travel with velocity c). However, for $S'$ this is quite different: the photon is emitted at $ct'=-23/30$, that is much earlier than $S$ reports. Moreover, it is only registered by $S$ on $ct'=85/30\mathrm{ls}$. It traveled for $3.6\ \mathrm{seconds}$ on the clock of $S'$!!
 
 Puzzled by this all? Confused? Hard to believe?
 
@@ -484,12 +484,12 @@ The length of the moving object observed by the stationary observer is not the s
 There are many variants of the following paradox. The word *paradox* already implies that there is only an apparent contradiction, not a real one. Here we will formulate the paradox with a ladder & barn and resolve it, but you can also think about it as a train & tunnel, or tank & trench etc. The resolution is always the same.
 
 ````{example} Barn & Ladder
-Consider a ladder of rest length $L_l=26 \mathrm{m}$ and a barn of rest length $L_b = 10 \mathrm{m}$ . Obviously, the ladder does not fit in the barn, isn't it?
+Consider a ladder of rest length $L_l=26\ \mathrm{m}$ and a barn of rest length $L_b = 10\ \mathrm{m}$ . Obviously, the ladder does not fit in the barn, isn't it?
 
 Now consider that the ladder is moving with velocity $V=\frac{12}{13}c\ (\gamma =\frac{13}{5})$ towards the barn.
 
-- For an observer in the barn, the length of the ladder is contracted to $L_l/\gamma = 26\cdot\frac{5}{13}=10 \mathrm{m}$ exactly fitting in the barn which in her rest frame is $10 \mathrm{m}$. 
-- For an observer moving with the ladder, the barn gets contracted to $L_b/\gamma= 10\cdot\frac{5}{13}=50/13 \sim 4 \mathrm{m}$, being much too small to fit in the ladder. The ladder in his rest frame is $26 \mathrm{m}$.
+- For an observer in the barn, the length of the ladder is contracted to $L_l/\gamma = 26\cdot\frac{5}{13}=10\ \mathrm{m}$ exactly fitting in the barn which in her rest frame is $10\ \mathrm{m}$. 
+- For an observer moving with the ladder, the barn gets contracted to $L_b/\gamma= 10\cdot\frac{5}{13}=50/13 \sim 4\ \mathrm{m}$, being much too small to fit in the ladder. The ladder in his rest frame is $26\ \mathrm{m}$.
 
 ```{figure} ../images/chx3_barnladder.svg
 :label: fig:chx3_barnladder.svg
