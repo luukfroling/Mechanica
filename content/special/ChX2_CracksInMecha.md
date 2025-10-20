@@ -126,7 +126,7 @@ This value can be found from the density of gold, the mass of a gold atom and th
 However, an $\alpha$-particle is much heavier than an electron. Hence in the Coulomb interaction between the $\alpha$ -particle and an electron, the acceleration (of deflection) of the 'heavy' $\alpha$-particle is negligible: the electrons are pushed out of the way (or actually attracted); they don't influence the trajectory of the $\alpha$-particle.  
 It is the positive charge of the pudding itself, that does the deflection. The atom (i.e. the pudding) can not move out of the way as it is part of the gold foil which is many orders of magnitude heavier than the incoming particle.     
 
-Rutherford knew the theory of Maxwell for Electro-Magnetism and could estimate The force an $\alpha$-particle would feel from the atom. He deduced that the force on the $\alpha$-particle is always smaller than:
+Rutherford knew the theory of Maxwell for electromagnetism and could estimate the force an $\alpha$-particle would feel from the atom. He deduced that the force on the $\alpha$-particle is always smaller than:
 
 $$ F_c \leq \frac{q_\alpha Q_g}{4 \pi \epsilon_0} \frac{1}{r_0^2} $$ 
 
@@ -186,7 +186,7 @@ An immediate consequence of this new view on atoms and matter came from the anal
 
 As both Gravity and Coulombs forces are central, conservative forces and are inversely proportional to the square of distance from the two interacting particles the motion of a 'tiny' planet around the 'massive' sun is mathematically completely analogous to that of a 'tiny' electron around its 'massive' nucleus.
 
-Thus an electron orbits the nucleus in an ellipse. Consequently, it is in a permanent state of acceleration. However, from Maxwell's theory of Electro-Magnetism it is well known (already in the times of Rutherford as the theory of Maxwell dates back to around 1860) that accelerating charged particles radiate energy in the form of electro-magnetic waves. This means that the electron constantly looses energy and thus moves to an elliptical orbit closer to the nucleus until, eventually, its orbit collapses onto the nucleus. This process would go very fast and matter in its present form could not exist. Now we know, that the idea of an atom being a miniature solar system is wrong. But out of questions and dilemma's as these grew very quickly quantum mechanics opening a whole new world and a completely different picture of things at the small scales. A world with new rules and new consequences, where our intuition based on daily life and large scale structures composed of many, many atoms fails.
+Thus an electron orbits the nucleus in an ellipse. Consequently, it is in a permanent state of acceleration. However, from Maxwell's theory of electromagnetism it is well known (already in the times of Rutherford as the theory of Maxwell dates back to around 1860) that accelerating charged particles radiate energy in the form of electromagnetic waves. This means that the electron constantly looses energy and thus moves to an elliptical orbit closer to the nucleus until, eventually, its orbit collapses onto the nucleus. This process would go very fast and matter in its present form could not exist. Now we know, that the idea of an atom being a miniature solar system is wrong. But out of questions and dilemma's as these grew very quickly quantum mechanics opening a whole new world and a completely different picture of things at the small scales. A world with new rules and new consequences, where our intuition based on daily life and large scale structures composed of many, many atoms fails.
 
 **Scattering Theory**
 The work of Rutherford and co-workers forms the start of a new branch of physics: nuclear physics. By using radiation in the form of X-rays (i.e. high energy photons) and electrons or protons, physicists are able to probe the internal properties of molecules, atom, nuclei and even elementary particles (or at least, what we once thought were elementary particles).
@@ -287,7 +287,7 @@ As we have seen when discussing Rutherford's experiment, in the early twentieth 
 
 ## The problem with Maxwell's equations
 
-In the early 1860s [Maxwell](https://en.wikipedia.org/wiki/James_Clerk_Maxwell) extended Ampères' law, in combination with Gauss and Faraday laws. This led to four coupled differential equations describing the generation of electro-magnetic fields from charges and currents. They are now just known as *the Maxwell equations*. They read in modern (differential) notation as follows for the electric  $\vec{E}(\vec{x},t)$ and magnetic $\vec{B}(\vec{x},t)$ field in free space
+In the early 1860s [Maxwell](https://en.wikipedia.org/wiki/James_Clerk_Maxwell) extended Ampères' law, in combination with Gauss and Faraday laws. This led to four coupled differential equations describing the generation of electromagnetic fields from charges and currents. They are now just known as *the Maxwell equations*. They read in modern (differential) notation as follows for the electric  $\vec{E}(\vec{x},t)$ and magnetic $\vec{B}(\vec{x},t)$ field in free space
 
 $$
 \begin{array}{rcl}
@@ -300,7 +300,7 @@ $$
 
 With $\rho(\vec{x})$ the charge density distribution and $\vec{J}(\vec{x},t)$ the electric current density, and constants $\epsilon_0$ the vacuum permittivity and $\mu_0$ the vacuum magnetic permeability. 
 
-You will learn all about Maxwell's equations in  classes on *Electromagnetism*. The mathematics of these equations is quite difficult as each equation is $3D+t$ and the equations are coupled.
+You will learn all about Maxwell's equations in  classes on *electromagnetism*. The mathematics of these equations is quite difficult as each equation is $3D+t$ and the equations are coupled.
 
 In vacuum ($\rho=0$ and $\vec{J}=0$) we can simplify these equation. Furthermore, we could look at 1-dimensional cases, that is the electric field has only a component $E_y$ which is only depending on time $t$ and the $x$-coordinate. This leads us to the *wave equation*
 
@@ -310,7 +310,7 @@ $$
 
 This equation describes the propagation of the electric field through vacuum (you can of course derive the same equation for the magnetic field). In the wave equation a second derivative in space is coupled to a second derivative in time. The solution to this differential equation is $E_y(x,t)\propto \cos(k x - \omega t)$, with the *wave number* $k$ related to the wave length $k=2\pi/\lambda$ and the angular frequency $\omega$ to the frequency $\nu$ according to $\omega = 2\pi \nu$.  Like for all waves, the frequency, wave length and velocity of the wave are coupled: $\nu \lambda =c$ with $c$ the speed of the wave, i.e. in this case the speed of light. 
 
-Light is identified as an electro-magnetic wave and from the wave equation we see that the wave velocity is given by 
+Light is identified as an electromagnetic wave and from the wave equation we see that the wave velocity is given by 
 
 $$
 \frac{1}{\sqrt{\epsilon_0 \mu_0}}\equiv c=2.998\cdot 10^8\ \text{m/s} \approx 300,000\ \text{km/s} 
