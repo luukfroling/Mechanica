@@ -171,7 +171,7 @@ Hendrik Lorentz (1853-1928). From [Wikimedia Commons](https://commons.wikimedia.
 :width: 50%
 :align: center
 
-George Fitzgerald (1851-1901). From [commons wiki](https://commons.wikimedia.org/wiki/File:George_Francis_FitzGerald.jpg), public domain
+George Fitzgerald (1851-1901). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:George_Francis_FitzGerald.jpg), public domain
 ```
 
 
