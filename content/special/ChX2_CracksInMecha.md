@@ -318,7 +318,7 @@ $$
 \frac{\partial^2 E'_{y'}}{\partial x^{'2}} - \epsilon_0 \mu_0 \frac{\partial^2 E'_{y'}}{\partial t^{'2}}=0 \; (*)
 $$
 
-This has exactly the same form as for $S$ which is good if it should represent a physical law. However, for $S'$ the speed of the wave is also given by $c=\frac{1}{\sqrt{\epsilon_0 \mu_0}}$. As the speed is covered by universal constants $\epsilon_0, \mu_0$, the speed is the same of $S$ and $S'$ or in other words $c=c'$! This is not what should happen! From the Galileo Transformation we know that we should find the same form, but with $c'=c-V$ the relative velocity of the two observers. 
+This has exactly the same form as for $S$ which is good if it should represent a physical law. However, for $S'$ the speed of the wave is also given by $c=\frac{1}{\sqrt{\epsilon_0 \mu_0}}$. As the speed is covered by universal constants $\epsilon_0, \mu_0$, the speed is the same of $S$ and $S'$ or in other words $c=c'$! This is not what should happen! From the Galilean Transformation we know that we should find the same form, but with $c'=c-V$ the relative velocity of the two observers. 
 
 If we apply the coordinate transformation from $S\to S'$ according to the Galilean Transformation, the wave equation reads thus as
 
