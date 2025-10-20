@@ -462,7 +462,7 @@ He showed that it was impossible to find such a solution as he reached the concl
 The work of Poincaré was the trigger of yet another 'revolution' in our understanding of the universe. 
 
 
-It doesn't mean that there are no known solutions of specific cases of the three body problem. On the contrary, in the movie below 20 solutions are given. Notice that they all have a high degree of symmetry. 
+It doesn't mean that there are no known solutions of specific cases of the three body problem. On the contrary, in the animation below 20 solutions are given. Notice that they all have a high degree of symmetry. 
 
 ```{figure} ../images/20SolutionsThreeBodyProblem.gif
 :label: fig:20SolutionsThreeBodyProblem.gif
