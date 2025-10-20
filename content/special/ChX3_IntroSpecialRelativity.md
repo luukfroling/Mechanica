@@ -15,7 +15,7 @@ And as we have mentioned, it took the work of a single man to change this and un
 :width: 50%
 :align: center
 
-Albert Einstein (1879-1955). Picture from [wiki commons](https://commons.wikimedia.org/wiki/File:Albert_Einstein_ETH-Bib_Portr_05937.jpg?uselang=nl#Licentie), public domain.
+Albert Einstein (1879-1955). Picture from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Albert_Einstein_ETH-Bib_Portr_05937.jpg?uselang=nl#Licentie), public domain.
 ```
 
 **Lorentz Transformation**
