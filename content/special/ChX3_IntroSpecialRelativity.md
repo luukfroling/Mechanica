@@ -190,7 +190,7 @@ Close your book, laptop. Shut down your screen, put aside your mobile, tablet. P
 
 ```
 
-## Length contraction & Time dilatation
+## Length contraction & Time dilation
 
 ### First Implications
 As we have seen, we need to use the Lorentz Transformation instead of the Galilei one when two observers, $S$ and $S'$, want to exchange information. What changes if we do so? Let's first do some examples and see some of the consequences and the 'strange' conclusions we need to draw.
@@ -280,7 +280,7 @@ Ok, let's push this somewhat further and see if we can get a contradiction.
 
 We do know, from $S$ that the event took place at $ct_2 = 0.5\ \mathrm{ls}$. Then, definitely $S'$ has passed Earth. $S$ has reconstructed this event from observation Event $E_1$ $S'$ got the information of event $E_2$ from $S$ and backed out the coordinates of the event in her coordinate system. From these data, $S'$ can easily predict when she will see the impact. That is obviously later than the time of the event: the photons have to travel to her. How can we compute when $S'$ literally sees the event? 
 
-That is remarkably easy: we know that according to $S'$ the event tokes place at $(ct'_2, x_2') = (-0.767\ \mathrm{ls}, 1.333\ \mathrm{ls})$. At that moment and that place a photon was generated that moves in her direction. Since the velocity of each photon is always $c$, we can easily find the time when $S'$ sees the photon, i.e. detect it at location $x'=0$. The photon has to travel a distance $1.33 ls$ at a speed of $1 c$. That will take 1.33s. The photon started traveling at time $ct_2 = -0.767$. It's trajectory according to $S'$ is $x'_p(t') = x'_p(0) - c (t' - t'_2)$.
+That is remarkably easy: we know that according to $S'$ the event tokes place at $(ct'_2, x_2') = (-0.767\ \mathrm{ls}, 1.333\ \mathrm{ls})$. At that moment and that place a photon was generated that moves in her direction. Since the velocity of each photon is always $c$, we can easily find the time when $S'$ sees the photon, i.e. detect it at location $x'=0$. The photon has to travel a distance $1.33 ls$ at a speed of $1 c$. That will take 1.33s. The photon started traveling at time $ct_2 = -0.767$. Its trajectory according to $S'$ is $x'_p(t') = x'_p(0) - c (t' - t'_2)$.
 
 Thus, the photon gets measure at event $E_3$: $x_3' = 0 \rightarrow ct'_3 = x'_2 + ct'_2 = 0.567\ \mathrm{ls}$. Thus we have our third event:
 
@@ -562,7 +562,7 @@ John Bell became famous by the [inequalities](https://en.wikipedia.org/wiki/Bell
     
 Why is this so important? It touches the heart of what is reality, is it deterministic and/or local now that quantum mechanics turned out *to be* the real thing? How we see reality now boils down to how we interpret quantum mechanics - and that is difficult to comprehend. The Copenhagen interpretation is so frustrating as the wave function collapses at measurement, however, the many-world interpretation that avoids the collapse is also not very appealing as it needs an infinite number of universes. This remains one of the important open ends in physics.
     
-In this thought experiment we have two space ships $B$ and $C$ initially at rest and spaceship $A$  as observer. $B$ and $C$ are connected by a tight but fragile string between them. $A$ simultaneously signals $B$ and $C$ to accelerate equally, and $B$ and $C$ will have the same velocity at every time from the start. 
+In this thought experiment we have two spaceships $B$ and $C$ initially at rest and spaceship $A$  as observer. $B$ and $C$ are connected by a tight but fragile string between them. $A$ simultaneously signals $B$ and $C$ to accelerate equally, and $B$ and $C$ will have the same velocity at every time from the start. 
 
 
 ```{figure} ../images/chx3_Bell_paradox.svg
@@ -570,7 +570,7 @@ In this thought experiment we have two space ships $B$ and $C$ initially at rest
 :width: 50%
 :align: center
 
-Bell's paradox: accelerating space ships and a thin wire.
+Bell's paradox: accelerating spaceships and a thin wire.
 ```
 
 **Question:** 

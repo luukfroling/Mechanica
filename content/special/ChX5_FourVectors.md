@@ -333,7 +333,7 @@ This paradox has two issues:
 .
 ```
 
-Extra: We symmetries the problem. Both Alice and Bob move in space ships away from each other at the same but opposite speed, then turn around and meet again. Who is older now?
+Extra: We symmetries the problem. Both Alice and Bob move in spaceships away from each other at the same but opposite speed, then turn around and meet again. Who is older now?
 
 **Answer**
 

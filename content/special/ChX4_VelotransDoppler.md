@@ -10,9 +10,9 @@ kernelspec:
 ---
 # Velocity Transformation & Doppler shift
 
-Imagine we have two space ships moving each with a speed of $\frac{3}{4}c$ as shown below. What is the speed that either the red or yellow space ships sees for the other spaceship speed?
+Imagine we have two spaceships moving each with a speed of $\frac{3}{4}c$ as shown below. What is the speed that either the red or yellow spaceships sees for the other spaceship speed?
 
-We should, first of all realize, that the information regarding the velocity of the two space ships is given by an observer $S$ who is neither in the red nor the yellow ship. We need to transform this information to an observer in the red or in the yellow ship.
+We should, first of all realize, that the information regarding the velocity of the two spaceships is given by an observer $S$ who is neither in the red nor the yellow ship. We need to transform this information to an observer in the red or in the yellow ship.
 
 
 ```{figure} ../images/chx4_addvel.svg
@@ -20,7 +20,7 @@ We should, first of all realize, that the information regarding the velocity of 
 :width: 80%
 :align: center
  
-Two space ships approaching each other.
+Two spaceships approaching each other.
 ```   
 
 For the GT we have derived the velocity transformation to be 
@@ -95,7 +95,7 @@ In the limit of $u_x,V\ll c$ both formulas reduce to the Galilean Transformation
 
 The formula for the velocity transformation/addition are not so easy to remember. Later you will see how to derive them from the transformation properties of the 4-velocity, which is easy to remember.  
 
-For our example of the two approaching space ships,  $u_x=-\frac{3}{4}c, V=\frac{3}{4}c$ we find for the speed of the yellow approaching the red ship
+For our example of the two approaching spaceships,  $u_x=-\frac{3}{4}c, V=\frac{3}{4}c$ we find for the speed of the yellow approaching the red ship
 
 $$
 u''_{x''} = \frac{-\frac{3}{4}-\frac{3}{4}}{1+\frac{3}{4}\frac{3}{4}}c=-\frac{24}{25}c <c
