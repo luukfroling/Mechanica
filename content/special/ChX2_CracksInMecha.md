@@ -114,7 +114,7 @@ Experimental setup of $\alpha$-scattering at a gold foil.
 Ernest Rutherford (1871-1937). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sir_Ernest_Rutherford_LCCN2014716719_-_restoration1.jpg), public domain.
 ```
 
-The story goes, that Rutherford's students would, together with Geiger, do the measurements as an assignment of their studies. The principle is simple: set the microscope under a know angle and, for a given period in time, count the number of hits. Repeat this for the next angle of the microscope. Obviously, the first measurements were all done on the side of the foil opposite to the $\alpha$-emitter. One was expecting small deviations from the undisturbed trajectory.
+The story goes, that Rutherford's students would, together with Geiger, do the measurements as an assignment of their studies. The principle is simple: set the microscope under a known angle and, for a given period in time, count the number of hits. Repeat this for the next angle of the microscope. Obviously, the first measurements were all done on the side of the foil opposite to the $\alpha$-emitter. One was expecting small deviations from the undisturbed trajectory.
 
 When the experiments were basically done, so goes the story, still a student was left over that also needed an assignment. One of Rutherford's assistant suggested that this student would then measure with the microscope at the same side of the foil as the $\alpha$-emitter. They did not expect anything to see, but they needed an assignment for this student. Whether the story of the student assignments is true or not, fact is that the team found also hits on the detector for angles of about 180$^\circ$. That is, some $\alpha$-particles seemed to bounce back from the foil!
 
@@ -126,7 +126,7 @@ This value can be found from the density of gold, the mass of a gold atom and th
 However, an $\alpha$-particle is much heavier than an electron. Hence in the Coulomb interaction between the $\alpha$ -particle and an electron, the acceleration (of deflection) of the 'heavy' $\alpha$-particle is negligible: the electrons are pushed out of the way (or actually attracted); they don't influence the trajectory of the $\alpha$-particle.  
 It is the positive charge of the pudding itself, that does the deflection. The atom (i.e. the pudding) can not move out of the way as it is part of the gold foil which is many orders of magnitude heavier than the incoming particle.     
 
-Rutherford knew the theory of Maxwell for Electro-Magnetism and could estimate The force an $\alpha$-particle would feel from the atom. He deduced that the force on the $\alpha$-particle is always smaller than:
+Rutherford knew the theory of Maxwell for electromagnetism and could estimate the force an $\alpha$-particle would feel from the atom. He deduced that the force on the $\alpha$-particle is always smaller than:
 
 $$ F_c \leq \frac{q_\alpha Q_g}{4 \pi \epsilon_0} \frac{1}{r_0^2} $$ 
 
@@ -134,9 +134,7 @@ with $Q$ the charge of the atom (i.e. +79e), $q_\alpha$ the charge ($+2e$) of th
 
 The deflection of the particle is biggest if the Coulomb force is perpendicular to the trajectory. So, we take that for our estimate. The true effect, when passing through the atom, will be smaller.  
 
-- It is easiest to compute the change of momentum. The particle comes in with a know momentum $p$. If the change in momentum 
-
-$\Delta p$ is much smaller than $p$ itself, the deflection will be small.
+It is easiest to compute the change of momentum. The particle comes in with a know momentum $p$. If the change in momentum $\Delta p$ is much smaller than $p$ itself, the deflection will be small.
 
 ```{figure} ../images/RutherfordDeltaP.png
 :label: fig:RutherfordDeltaP.png
@@ -147,15 +145,13 @@ Relation of angle of deflection and change in momentum.
 ```
 $$\tan \phi = \frac{\Delta p}{p} \Rightarrow \phi \approx \frac{\Delta p}{p} \text{ if } \phi \ll 1$$
   
--  The momentum change is due to the force $F_c$ working for a time period 
-
-$\Delta t$ on the particle:
+The momentum change is due to the force $F_c$ working for a time period $\Delta t$ on the particle:
 
 $$ dP = Fdt -\rightarrow \Delta p \approx F_c \Delta t$$
 
-The time the particle is in the atom is estimated as follows. The particle has a velocity $v_0$ and it has to travel a distance $2r_0$ through the atom, thus $\Delta t \approx \frac{2r_0}{v_0} $. We assume that the change in momentum is small, so that we can still use $v_0$ as an estimate of the velocity with which the $\alpha$-particle travels.
+The time the particle is in the atom is estimated as follows: the particle has a velocity $v_0$ and it has to travel a distance $2r_0$ through the atom, thus $\Delta t \approx \frac{2r_0}{v_0} $. We assume that the change in momentum is small, so that we can still use $v_0$ as an estimate of the velocity with which the $\alpha$-particle travels.
   
--  If we put everything together, we find:
+If we put everything together, we find:
 
 $$ \frac{\Delta p}{p} \ll \frac{q_\alpha Q_g}{4 \pi \epsilon_0} \frac{1}{r_0^2} \cdot \frac{2r_0}{v_0} = \frac{q_\alpha Q_g}{2 \pi \epsilon_0} \frac{1}{r_0 v_0} \ll 1$$
 
@@ -169,7 +165,7 @@ Rutherford and his colleagues, had no other option than to conclude that the pos
 
 They redid the calculation, but now with $r_0$ as a free parameter to be backed out of the calculation. They changed the requirement of small scattering angles (i.e. small deviation from the original path) to the experimental finding that scattering angles of about 180$^\circ$ were possible. That gave that $r_0$ is on the order of $10^{-14}$m. 
 
-Conclusion: the atom has a nucleus that is much smaller than the size of the atom that contains all positive charge. The electrons must orbit this nucleus as a mini-solar system. These electrons 'define' the size of the atom.
+Conclusion: the atom has a nucleus, which contains all of its positive charge and is much smaller than the atom itself. The electrons must orbit this nucleus as a mini-solar system. These electrons 'define' the size of the atom.
 
 ```{figure} ../images/RutherfordAtom.png
 :label: fig:RutherfordAtom.png
@@ -184,9 +180,9 @@ This new model would spark a whole new set of questions, setting up one of the b
 **Collapse of matter?**
 An immediate consequence of this new view on atoms and matter came from the analogy with Newton's work on the solar system and the Kepler Laws. In the case of the sun and planets, the interaction force is gravity: $\vec{F}_g = - G \frac{m_1 m_2}{r_{12}^2}\hat{r_{12}}$. When dealing with a nucleus with its orbiting electrons the interaction force is the Coulomb force: $ \vec{F}_C = \frac{1}{4\pi \epsilon_0} \frac{q_1 q_2}{r_{12}^2}\hat{r_{12}} $.
 
-As both Gravity and Coulombs forces are central, conservative forces and are inversely proportional to the square of distance from the two interacting particles the motion of a 'tiny' planet around the 'massive' sun is mathematically completely analogous to that of a 'tiny' electron around its 'massive' nucleus.
+As both Gravity and Coulombs forces are central, conservative forces and are inversely proportional to the square of distance between the two interacting particles, the motion of a 'tiny' planet around the 'massive' sun is mathematically completely analogous to that of a 'tiny' electron around its 'massive' nucleus.
 
-Thus an electron orbits the nucleus in an ellipse. Consequently, it is in a permanent state of acceleration. However, from Maxwell's theory of Electro-Magnetism it is well known (already in the times of Rutherford as the theory of Maxwell dates back to around 1860) that accelerating charged particles radiate energy in the form of electro-magnetic waves. This means that the electron constantly looses energy and thus moves to an elliptical orbit closer to the nucleus until, eventually, its orbit collapses onto the nucleus. This process would go very fast and matter in its present form could not exist. Now we know, that the idea of an atom being a miniature solar system is wrong. But out of questions and dilemma's as these grew very quickly quantum mechanics opening a whole new world and a completely different picture of things at the small scales. A world with new rules and new consequences, where our intuition based on daily life and large scale structures composed of many, many atoms fails.
+Thus an electron orbits the nucleus in an ellipse. Consequently, it is in a permanent state of acceleration. However, from Maxwell's theory of electromagnetism it is well known (already in the times of Rutherford as the theory of Maxwell dates back to around 1860) that accelerating charged particles radiate energy in the form of electromagnetic waves. This means that the electron constantly looses energy and thus moves to an elliptical orbit closer to the nucleus until, eventually, its orbit collapses onto the nucleus. This process would go very fast and matter in its present form could not exist. Now we know that the idea of an atom being a miniature solar system is wrong. But questions and dilemmas like these grew very quickly, giving rise to quantum mechanics and opening a whole new world: a completely different picture of things at small scales. A world with new rules and new consequences, where our intuition, based on daily life and large-scale structures composed of many, many atoms, fails.
 
 **Scattering Theory**
 The work of Rutherford and co-workers forms the start of a new branch of physics: nuclear physics. By using radiation in the form of X-rays (i.e. high energy photons) and electrons or protons, physicists are able to probe the internal properties of molecules, atom, nuclei and even elementary particles (or at least, what we once thought were elementary particles).
@@ -287,7 +283,7 @@ As we have seen when discussing Rutherford's experiment, in the early twentieth 
 
 ## The problem with Maxwell's equations
 
-In the early 1860s [Maxwell](https://en.wikipedia.org/wiki/James_Clerk_Maxwell) extended Ampères' law, in combination with Gauss and Faraday laws. This led to four coupled differential equations describing the generation of electro-magnetic fields from charges and currents. They are now just known as *the Maxwell equations*. They read in modern (differential) notation as follows for the electric  $\vec{E}(\vec{x},t)$ and magnetic $\vec{B}(\vec{x},t)$ field in free space
+In the early 1860s [Maxwell](https://en.wikipedia.org/wiki/James_Clerk_Maxwell) extended Ampères' law, in combination with Gauss and Faraday laws. This led to four coupled differential equations describing the generation of electromagnetic fields from charges and currents. They are now just known as *the Maxwell equations*. They read in modern (differential) notation as follows for the electric  $\vec{E}(\vec{x},t)$ and magnetic $\vec{B}(\vec{x},t)$ field in free space
 
 $$
 \begin{array}{rcl}
@@ -300,7 +296,7 @@ $$
 
 With $\rho(\vec{x})$ the charge density distribution and $\vec{J}(\vec{x},t)$ the electric current density, and constants $\epsilon_0$ the vacuum permittivity and $\mu_0$ the vacuum magnetic permeability. 
 
-You will learn all about Maxwell's equations in  classes on *Electromagnetism*. The mathematics of these equations is quite difficult as each equation is $3D+t$ and the equations are coupled.
+You will learn all about Maxwell's equations in  classes on *electromagnetism*. The mathematics of these equations is quite difficult as each equation is $3D+t$ and the equations are coupled.
 
 In vacuum ($\rho=0$ and $\vec{J}=0$) we can simplify these equation. Furthermore, we could look at 1-dimensional cases, that is the electric field has only a component $E_y$ which is only depending on time $t$ and the $x$-coordinate. This leads us to the *wave equation*
 
@@ -310,7 +306,7 @@ $$
 
 This equation describes the propagation of the electric field through vacuum (you can of course derive the same equation for the magnetic field). In the wave equation a second derivative in space is coupled to a second derivative in time. The solution to this differential equation is $E_y(x,t)\propto \cos(k x - \omega t)$, with the *wave number* $k$ related to the wave length $k=2\pi/\lambda$ and the angular frequency $\omega$ to the frequency $\nu$ according to $\omega = 2\pi \nu$.  Like for all waves, the frequency, wave length and velocity of the wave are coupled: $\nu \lambda =c$ with $c$ the speed of the wave, i.e. in this case the speed of light. 
 
-Light is identified as an electro-magnetic wave and from the wave equation we see that the wave velocity is given by 
+Light is identified as an electromagnetic wave and from the wave equation we see that the wave velocity is given by 
 
 $$
 \frac{1}{\sqrt{\epsilon_0 \mu_0}}\equiv c=2.998\cdot 10^8\ \text{m/s} \approx 300,000\ \text{km/s} 
@@ -322,7 +318,7 @@ $$
 \frac{\partial^2 E'_{y'}}{\partial x^{'2}} - \epsilon_0 \mu_0 \frac{\partial^2 E'_{y'}}{\partial t^{'2}}=0 \; (*)
 $$
 
-This has exactly the same form as for $S$ which is good if it should represent a physical law. However, for $S'$ the speed of the wave is also given by $c=\frac{1}{\sqrt{\epsilon_0 \mu_0}}$. As the speed is covered by universal constants $\epsilon_0, \mu_0$, the speed is the same of $S$ and $S'$ or in other words $c=c'$! This is not what should happen! From the Galileo Transformation we know that we should find the same form, but with $c'=c-V$ the relative velocity of the two observers. 
+This has exactly the same form as for $S$ which is good if it should represent a physical law. However, for $S'$ the speed of the wave is also given by $c=\frac{1}{\sqrt{\epsilon_0 \mu_0}}$. As the speed is covered by universal constants $\epsilon_0, \mu_0$, the speed is the same of $S$ and $S'$ or in other words $c=c'$! This is not what should happen! From the Galilean Transformation we know that we should find the same form, but with $c'=c-V$ the relative velocity of the two observers. 
 
 If we apply the coordinate transformation from $S\to S'$ according to the Galilean Transformation, the wave equation reads thus as
 
@@ -466,7 +462,7 @@ He showed that it was impossible to find such a solution as he reached the concl
 The work of Poincaré was the trigger of yet another 'revolution' in our understanding of the universe. 
 
 
-It doesn't mean that there are no known solutions of specific cases of the three body problem. On the contrary, in the movie below 20 solutions are given. Notice that they all have a high degree of symmetry. 
+It doesn't mean that there are no known solutions of specific cases of the three body problem. On the contrary, in the animation below 20 solutions are given. Notice that they all have a high degree of symmetry. 
 
 ```{figure} ../images/20SolutionsThreeBodyProblem.gif
 :label: fig:20SolutionsThreeBodyProblem.gif
