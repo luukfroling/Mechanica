@@ -149,7 +149,7 @@ $$
 
 In the **limit of infinity speed of light** ($c\to\infty$) the $\gamma$-factor is again one: $\gamma=1$ and the ratio $V/c \to 0$. Also here the LT reduces to the GT. The case of infinite speed of light represents the case that GT is generally valid, i.e. $c'=c+V$. 
 
-It is always important to verify that an extension of the known theory reduces to the known theory that has proofed itself for most circumstances.
+It is always important to verify that an extension of a well-established theory reproduces the results of that theory in the domain where it has been experimentally validated.
 
 
 ````{intermezzo} Historical context
