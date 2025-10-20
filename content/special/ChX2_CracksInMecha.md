@@ -25,7 +25,7 @@ In more recent history, the notion of atoms as elementary building blocks is gui
 
 Although the evidence from chemistry was clear, the notion of atoms as the building blocks remained controversial. The laws of definite proportion (e.g. water is decomposed in a fixed ratio in hydrogen and oxygen) were generally accepted, but the hypothesis that everything was made of atoms was not. As a consequence, the work of Ludwig Boltzmann (1844-1906) on statistical thermodynamics that is entirely based on an atomic (or molecular) view was not accepted during Boltzmann's life.
 
-In the second half of the nineteenth century William Thomson (1824-1907) -later Lord Kelvin- proposed the so-called vortex theory of the atom. Based on the discoveries by chemists of only a few different atoms that made up the rest of matter, Thomson proposed that atoms are stable vortices, not in an ordinary fluid like water, but in the omni-present luminiferous aether (ether). 
+In the second half of the nineteenth century William Thomson (1824-1907)—later Lord Kelvin—proposed the so-called vortex theory of the atom. Based on the discoveries by chemists of only a few different atoms that made up the rest of matter, Thomson proposed that atoms are stable vortices, not in an ordinary fluid like water, but in the omni-present luminiferous aether (ether). 
 
 Stable vortices have the shape of rings with no beginning or end. In air they are easily made and made visible with smoke and are indeed surprisingly stable. According to the vortex theory, atoms are vortices in aether. The simplest one is a single ring, which was hydrogen. More complicated forms, called knots represented the other elements. 
 
