@@ -234,7 +234,7 @@ So, back to our example: we have our first event:
 
 $$ \text{ S observes 'comet hits moon' } E_1 = (ct_1,x_1,y_1,z_1) = (1.7, 0,0,0)$$
 
-What does this mean? Observer $S$, who is sitting in $\mathcal{O} = (0,0,0)$ literally sees that the comet hits the moon. He does so at $ct_1 = 1.7s$. In terms of physics: a photon hits his eye at $ct_1$. The observer has zero-size, that is everything he observes is done at $(0,0,0)$.
+What does this mean? Observer $S$, who is sitting in $\mathcal{O} = (0,0,0)$ literally sees that the comet hits the moon. He does so at $ct_1 = 1.7\ \mathrm{ls}$. In terms of physics: a photon hits his eye at $ct_1$. The observer has zero-size, that is everything he observes is done at $(0,0,0)$.
 
 Now, we need to realize, that the actual impact of the comet took place earlier. By how much? Well, a photon that was generated at this moment of impact due to the impact will have to travel $1.2\ \mathrm{s}$ to reach $S$. That requires $1.2\mathrm{ls}$, as photons travel with the speed of light. 
 
