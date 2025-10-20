@@ -134,9 +134,7 @@ with $Q$ the charge of the atom (i.e. +79e), $q_\alpha$ the charge ($+2e$) of th
 
 The deflection of the particle is biggest if the Coulomb force is perpendicular to the trajectory. So, we take that for our estimate. The true effect, when passing through the atom, will be smaller.  
 
-- It is easiest to compute the change of momentum. The particle comes in with a know momentum $p$. If the change in momentum 
-
-$\Delta p$ is much smaller than $p$ itself, the deflection will be small.
+- It is easiest to compute the change of momentum. The particle comes in with a know momentum $p$. If the change in momentum $\Delta p$ is much smaller than $p$ itself, the deflection will be small.
 
 ```{figure} ../images/RutherfordDeltaP.png
 :label: fig:RutherfordDeltaP.png
