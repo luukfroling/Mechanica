@@ -188,7 +188,7 @@ $$
 $$ 
 
 
-Note the importance of the last conclusion: **if objects interact via a mutual force then the total momentum of the objects can not change.** No matter what the interaction is. It is easily extended to more interacting particles. The crux is that particles interact with one another via forces that obey N3. Thus for three interacting point particles we would have (with $ \vec{F}_{ij}$ the force from particle *i* felt by particle *j*):
+Note the importance of the last conclusion: **if objects interact via a mutual force then the total momentum of the objects cannot change.** No matter what the interaction is. It is easily extended to more interacting particles. The crux is that particles interact with one another via forces that obey N3. Thus for three interacting point particles we would have (with $ \vec{F}_{ij}$ the force from particle *i* felt by particle *j*):
 
 $$
 \left.

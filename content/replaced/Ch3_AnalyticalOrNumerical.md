@@ -72,7 +72,7 @@ First, we rewrite the differential equation for $v$ into a finite difference equ
 
 $$ m \lim_{\Delta t \rightarrow 0} \frac{v(t+\Delta t) - v(t)}{\Delta t} = F $$
 
-On a computer, we can not literally take the limit of $\Delta t$ to zero, but we can make $\Delta t$ very small. If we do that, we can rewrite the difference equation (thus not taken the limit):
+On a computer, we cannot literally take the limit of $\Delta t$ to zero, but we can make $\Delta t$ very small. If we do that, we can rewrite the difference equation (thus not taken the limit):
 
 $$ v(t+ \Delta t) = v(t) + \frac{F}{m}\Delta t $$
 
@@ -99,7 +99,7 @@ Here is a python code that gives the starting values for $x$ and $v$ for given v
 # met slider die dt kleiner /groter maakt
 ```
 
-In the graph, we have plotted both the analytical solution and the numerical one. As can be seen, if we make $dt$ sufficiently small, the numerical solution can not be distinguished from the analytical one.
+In the graph, we have plotted both the analytical solution and the numerical one. As can be seen, if we make $dt$ sufficiently small, the numerical solution cannot be distinguished from the analytical one.
 
 ## More difficult example ##
 In the above, the friction force was proportional to the velocity. What if we make the force more realistic? For instance, let's consider a small hail stone that comes falling out of the sky. We will assume that the hail stone is formed in a cloud at a height of 1km above the ground. Furthermore, we will take that the stone drops from that height with zero initial velocity. Finally, we will assume that the problem is 1-dimensional: the hail stone drops vertically down and experiences only gravity, buoyancy and air-friction. The situation is sketched in {numref}`fig:HailStoneFriction`.
@@ -113,7 +113,7 @@ Force acting on a hailstone.
 ```
 
 
-There are three forces acting on the hail stone: gravity, $F_g = - mg = \rho_p V_p g$, buoyancy, $F_b = \rho_{air} V_p g$ and air friction. The latter can not be written down from a first-principles argument. We have to use here an empirical relation. We will use (taken the hail stone as a spherical particle with diameter $D$):
+There are three forces acting on the hail stone: gravity, $F_g = - mg = \rho_p V_p g$, buoyancy, $F_b = \rho_{air} V_p g$ and air friction. The latter cannot be written down from a first-principles argument. We have to use here an empirical relation. We will use (taken the hail stone as a spherical particle with diameter $D$):
 
 ```{math}
 :label: eq:3.1

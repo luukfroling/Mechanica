@@ -124,7 +124,7 @@ There is no way that the plum pudding model could explain this. The argumentatio
 This value can be found from the density of gold, the mass of a gold atom and the mass and volume of the gold foil (or any other amount of gold). By treating the atoms as small spheres that are stacked back to back, the size of the atom is easily found.   
 - An $\alpha$-particle has a charge of $2e$ and is deflected by a gold atom due to the charge of the gold atom. As gold has number 79 in the periodic table, we know that the charge of a gold atom is +79e in the 'plum pudding' and -79e of all electrons floating in the pudding.  
 However, an $\alpha$-particle is much heavier than an electron. Hence in the Coulomb interaction between the $\alpha$ -particle and an electron, the acceleration (of deflection) of the 'heavy' $\alpha$-particle is negligible: the electrons are pushed out of the way (or actually attracted); they don't influence the trajectory of the $\alpha$-particle.  
-It is the positive charge of the pudding itself, that does the deflection. The atom (i.e. the pudding) can not move out of the way as it is part of the gold foil which is many orders of magnitude heavier than the incoming particle.     
+It is the positive charge of the pudding itself, that does the deflection. The atom (i.e. the pudding) cannot move out of the way as it is part of the gold foil which is many orders of magnitude heavier than the incoming particle.     
 
 Rutherford knew the theory of Maxwell for electromagnetism and could estimate the force an $\alpha$-particle would feel from the atom. He deduced that the force on the $\alpha$-particle is always smaller than:
 

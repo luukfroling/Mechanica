@@ -127,7 +127,7 @@ No, it wouldn't! Let's just do it and recalculate. In the figure below, we have 
 Free-body diagram with the origin located at the seesaw's end.
 ```
 
-We still have that the sum of forces is zero. But what about the sum of torques? Obviously, the choice of the origin can not affect the seesaw: it is still in balance, regardless of our choice of the origin. Let's see if that is correct:
+We still have that the sum of forces is zero. But what about the sum of torques? Obviously, the choice of the origin cannot affect the seesaw: it is still in balance, regardless of our choice of the origin. Let's see if that is correct:
 
 $$\sum \vec{\Gamma}_i = \Lambda \hat{x} \times -Mg\hat{z} + \left ( \Lambda + L \right ) \times F_p\hat{z} + \left ( \Lambda + L + l \right )\hat{x} \times -mg\hat{z} $$
 
@@ -522,11 +522,11 @@ $$
 
 where we have use that $\vec{r}$ and $\hat{r}$ are always parallel so their cross-product is zero.
 
-The above is rather trivial, but has a very important consequence: a particle that moves under the influence of a central force, moves with a constant angular momentum (vector!) and must move in a plane. It can not get out of that plane. Thus its motion is at maximum a 2-dimensional problem. We can always use a coordinate system, such that the motion of the particle is confined to only two of the three coordinates, e.g. we can choose our $x,y$ plane such that the particle moves in it and thus always has $z(t) = 0$.
+The above is rather trivial, but has a very important consequence: a particle that moves under the influence of a central force, moves with a constant angular momentum (vector!) and must move in a plane. It cannot get out of that plane. Thus its motion is at maximum a 2-dimensional problem. We can always use a coordinate system, such that the motion of the particle is confined to only two of the three coordinates, e.g. we can choose our $x,y$ plane such that the particle moves in it and thus always has $z(t) = 0$.
 
 Why is this so? Why does the fact that the angular momentum vector is a constant immediately imply that the particle motion is in a plane? The argumentation goes as follows.
 Imagine a particle that moves under the influence of a central force. At some point in time it will have position $\vec{r}_0$ and momentum $\vec{p}_0$. Neither of them is zero. We will assume that $\vec{r}_0$ and $\vec{p}_0$ are not parallel (in general they will not be). Thus they define a plane. Due to the cross-product $\vec{l}_0 = \vec{r}_0 \times \vec{p}_0$ is perpendicular to this plane.  
-A little time later, say $\Delta t$ later, both position and momentum will have changed. Since the force is central, the force is also in the plane defined by the initial position and momentum. Thus the change of momentum is in that plane as well: $\vec{p} (t + \Delta t) = \vec{p} (t) + \vec{F} \Delta t$. The right hand side is completely in our plane. And thus, the new momentum is also in the plane. But that means that the velocity is also in the same plane. An thus the new position $\vec{r} (t + \Delta t) = \vec{r}(t) + \frac{\vec{p}}{m} \Delta t$ must be in the same plane as well. We can repeat this argument for the next time and thus see, that both momentum and position can not get out of the plane. This is, of course, fully in agreement with the fact that $\vec{l} = const$ for a central force.
+A little time later, say $\Delta t$ later, both position and momentum will have changed. Since the force is central, the force is also in the plane defined by the initial position and momentum. Thus the change of momentum is in that plane as well: $\vec{p} (t + \Delta t) = \vec{p} (t) + \vec{F} \Delta t$. The right hand side is completely in our plane. And thus, the new momentum is also in the plane. But that means that the velocity is also in the same plane. An thus the new position $\vec{r} (t + \Delta t) = \vec{r}(t) + \frac{\vec{p}}{m} \Delta t$ must be in the same plane as well. We can repeat this argument for the next time and thus see, that both momentum and position cannot get out of the plane. This is, of course, fully in agreement with the fact that $\vec{l} = const$ for a central force.
 
 ## Central forces: conservative or not?
 
@@ -760,7 +760,7 @@ The blue line is the potential energy of gravity. The red one stems from the kin
 
 $$ U_{eff} = \frac{l^2}{2mr^2} - -G\frac{mM}{r} $$
 
-We see, that the energy can not be just any value: the kinetic energy of our quasi-one-dimensional particle ($\frac{1}{2}m\dot{r}^2$) can not be negative and the total potential energy has, according to {numref}`fig:KeplerEnergy.png` a clear minimum. The total energy can not be below this minimum. On the other hand: there is no maximum.    
+We see, that the energy cannot be just any value: the kinetic energy of our quasi-one-dimensional particle ($\frac{1}{2}m\dot{r}^2$) cannot be negative and the total potential energy has, according to {numref}`fig:KeplerEnergy.png` a clear minimum. The total energy cannot be below this minimum. On the other hand: there is no maximum.    
 
 ::::{tab-set}
 :::{tab-item} Case 1: $U_{eff} = minimal$
@@ -804,7 +804,7 @@ The planet will travel in the $(x,y)$-plane between $r=r_a$ and $r=r_b$. How? We
 
 N.B. Do realize, that the velocity is for this case not a constant. We already have established that it is linked to the angular momentum (which is a constant) and the distance to the origin.
 
-Thus, if the planet is closer to $r_a$ it moves faster than close to $r_b$. But it can not escape from $r_a < r(t) < r_b$.
+Thus, if the planet is closer to $r_a$ it moves faster than close to $r_b$. But it cannot escape from $r_a < r(t) < r_b$.
 
 :::
 

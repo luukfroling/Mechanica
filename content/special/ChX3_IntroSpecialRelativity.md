@@ -6,7 +6,7 @@ numbering:
 
 # Special Relativity - Lorentz Transformation
 
-As we discussed, in the second half of the nineteenth century it became clear that there was something wrong in classical mechanics. However, people would not easily give up the ideas of classical mechanics. We saw that the luminiferous aether was introduced as a cure and as a medium in which electromagnetic waves could travel and oscillate. Moreover, Lorentz and Fitzgerald managed to find a coordinate transformation that made the wave equation of Maxwell invariant. Fitzgerald came even up with length contraction: if the arm moving parallel to the aether of the interferometer of Michelson and Morley would contract according to $L_n = L \sqrt{1-\frac{V^2}{c^2}}$ then, the {abbr}`M&M (Michelson-Morley)` experiment should result in no time difference for the two paths, in agreement with the experimental findings. However, there was no fundamental reasoning, no physics under pinning the transformation and the length contraction. It worked, but had an ad hoc character. Very unsatisfying for physicists!
+As we discussed, in the second half of the nineteenth century it became clear that there was something wrong in classical mechanics. However, people would not easily give up the ideas of classical mechanics. We saw that the luminiferous aether was introduced as a cure and as a medium in which electromagnetic waves could travel and oscillate. Moreover, Lorentz and Fitzgerald managed to find a coordinate transformation that made the wave equation of Maxwell invariant. Fitzgerald came even up with length contraction: if the arm moving parallel to the aether of the interferometer of Michelson and Morley would contract according to $L_n = L \sqrt{1-\frac{V^2}{c^2}}$ then, the {abbr}`M&M (Michelson-Morley)` experiment should result in no time difference for the two paths, in agreement with the experimental findings. However, there was no fundamental reasoning, no physics underpinning the transformation and the length contraction. It worked, but had an ad hoc character. Very unsatisfying for physicists!
 
 And as we have mentioned, it took the work of a single man to change this and underpin the [Lorentz Transformation](https://www.youtube.com/watch?v=qdycfWfAtsM), making Classical Mechanics a valid limit of Relativity Theory, only applicable at velocities small compared to the speed of light and to small distances compared to those of interest in cosmology.
 
@@ -72,7 +72,7 @@ The standard sketch is given in the figure below.
 $S$ and $S'$: relative velocity parallel to the $x$ and $x'$ axes.
 ```
 
-N.B. It is crucial to be very precise in your notation when it comes to coordinates and quantities. For instance: $S$ might talk about the $x$-component of the velocity of an object and denote this by $v_x$. $S'$, on the other hand can also talk about that component, but will not call it the $x$-component: in the world of $S'$ $x$ "does not exist", only $x'$ does. So it is better to write $v'_{x'}$ for the $x'$-component of the velocity of the object according to $S'$. It may look cumbersome, and to a certain extend it is, but it actually does make sense. $S'$ would say that this component is $\frac{dx'}{dt'}$ both space and time having a prime. Hence, naturally $S'$ would talk about $\vec{r}' = x' \hat{x'} + y' \hat{y'} + z' \hat{z'}$ or $\vec{v}' = v'_{x'} \hat{x'} + v'_{y'} \hat{y'} + v'_{z'} \hat{z'}$
+N.B. It is crucial to be very precise in your notation when it comes to coordinates and quantities. For instance: $S$ might talk about the $x$-component of the velocity of an object and denote this by $v_x$. $S'$, on the other hand can also talk about that component, but will not call it the $x$-component: in the world of $S'$ $x$ "does not exist", only $x'$ does. So it is better to write $v'_{x'}$ for the $x'$-component of the velocity of the object according to $S'$. It may look cumbersome, and to a certain extent it is, but it actually does make sense. $S'$ would say that this component is $\frac{dx'}{dt'}$ both space and time having a prime. Hence, naturally $S'$ would talk about $\vec{r}' = x' \hat{x'} + y' \hat{y'} + z' \hat{z'}$ or $\vec{v}' = v'_{x'} \hat{x'} + v'_{y'} \hat{y'} + v'_{z'} \hat{z'}$
 
 ### Lorentz Transformation and its inverse
 The Lorentz Transformation, like the Galilean Transformation is a communication protocol for $S$ and $S'$. It allows them to interpret information that they get from each other in their own 'world', i.e. coordinate system.
@@ -108,7 +108,7 @@ with the *Lorentz factor* $\gamma(V) \equiv \frac{1}{\sqrt{1-\frac{V^2}{c^2}}} \
 
 The structure of the formulas is very symmetric and therefore needs little remembering. 
 
-From the Lorentz transformation it is clear that time is not universal anymore ($ct'\neq ct$ in general). This is a large step from Newton and Galileo. Now the time coordinated is mixed somehow with the space coordinated depending on the speed $V$.
+From the Lorentz transformation it is clear that time is not universal anymore ($ct'\neq ct$ in general). This is a large step from Newton and Galileo. Now the time coordinate is mixed somehow with the space coordinate depending on the speed $V$.
 
 ### Lorentz factor
 
@@ -272,9 +272,9 @@ And this is so according to both $S$ and $S'$. They may use different times, but
 
 Ok, let's be puzzled for a while: how can $S'$ at the same time be both at the left side and at the right side of the Earth? That doesn't make any sense!!!! What is **wrong** with this new theory? The answer is: **nothing!**
 
-It is us, mixing stuff up. Who said that it is 'at the same time'?!? Nobody (with perhaps for a moment us as the exception). $S$ and $S'$ agree upon the event: a comet hits the moon. This physical phenomena is not disputed at all. It happened. They don't agree that it took place at the same time according to their clocks. 
+It is us, mixing stuff up. Who said that it is 'at the same time'?!? Nobody (with perhaps for a moment us as the exception). $S$ and $S'$ agree upon the event: a comet hits the moon. This physical phenomenon is not disputed at all. It happened. They don't agree that it took place at the same time according to their clocks. 
 
-But this is not all: according to $S$ at the moment of the impact spaceship was at a distance of $1.2 - 0.4 = 0.8\ \mathrm{ls}$ from the moon. But $S'$ just calculated that she was $1.33\ \mathrm{ls}$ from the moon. One can not be at two different distance form the moon at the same time!
+But this is not all: according to $S$ at the moment of the impact spaceship was at a distance of $1.2 - 0.4 = 0.8\ \mathrm{ls}$ from the moon. But $S'$ just calculated that she was $1.33\ \mathrm{ls}$ from the moon. One cannot be at two different distance form the moon at the same time!
 
 Ok, let's push this somewhat further and see if we can get a contradiction.
 
@@ -499,7 +499,7 @@ Now consider that the ladder is moving with velocity $V=\frac{12}{13}c\ (\gamma 
 Ladder & Barn: perspective from two observers.
 ```
 
-We have applied the Lorentz transformation or length contraction (time dilation) and the concept of relativity correctly, but something seems wrong! The physical outcome must be the same for both observers, but one observer claims the ladder perfectly fits into the barn, the other say it does not! That is: the observer in the barn can close the left and right door when the ladder is just inside the barn. Of course, the doors need to be open again very quickly as the ladder is moving with high velocity to the right. But that doesn't take away the fact that doors were closed and the ladder was inside the barn. How does the other observer cope with this? 
+We have applied the Lorentz transformation or length contraction (time dilation) and the concept of relativity correctly, but something seems wrong! The physical outcome must be the same for both observers, but one observer claims the ladder perfectly fits into the barn, the other says it does not! That is: the observer in the barn can close the left and right door when the ladder is just inside the barn. Of course, the doors need to be open again very quickly as the ladder is moving with high velocity to the right. But that doesn't take away the fact that doors were closed and the ladder was inside the barn. How does the other observer cope with this? 
 
 You can have the same paradox not with length contraction, but time dilation, then it is called the *twin paradox*. We discuss the twin paradox later in the framework of Minkowski-diagrams.
 
@@ -550,7 +550,7 @@ However, if we look at events 2 & 3 according to $L$, we see that $L$ measures t
 
 The paradox is, that both observers are right. Again we see demonstrated that simultaneous for one does not necessarily mean simultaneous for another. Very counter intuitive and yet: very true. 
 
-As you see both observers do not agree where the ladder is when the left door is closed. Where for the barn observer both doors closes at the same time, this does not happen for the ladder observer. 
+As you see both observers do not agree where the ladder is when the left door is closed. Where for the barn observer both doors close at the same time, this does not happen for the ladder observer. 
 
 ````{example} John Bell
 

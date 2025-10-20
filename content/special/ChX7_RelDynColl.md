@@ -182,7 +182,7 @@ When a high-frequency photon scatters at an electron, it looses some of its ener
 :align: center
 ```
 
-In its simplest form, we ignore the energy that is needed to free the electron from its nucleus. This is to a certain extend justified as the outer electron has a very small binding energy, that is small compared to the energy transferred between the photon and the electron.
+In its simplest form, we ignore the energy that is needed to free the electron from its nucleus. This is to a certain extent justified as the outer electron has a very small binding energy, that is small compared to the energy transferred between the photon and the electron.
 
 In the rest frame of the electron, we have for the 4 different 4-momenta:
 
