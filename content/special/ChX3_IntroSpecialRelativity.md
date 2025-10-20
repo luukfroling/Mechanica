@@ -162,7 +162,7 @@ Lorentz did not derive the transformation that now has his name, based on Einste
 :width: 50%
 :align: center
 
-Hendrik Lorentz (1853-1928). From [commons wiki](https://commons.wikimedia.org/wiki/File:Hendrik_Antoon_Lorentz.jpg), public domain
+Hendrik Lorentz (1853-1928). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hendrik_Antoon_Lorentz.jpg), public domain
 ```
 
 
