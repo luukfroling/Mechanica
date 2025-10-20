@@ -45,7 +45,7 @@ z' &= z
 \end{split}$$
 
 
-Now, if we compare GT to LT, we see that with the Lorentz Transformation this is no longer true: different observers may have different time. We will see that this has very peculiar consequences, some of which are very counterintuitive. However, they have been tested over and over again. And so far: they firmly hold. And there is no other way then to accept that the world and our universe is different from what we thought and from what we experience in our daily lives.
+Now, if we compare GT to LT, we see that with the Lorentz Transformation this is no longer true: different observers may have different time. We will see that this has very peculiar consequences, some of which are very counterintuitive. However, they have been tested over and over again. And so far: they firmly hold. And there is no other way than to accept that the world and our universe is different from what we thought and from what we experience in our daily lives.
 
 Do note, that the Galilei Transform is a limit of the Lorenz Transformation. If we let $c \rightarrow \infty$, we see that $\gamma \rightarrow 1$ and $\frac{V}{c} \rightarrow 0$. And this gives us: $t' = t$ and $x' = x - Vt$, that is the Galilean Transformation!
 Now, this should not come as a surprise (even if it for a moment did). After all, Classical Mechanics does an outstanding job in many, many physics problems and the agreement with experiments is excellent.
@@ -278,7 +278,7 @@ But this is not all: according to $S$ at the moment of the impact spaceship was 
 
 Ok, let's push this somewhat further and see if we can get a contradiction.
 
-We do know, from $S$ that the event took place at $ct_2 = 0.5\ \mathrm{ls}$. Then, definitely $S'$ has passed Earth. $S$ has reconstructed this event from observation Event $E_1$ $S'$ got the information of event $E_2$ from $S$ and backed out the coordinates of the event in her coordinate system. From these data, $S'$ can easily predict when she will see the impact. That is obviously later then the time of the event: the photons have to travel to her. How can we compute when $S'$ literally sees the event? 
+We do know, from $S$ that the event took place at $ct_2 = 0.5\ \mathrm{ls}$. Then, definitely $S'$ has passed Earth. $S$ has reconstructed this event from observation Event $E_1$ $S'$ got the information of event $E_2$ from $S$ and backed out the coordinates of the event in her coordinate system. From these data, $S'$ can easily predict when she will see the impact. That is obviously later than the time of the event: the photons have to travel to her. How can we compute when $S'$ literally sees the event? 
 
 That is remarkably easy: we know that according to $S'$ the event tokes place at $(ct'_2, x_2') = (-0.767\ \mathrm{ls}, 1.333\ \mathrm{ls})$. At that moment and that place a photon was generated that moves in her direction. Since the velocity of each photon is always $c$, we can easily find the time when $S'$ sees the photon, i.e. detect it at location $x'=0$. The photon has to travel a distance $1.33 ls$ at a speed of $1 c$. That will take 1.33s. The photon started traveling at time $ct_2 = -0.767$. It's trajectory according to $S'$ is $x'_p(t') = x'_p(0) - c (t' - t'_2)$.
 
@@ -532,7 +532,7 @@ Four events of the ladder & barn paradox
 
 Note: the size of the ladder in the sketch above is of course open for debate between the two observers :-).
 
-Observer Barn ($B$) will conclude that the ladder fits inside the barn and actually is inside the barn if Event 3 is earlier then Event 2, according to the clock of observer $B$. If, however, Event 3 is later than Event 2, the ladder does not fit. Similarly, observer Ladder ($L$) will draw the same conclusions, but based on the clock of observer $L$.
+Observer Barn ($B$) will conclude that the ladder fits inside the barn and actually is inside the barn if Event 3 is earlier than Event 2, according to the clock of observer $B$. If, however, Event 3 is later than Event 2, the ladder does not fit. Similarly, observer Ladder ($L$) will draw the same conclusions, but based on the clock of observer $L$.
 
 Let's analyze these events. We will denote the coordinates of observer $B$ as $(ct,x)$ and those of observer $L$ as $(ct', x')$. Both observers agree that they will call the position of the left door the origin, that is $x_{LD} = x'_{LD} = 0$. Moreover, they agree that at the moment the right end of the ladder is at the left door, they will set their clocks to 0. Remember: according to observe $B$, the length of the ladder is $L_{0L}/ \gamma$ = 10 m, which happens to be the size of the barn according to $B$. We anticipate that $B$ will conclude that the ladder fits.
 
