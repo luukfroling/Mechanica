@@ -145,9 +145,7 @@ Relation of angle of deflection and change in momentum.
 ```
 $$\tan \phi = \frac{\Delta p}{p} \Rightarrow \phi \approx \frac{\Delta p}{p} \text{ if } \phi \ll 1$$
   
--  The momentum change is due to the force $F_c$ working for a time period 
-
-$\Delta t$ on the particle:
+-  The momentum change is due to the force $F_c$ working for a time period $\Delta t$ on the particle:
 
 $$ dP = Fdt -\rightarrow \Delta p \approx F_c \Delta t$$
 
