@@ -33,9 +33,9 @@ $$\gamma = \frac{1}{\sqrt{1 - \frac{V^2}{c^2}}}$$
 </tr>
 </table>
 
-But there is more! Einstein also changed our view on the universe and on time itself. In the world of Newton and Galilei, people could not even think about relativity of time. Of course time was the same for everyone. There was only one time, one master clock - the same for all of us. It is hard coded in the Galilei Transformation: 
+But there is more! Einstein also changed our view on the universe and on time itself. In the world of Newton and Galilei, people could not even think about relativity of time. Of course time was the same for everyone. There was only one time, one master clock - the same for all of us. It is hard coded in the Galilean Transformation: 
 
-**Galilei Transformation**
+**Galilean Transformation**
 
 $$\begin{split}
 t' &= t \\
@@ -47,7 +47,7 @@ z' &= z
 
 Now, if we compare GT to LT, we see that with the Lorentz Transformation this is no longer true: different observers may have different time. We will see that this has very peculiar consequences, some of which are very counterintuitive. However, they have been tested over and over again. And so far: they firmly hold. And there is no other way then to accept that the world and our universe is different from what we thought and from what we experience in our daily lives.
 
-Do note, that the Galilei Transform is a limit of the Lorenz Transformation. If we let $c \rightarrow \infty$, we see that $\gamma \rightarrow 1$ and $\frac{V}{c} \rightarrow 0$. And this gives us: $t' = t$ and $x' = x - Vt$, that is the Galilei Transformation!
+Do note, that the Galilei Transform is a limit of the Lorenz Transformation. If we let $c \rightarrow \infty$, we see that $\gamma \rightarrow 1$ and $\frac{V}{c} \rightarrow 0$. And this gives us: $t' = t$ and $x' = x - Vt$, that is the Galilean Transformation!
 Now, this should not come as a surprise (even if it for a moment did). After all, Classical Mechanics does an outstanding job in many, many physics problems and the agreement with experiments is excellent.
 
 ## The Lorentz Transformation
@@ -75,7 +75,7 @@ $S$ and $S'$: relative velocity parallel to the $x$ and $x'$ axes.
 N.B. It is crucial to be very precise in your notation when it comes to coordinates and quantities. For instance: $S$ might talk about the $x$-component of the velocity of an object and denote this by $v_x$. $S'$, on the other hand can also talk about that component, but will not call it the $x$-component: in the world of $S'$ $x$ "does not exist", only $x'$ does. So it is better to write $v'_{x'}$ for the $x'$-component of the velocity of the object according to $S'$. It may look cumbersome, and to a certain extend it is, but it actually does make sense. $S'$ would say that this component is $\frac{dx'}{dt'}$ both space and time having a prime. Hence, naturally $S'$ would talk about $\vec{r}' = x' \hat{x'} + y' \hat{y'} + z' \hat{z'}$ or $\vec{v}' = v'_{x'} \hat{x'} + v'_{y'} \hat{y'} + v'_{z'} \hat{z'}$
 
 ### Lorentz Transformation and its inverse
-The Lorentz Transformation, like the Galilei Transformation is a communication protocol for $S$ and $S'$. It allows them to interpret information that they get from each other in their own 'world', i.e. coordinate system.
+The Lorentz Transformation, like the Galilean Transformation is a communication protocol for $S$ and $S'$. It allows them to interpret information that they get from each other in their own 'world', i.e. coordinate system.
 
 For instance, if $S$ sees an object moving with $v_x$, $S'$ can 'translate' this information via the Lorentz Transformation into $v'_{x'}$ and $v'_{y'}$ or so if applicable.
 Of course, $S$ also needs such a translation scheme when receiving information from $S'$. That is: $S$ needs the inverse transformation.
@@ -136,7 +136,7 @@ Do you see the pattern? Can you derive the general rule? What is the next one? H
 
 ### In the limit  
 
-In the **limit of low speeds** with respect to the speed of light $\frac{V}{c}\ll 1 \Rightarrow \gamma =1$. Practically, this happens for about $V< 0.1 c \sim 30.000 \mathrm{km/s}$. In this limit the Lorentz transformation also reduces to the Galileo transformation.
+In the **limit of low speeds** with respect to the speed of light $\frac{V}{c}\ll 1 \Rightarrow \gamma =1$. Practically, this happens for about $V< 0.1 c \sim 30.000 \mathrm{km/s}$. In this limit the Lorentz transformation also reduces to the Galilean Transformation.
 
 $$
 \begin{array}{rcl}
@@ -175,7 +175,7 @@ George Fitzgerald (1851-1901). From [Wikimedia Commons](https://commons.wikimedi
 ```
 
 
-Before Einstein's idea spread, Lorentz thought about the transformation as a fix to Galileo Transformation. Later he understood, of course. Unfortunately, Fitzgerald did not live long enough to see the first publication of Einstein on Relativity in 1905.
+Before Einstein's idea spread, Lorentz thought about the transformation as a fix to Galilean Transformation. Later he understood, of course. Unfortunately, Fitzgerald did not live long enough to see the first publication of Einstein on Relativity in 1905.
 
 The electro-magnetic wave equation can be transformed from $S$ to $S'$. And indeed, if you would do that, you would find that the wave equation maintains its form with the same $c$, not a new $c'$. Lorentz had found this, but it was Einstein who underpinned and generalized the use of the Lorentz Transformation to all mechanics, replacing the Galilean Transformation.
 

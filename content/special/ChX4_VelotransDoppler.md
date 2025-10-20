@@ -91,7 +91,7 @@ $$
 u'_{y'} = \frac{\Delta y}{\gamma \Delta ct - \gamma \frac{V}{c}\Delta x} = \frac{u_y}{\gamma \left (1-\frac{Vu_x}{c^2}\right )}
 $$
 
-In the limit of $u_x,V\ll c$ both formulas reduce to the Galileo transformation as required. For $u_x\to c$ and $V\to -c$ the combined velocity will stay smaller than $c$. Check yourself that this is true.
+In the limit of $u_x,V\ll c$ both formulas reduce to the Galilean Transformation as required. For $u_x\to c$ and $V\to -c$ the combined velocity will stay smaller than $c$. Check yourself that this is true.
 
 The formula for the velocity transformation/addition are not so easy to remember. Later you will see how to derive them from the transformation properties of the 4-velocity, which is easy to remember.  
 

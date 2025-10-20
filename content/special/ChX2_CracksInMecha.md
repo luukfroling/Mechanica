@@ -331,7 +331,7 @@ Now we still need to find a transformation $E_z\to E'_{z'}$ (and $c'\to c)$ tryi
 
 ### Hypothesis of the aether
 
-As light is a wave, people naturally thought there must be a medium to transport the wave, *something* must be oscillating. Vacuum was considered nothing, not something. A water wave, needs water as medium to transport the wave; the water oscillates. Or take sound waves, they need gas, liquid or a solid to oscillate. What could be the medium  that light, electromagnetic waves, use to oscillate? This medium must be all around us, in the space between the sun and earth, just everywhere. To save the Galilei invariance of Maxwell's equations this also needs to be a very special kind of medium that behaves differently than other media. This strange hypothetical medium was termed *aether* (ether). The search for the properties of the aether lead to the Michelson-Morley experiment - which showed that there was no aether at all!  [Lorentz](https://en.wikipedia.org/wiki/Hendrik_Lorentz) and [Fitzgerald](https://en.wikipedia.org/wiki/George_Francis_FitzGerald) found an ad hoc way to save the day by postulating an adapted version of the Galilei transformation and a contraction of length. Later more about that, and how Einstein showed that all of this ad hoc business is not needed, things follow directly from his second axiom.
+As light is a wave, people naturally thought there must be a medium to transport the wave, *something* must be oscillating. Vacuum was considered nothing, not something. A water wave, needs water as medium to transport the wave; the water oscillates. Or take sound waves, they need gas, liquid or a solid to oscillate. What could be the medium  that light, electromagnetic waves, use to oscillate? This medium must be all around us, in the space between the sun and earth, just everywhere. To save the Galilei invariance of Maxwell's equations this also needs to be a very special kind of medium that behaves differently than other media. This strange hypothetical medium was termed *aether* (ether). The search for the properties of the aether lead to the Michelson-Morley experiment - which showed that there was no aether at all!  [Lorentz](https://en.wikipedia.org/wiki/Hendrik_Lorentz) and [Fitzgerald](https://en.wikipedia.org/wiki/George_Francis_FitzGerald) found an ad hoc way to save the day by postulating an adapted version of the Galilean Transformation and a contraction of length. Later more about that, and how Einstein showed that all of this ad hoc business is not needed, things follow directly from his second axiom.
 
 
 ## The Michelson-Morley experiment
@@ -421,7 +421,7 @@ We compute the traveling time from light leaving the beam splitter, reflecting a
 
 Time for light parallel to $V$: 
 
-* one part - tail wind from aether and velocity (according to Classical Mechanics with Galilei Transformation) $c+V$. 
+* one part - tail wind from aether and velocity (according to Classical Mechanics with Galilean Transformation) $c+V$. 
 * Other part: head wind with velocity $c-V$. Thus traveling time:
 
 $$t_{//} = \frac{L}{c-V} + \frac{L}{c+V} = \frac{2L}{c} \frac{1}{1-\frac{V^2}{c^2}}$$

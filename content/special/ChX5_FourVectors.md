@@ -11,7 +11,7 @@ In 3D space we define a point/coordinate by its components $(x,y,z)$ where all c
 
 If we want to measure distances $\Delta s$ between two points $(x_1,y_1,z_1)$ and $(x_2,y_2,z_2)$ we do this in 3D Euclidean space as $\Delta s^2 = (x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2 = \Delta x^2 + \Delta y^2 + \Delta z^2$. These distances are Galileo invariant, observer $S$ and $S'$ moving with $\vec{V}$ measure the same distance $\Delta s^2 = \Delta s^{'2}$. Note, that we take these two pints at the sam time $t$: $t_1=t_2$. Or rephrased: we perform the measurement in the rest frame of the object we measure. That makes sense: measuring the length of an object that is moving requires that we measure the left and right side at the same time. Otherwise, the motion of the object will interfere with our measurements of the length.
 
-The above statement is easily shown by invoking the Galilei Transformation:
+The above statement is easily shown by invoking the Galilean Transformation:
 
 $$\begin{split}
 x' &= x - V t \\
