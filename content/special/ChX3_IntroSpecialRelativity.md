@@ -203,7 +203,7 @@ For instance, it takes a photon about $8.3\ \mathrm{minutes}$ to travel from the
 
 ````{example} spaceship
 
-A spaceship is flying at a velocity $0.8c$ passed Earth in the direction of the moon. The moon is at a distance of $1.2\ \mathrm{ls}$ (that is some $3.6 \cdot 10^8$m) from the Earth.
+A spaceship is flying at a velocity $0.8c$ past Earth in the direction of the moon. The moon is at a distance of $1.2\ \mathrm{ls}$ (that is some $3.6 \cdot 10^8$m) from the Earth.
 The clocks on Earth and in the spaceship are set to zero when the spaceship passes the Earth.
 
 At time $ct = 1.7\ \mathrm{ls}$ observer $S$ of the Earth observes that a big comet strikes the moon surface.
@@ -441,7 +441,7 @@ Now that we have seen that time intervals are no longer universal, we need to th
 
 Normally, we measure the length of an object by seeing how many times a measuring stick fits in the object. We obviously do this in the frame of reference in which the object doesn't move. There we don't need to worry about the moment we start at the left side of the object and arrive with our measuring stick on the right side. But if we would do so in a frame of reference in which the object is moving, that wouldn't work of course. By the time we would reach the right side of the object, it would no longer be at its starting position when we began our measurement and the number of times our ruler fits in the object is now influenced by the motion of the right side of the object.
 
-To measure the length of a moving object, we thus need a different strategy. What we could do, is having a very long ruler fixed in our system. The object is moving passed it. If we have two observers, one concentrating on the left side of the object and the other on the right side, we could ask them to measure the position of the left and right side of the object along the ruler **at the same time**. Then the difference of the left and right side on the ruler will give us the length of the object.
+To measure the length of a moving object, we thus need a different strategy. What we could do, is having a very long ruler fixed in our system. The object is moving past it. If we have two observers, one concentrating on the left side of the object and the other on the right side, we could ask them to measure the position of the left and right side of the object along the ruler **at the same time**. Then the difference of the left and right side on the ruler will give us the length of the object.
 
 Thus: the length is measured from the difference of two events in space-time of the front and the back of the rod. We will call the events $E_L: (ct_1, x_1)$ and $E_R: (ct_2, x_2)$. As we measure size, we require: $t_1 = t_2$, that is the measurements are done simultaneously in $S$. According to $S$, the length of the rod is $L = x_2 - x_1$, nothing special here. 
 
