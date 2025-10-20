@@ -193,7 +193,7 @@ Close your book, laptop. Shut down your screen, put aside your mobile, tablet. P
 ## Length contraction & Time dilatation
 
 ### First Implications
-As we have seen, we need to use the Lorentz Transformation instead of the Galilei one when two observers, $S$ and $S'$, want to exchange information. What does change if we do so? Let's first do some examples and see some of the consequences and the 'strange' conclusions we need to draw.
+As we have seen, we need to use the Lorentz Transformation instead of the Galilei one when two observers, $S$ and $S'$, want to exchange information. What changes if we do so? Let's first do some examples and see some of the consequences and the 'strange' conclusions we need to draw.
 
 Note: we will frequently use high velocities and large distances. It is convenient not to write these in units like $m$ and $m/s$. The numbers in front of them become so large that keeping an overview becomes cumbersome. Therefore, we will change to a different unit for distance: the light second. That is per definition the distance a photon of light ray travels in one second:
 
