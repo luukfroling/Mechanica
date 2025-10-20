@@ -199,7 +199,7 @@ Note: we will frequently use high velocities and large distances. It is convenie
 
 $$ 1 \text{ lightsecond} = 1 \mathrm{ls} = c \cdot 1 \mathrm{sec} = 3.0 \cdot 10^8 \mathrm{m} $$
 
-For instance, it takes a photon about $8.3 \mathrm{minutes}$ to travel from the sun to the Earth. Thus, the distance from the sun to the Earth is $8.3 \mathrm{lmin} = 500 \mathrm{ls}$. That is equivalent to $150 \cdot 10^6 \mathrm{km}$.
+For instance, it takes a photon about $8.3\ \mathrm{minutes}$ to travel from the sun to the Earth. Thus, the distance from the sun to the Earth is $8.3 \mathrm{lmin} = 498\ \mathrm{ls}$. That is equivalent to $150 \cdot 10^6\ \mathrm{km}$.
 
 ````{example} Space ship
 
