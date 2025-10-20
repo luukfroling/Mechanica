@@ -57,7 +57,7 @@ $$\begin{split}
 &= \gamma \frac{dE/c}{dt} c - \gamma \vec{u} \cdot \frac{d \gamma m \vec{u}}{dt}
 \end{split}$$
 
-Thus we can divide $gamma$ out of this equation and write $c E/c = E$:
+Thus we can divide $\gamma$ out of this equation and write $c E/c = E$:
 
 $$0 = \frac{dE}{dt} - \vec{u} \cdot \frac{d \gamma m \vec{u}}{dt} \Rightarrow \frac{dE}{dt} = \vec{u} \cdot \frac{d \gamma m \vec{u}}{dt}$$
 

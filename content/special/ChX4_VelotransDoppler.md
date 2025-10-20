@@ -191,7 +191,7 @@ $$
 \frac{f_0}{f} = \gamma \left (1+\frac{u_r}{c} \right ) = \frac{1+\frac{u_r}{c}}{\sqrt{1-\frac{u^2}{c^2}}}
 $$
 
-Please observe that the $gamma$ factor is of $\gamma(u)$ that means even for only tangential movement $(u_r=0)$ there is a Doppler shit.
+Please observe that the $\gamma$ factor is of $\gamma(u)$ that means even for only tangential movement $(u_r=0)$ there is a Doppler shit.
 
 ### Cosmic background radiation
 

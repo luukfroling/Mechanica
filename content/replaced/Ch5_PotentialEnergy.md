@@ -58,7 +58,7 @@ We can visualize what we need to do: we cut the curve in small part; compute $\v
 Closed path on a grid.
 ```
 
-We are going to compute much more: take a look at {numref}`fig:Stokes2.png`. We have put a grid in the $xy$-plane over a closed curve $gamma$. Hence, the interior of our curve is fool op squares. We are not only computing the parts along the curve, but also along the sides of alle curves. This will sound like way too much work, but we will see that it actually is a very good idea.
+We are going to compute much more: take a look at {numref}`fig:Stokes2.png`. We have put a grid in the $xy$-plane over a closed curve $\gamma$. Hence, the interior of our curve is fool op squares. We are not only computing the parts along the curve, but also along the sides of alle curves. This will sound like way too much work, but we will see that it actually is a very good idea.
 
 See {numref}`fig:Stokes2.png`: we calculate $\oint \vec{F} \cdot d\vec{r}$ counter clockwise for the green square. Than we have at least the green part of our $\oint \vec{F} \cdot d\vec{r}$ done in the right direction. Hence, we compute $\int \vec{F} \cdot d\vec{r}$ along the right side of the green square. We do that from bottom to top as we go counter clockwise along the green square. Let's call that $\int_g \vec{F} \cdot d\vec{r}$.  
 
@@ -66,7 +66,7 @@ Then we move to the blue square and repeat in counter clockwise direction our ca
 
 Note that we will add all contributions. Thus we get $\int_g \vec{F} \cdot d\vec{r} + \int_b \vec{F} \cdot d\vec{r}$. But these two cancel each other as they are exactly the same but done in opposite directions. Thus if we use that $\int_1^2 f dx = - \int_2^1 f dx$ for any integration, it becomes obvious that  $\int_g \vec{F} \cdot d\vec{r} + \int_b \vec{F} \cdot d\vec{r} = 0$.  
 
-Note that this will happen for all side of the squares that are in the interior of our curve. Thus, the integral over all squares is exactly the integral along the curve $gamma$.  
+Note that this will happen for all side of the squares that are in the interior of our curve. Thus, the integral over all squares is exactly the integral along the curve $\gamma$.  
 
 It seems, we do a lot of work for nothing. But there is another way of looking at the path-integrals along the squares. If we make the square small enough, the calculation along one square can be approximated:
 

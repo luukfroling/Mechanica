@@ -450,7 +450,7 @@ Now that we have reduced a two-particle system to a single particle problem, the
 
 The answer is: no. There is no general strategy to reduce a three body problem two a two body-one. 
 
-The three body problem is an old one. Already Newton himself worked on it. Its importance stems e.g. from navigation on see. It would be of great help if the position of the moon could be predicted in advance with great accuracy. Then sailors in the 17$^{\text{th}}$, 18$^{\text{th}}$ and 19$^{\text{th}}$ could have found much better their position at full sea. But no one succeeded in providing a closed solution in basic functions. 
+The three body problem is an old one. Already Newton himself worked on it. Its importance stems e.g. from navigation on sea. It would be of great help if the position of the moon could be predicted in advance with great accuracy. Then sailors in the 17$^{\text{th}}$, 18$^{\text{th}}$ and 19$^{\text{th}}$ could have found much better their position at full sea. But no one succeeded in providing a closed solution in basic functions. 
 
 The king of Sweden, Oscar II, announced, as celebration of his 60$^{\text{th}}$ birthday, a competition with the price awarded to the one that came up with a general solution. But it took a different course. The price went to the French mathematician and physicist Henri Poincaré. 
 

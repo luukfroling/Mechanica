@@ -251,7 +251,7 @@ $$
 \vec{c} = \vec{a} \times \vec{b} \equiv \| a \| \|b\| \sin\theta \, \hat{n}
 $$
 
-Here $theta$ is the angle between $\vec{a}$ and $\vec{b}$, and $\hat{n}$ is a unit vector normal to the plane spanned by $\vec{a},\vec{b}$ with direction given by the *right-hand rule*. 
+Here $\theta$ is the angle between $\vec{a}$ and $\vec{b}$, and $\hat{n}$ is a unit vector normal to the plane spanned by $\vec{a},\vec{b}$ with direction given by the *right-hand rule*. 
 
 ```{figure} images/Right_hand_rule.png
 :label: fig:Right_hand_rule.png

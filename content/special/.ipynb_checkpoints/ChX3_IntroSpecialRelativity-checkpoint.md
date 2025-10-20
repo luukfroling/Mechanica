@@ -107,7 +107,7 @@ z &=& z'
 \end{array}
 $$
 
-with the *Lorentz factor* $\gamma(V) \equiv \frac{1}{\sqrt{1-\frac{V^2}{c^2}}} \geq 1$. Note that as $gamma$ is quadratic in $V$, both $S$ and $S'$ use the same value! That is why we don't talk about $\gamma '$: it is equal to $gamma$.
+with the *Lorentz factor* $\gamma(V) \equiv \frac{1}{\sqrt{1-\frac{V^2}{c^2}}} \geq 1$. Note that as $\gamma$ is quadratic in $V$, both $S$ and $S'$ use the same value! That is why we don't talk about $\gamma '$: it is equal to $\gamma$.
 
 The structure of the formulas is very symmetric and therefore needs little remembering. 
 
@@ -115,15 +115,15 @@ From the Lorentz transformation it is clear that time is not universal anymore (
 
 ### Lorentz factor
 
-The Lorentz factor (or $gamma$-factor) 
+The Lorentz factor (or $\gamma$-factor) 
 
 $$
 \gamma=\frac{1}{\sqrt{1-\frac{V^2}{c^2}}} \geq 1
 $$
 
-is a dimensionless constant depending on the ratio of the velocity $V$ to the speed of light $c$. Sometimes this ratio $V/c$ is abbreviated further as $\beta \equiv \frac{V}{c} \leq 1$. For the ratio we know that it is smaller than 1 as $c$ is a limit velocity. From that it follows that the $gamma$-factor is always equal to or larger than one, $\gamma \geq 1$. 
+is a dimensionless constant depending on the ratio of the velocity $V$ to the speed of light $c$. Sometimes this ratio $V/c$ is abbreviated further as $\beta \equiv \frac{V}{c} \leq 1$. For the ratio we know that it is smaller than 1 as $c$ is a limit velocity. From that it follows that the $\gamma$-factor is always equal to or larger than one, $\gamma \geq 1$. 
 
-In many exercises the speed $V$ is given already as fraction of $c$, e.g. $V=0.8c$. Analytically only for very few speeds a nice $gamma$-factor is computed. These are for instance
+In many exercises the speed $V$ is given already as fraction of $c$, e.g. $V=0.8c$. Analytically only for very few speeds a nice $\gamma$-factor is computed. These are for instance
 
 $$
 \begin{array}{rcl}
@@ -148,7 +148,7 @@ z' &=& z
 \end{array}
 $$
 
-In the **limit of infinity speed of light** ($c\to\infty$) the $gamma$-factor is again one: $\gamma=1$ and the ratio $V/c \to 0$. Also here the LT reduces to the GT. The case of infinite speed of light represents the case that GT is generally valid, i.e. $c'=c+V$. 
+In the **limit of infinity speed of light** ($c\to\infty$) the $\gamma$-factor is again one: $\gamma=1$ and the ratio $V/c \to 0$. Also here the LT reduces to the GT. The case of infinite speed of light represents the case that GT is generally valid, i.e. $c'=c+V$. 
 
 It is always important to verify that an extension of the known theory reduces to the known theory that has proofed itself for most circumstances.
 
@@ -246,7 +246,7 @@ Again notice that we have updated this event not only by using the actual time, 
 
 $S$ passes this information on to $S'$. She has to translate it to her own coordinates and uses for that the Lorentz transform.
 
-First, she needs to calculate the $gamma$-factor:
+First, she needs to calculate the $\gamma$-factor:
 
 $$ \gamma = \frac{1}{\sqrt{ 1 -\frac{V^2}{c^2}} } = \frac{1}{\sqrt{1 - \frac{16}{25}}} = \frac{5}{3} $$
 
@@ -444,7 +444,7 @@ $$
 t= \frac{2L/c}{\sqrt{1-\frac{V^2}{c^2}}} = \gamma \frac{2L}{c}> \frac{2L}{c}
 $$
 
-We see directly that the time the stationary observer $S$ records is larger than the moving observer $S'$ itself which is just $2L/c$ (the time in his rest frame)! The time interval gets longer/dilated by the $gamma$-factor.
+We see directly that the time the stationary observer $S$ records is larger than the moving observer $S'$ itself which is just $2L/c$ (the time in his rest frame)! The time interval gets longer/dilated by the $\gamma$-factor.
 
 $$
 \Delta T = \gamma \Delta T_0
