@@ -35,7 +35,7 @@ During their quest to find planets at other stars than our sun, ESA researcher d
 
 In this exercise, we ignore possible effects of acceleration. A lightyear is the distance traveled by a photon in one year.
 
-1. What is the required velocity of the Space Ship (with respect to the reference frame of the earth) to ensure a journey of 30 years (ignore the time spent on the other planet)?
+1. What is the required velocity of the spaceship (with respect to the reference frame of the earth) to ensure a journey of 30 years (ignore the time spent on the other planet)?
 2. What is according to the astronauts the distance the have to travel? Does that agree with the journey time of 30 years?
 3. To inform Mission Control on earth the astronauts send yearly (according to their clock) a report to earth. Of course, the report is coded in the form of a light pulse. What is the period between receiving two consecutive reports according to Mission Control?
 
@@ -89,7 +89,7 @@ Do the exercise twice: first for observers in the world of Einstein and Lorentz,
 ```{solution} 13.1
 :class: dropdown
 
-1. Denote Mission control by $S$ and the Space Ship by $S'$. According to S, the distance to the planet is $L=40 ly$. Thus the traveling time will be $\delta t_e = \frac{L}{V}$, with $V$ the velocity of the Space Ship according to $S$.
+1. Denote Mission control by $S$ and the spaceship by $S'$. According to S, the distance to the planet is $L=40 ly$. Thus the traveling time will be $\delta t_e = \frac{L}{V}$, with $V$ the velocity of the spaceship according to $S$.
 $S'$ time dilation $\rightarrow \delta t_e = \gamma \delta t_0$  
 Requirement: $\delta t_0 = 30 ly \rightarrow \frac{L}{V} = \frac{1}{\sqrt{1 - \frac{V^2}{c^2}}} \delta t_0 \Rightarrow \frac{V}{c} = \frac{4}{5} $
 

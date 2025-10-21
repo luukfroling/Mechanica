@@ -13,11 +13,11 @@ kernelspec:
 
 # Conservation Laws / Galilean Transformation
 
-In the previous chapters, we have seen that from Newton's three laws, we can obtain conservation laws. That means, under certain conditions (depending on the law), a specific quantity can not change.
+In the previous chapters, we have seen that from Newton's three laws, we can obtain conservation laws. That means, under certain conditions (depending on the law), a specific quantity cannot change.
 
 These conservation equations are very important in physics. They tell us that no matter what happens, certain quantities will be present in the same amount: they are *conserved*. 
 
-Conservation of energy follows from the concept of work and potential energy. Conservation of momentum is a direct consequence of N2 and N3, as we will see below. And finally, under certain conditions, angular momentum is also conserved. In this chapter we will summarize them. The reason is: their importance in physics. These laws are very general and in dealing with physics questions they give guidance and very strict rules that have to be obeyed. They form the foundation of physics that can not be violated. They provide strong guidance and point at possible directions to look for when analyzing problems in physics.
+Conservation of energy follows from the concept of work and potential energy. Conservation of momentum is a direct consequence of N2 and N3, as we will see below. And finally, under certain conditions, angular momentum is also conserved. In this chapter we will summarize them. The reason is: their importance in physics. These laws are very general and in dealing with physics questions they give guidance and very strict rules that have to be obeyed. They form the foundation of physics that cannot be violated. They provide strong guidance and point at possible directions to look for when analyzing problems in physics.
 
 ## Conservation of Momentum
 
@@ -39,7 +39,7 @@ $$
 \sum{E_{kin}} + \sum{V} = const
 $$
 
-Again: energy can be redistributed but it can not disappear nor be formed out of nothing.
+Again: energy can be redistributed but it cannot disappear nor be formed out of nothing.
 
 If non-conservative forces are present, the right hand side of the equation should be replaced by the work done by these forces.
 
@@ -47,7 +47,7 @@ $$
  \sum{E_{kin}} + \sum{V} = \sum W
 $$
 
-In many cases this will lead to heat, a central quantity in thermodynamics and another form of energy. The "loss" of energy goes always to heat. With this 'generalization' we have a second law that must always hold. Energy can not be created nor destroyed. All it can do is change its appearance or move from one object to another.
+In many cases this will lead to heat, a central quantity in thermodynamics and another form of energy. The "loss" of energy goes always to heat. With this 'generalization' we have a second law that must always hold. Energy cannot be created nor destroyed. All it can do is change its appearance or move from one object to another.
 
 
 ## Conservation of Angular Momentum
@@ -67,7 +67,7 @@ $$
 
 ```{intermezzo} Conservation of Mass
 
-Within the world of Classical Mechanics, mass is also a conserved quantity. Whatever you do, what ever the process the total mass in the system stays the same. We can not create nor destroy mass. From more modern physics we know that this is not true. On the one hand we can destroy mass. For instance, when an electron and a positron collide, they can annihilate each other resulting in two photons, i.e. 'light particles' that do not have mass. Similarly, we can create mass out of light. This is the inverse of the annihilation: pair production. If we have a photon of at least $1.022 \mathrm{MeV} (= 1.66 10^{-13}\mathrm{J}$), then -under the right conditions- an electron-positron pair can be created.
+Within the world of Classical Mechanics, mass is also a conserved quantity. Whatever you do, what ever the process the total mass in the system stays the same. We cannot create nor destroy mass. From more modern physics we know that this is not true. On the one hand we can destroy mass. For instance, when an electron and a positron collide, they can annihilate each other resulting in two photons, i.e. 'light particles' that do not have mass. Similarly, we can create mass out of light. This is the inverse of the annihilation: pair production. If we have a photon of at least $1.022\ \mathrm{MeV} (= 1.66 10^{-13}\mathrm{J}$), then -under the right conditions- an electron-positron pair can be created.
 
 Moreover, Albert Einstein showed that mass and energy are equivalent - expressed via his famous equation $E = mc^2$. His theory of Relativity showed us that in collisions at extreme velocities mass is not conserved: it can both be created or disappear. Rephrased: it is actually part of the energy conservation, mass is in that context just a form of energy.
 ```
@@ -104,7 +104,7 @@ The original thought was: for inertial observers. These are observers that are a
 
 But this merely shifts the question to: what is an inertial frame of reference? One possible answer is: an inertial frame of reference is a frame in which Newton's Laws hold. That is: a particle on which, according to an observer in such a frame, no net force is acting will keep moving at a constant velocity.
 
-All inertial frames of reference move at a constant velocity with respect to each other. They can not accelerate. To picture what it means, an inertial frame of reference or an inertial observer, we sometimes use the idea that such a frame or observer moves at a constant velocity with respect to the 'fixed' stars. And indeed, for a long time people believed that the stars were fixed in space. But from more modern times we do know, that this is not the case: stars are not fixed in space nor do they move at a constant velocity. 
+All inertial frames of reference move at a constant velocity with respect to each other. They cannot accelerate. To picture what it means, an inertial frame of reference or an inertial observer, we sometimes use the idea that such a frame or observer moves at a constant velocity with respect to the 'fixed' stars. And indeed, for a long time people believed that the stars were fixed in space. But from more modern times we do know, that this is not the case: stars are not fixed in space nor do they move at a constant velocity. 
 
 Later in the study of Classical Mechanics, we will see, that it is possible to do without the restriction that Newton's Law strictly speaking only hold in inertial frames. But for now, we will stick to inertial frames and look at the 'communication' between two observers in two different inertial frames. 
 

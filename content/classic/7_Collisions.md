@@ -142,7 +142,7 @@ Above we provided a {ref}`Vpython <Vpyt_col>` simulation. Change the code in ord
 Actually, now we think about this strategy: isn't it strange, the kinetic energy equation is squared in our unknowns. Shouldn't we expect 2 solutions? 
 
 The answer is yes: there ought to be 2 solutions. Where is the second one?
-Note that when dividing the two equations, we have to make sure that we do not divide by 0. It is very well possible that we do so: suppose $u' = 0$, then also $2v-v' = 0$ and we can not do the division. But what does that mean: $u'=0$ and $2v-v'=0$? Well, of course, then we have after the collision that the incoming particle $2m$ still has velocity $2v$ and the other particle $3m$ is still at rest. 
+Note that when dividing the two equations, we have to make sure that we do not divide by 0. It is very well possible that we do so: suppose $u' = 0$, then also $2v-v' = 0$ and we cannot do the division. But what does that mean: $u'=0$ and $2v-v'=0$? Well, of course, then we have after the collision that the incoming particle $2m$ still has velocity $2v$ and the other particle $3m$ is still at rest. 
 
 In retrospect: of course this must be one of the solutions to the problem. We haven't specified anything about the interaction force. But suppose it is absent, that is, the particles don't interact at all. Then of course the situation before the collision (a bit strange calling this a collision, but anyway), will still be present after the 'collision'. If nothing happens to the particles, then obviously the sum of the momentum as well as of the kinetic energy stays the same. This actually provides a great check of your work: do you recover the initial conditions?
 
@@ -586,7 +586,7 @@ $$Q = c m \Delta T = C \Delta T$$
 where $c$ is the specific heat in J/(kgK) and $C$ the heat capacity in J/kg.
 
 ```{example} Falling iron ball
-An iron ball with a radius of $1 \mathrm{cm}$ falls from $1.5 \mathrm{m}$ height. Assume that all potential energy is converted in heat and only the ball increases in temperature. What will the temperature increase be?
+An iron ball with a radius of $1\ \mathrm{cm}$ falls from $1.5\ \mathrm{m}$ height. Assume that all potential energy is converted in heat and only the ball increases in temperature. What will the temperature increase be?
 ```
 
 
@@ -618,12 +618,12 @@ $$
 
 with $c= 460 \mathrm{J/(kgK)}$, 
 
-$\Delta T = \frac{9.81 \mathrm{m/s^2} 1.5 \mathrm{m}}{460 \mathrm{J/(kgK)}} = 0.03\mathrm{K}$
+$\Delta T = \frac{9.81 \mathrm{m/s^2} 1.5\ \mathrm{m}}{460 \mathrm{J/(kgK)}} = 0.03\mathrm{K}$
 
 Note that the increase in temperature does not depend on the mass of the object!
 ```
 ```{tab-item} Assess
-An increase of $0.03 \mathrm{K}$ is not noticeable, aligning with our everyday experience of dropping stuff and picking it up without burning our fingers.
+An increase of $0.03\ \mathrm{K}$ is not noticeable, aligning with our everyday experience of dropping stuff and picking it up without burning our fingers.
 ```
 
 `````

@@ -679,7 +679,7 @@ $$ m \lim_{\Delta t \rightarrow 0} \frac{\vec{v}(t+\Delta t) - \vec{v}(t)}{\Delt
 
 with $\vec{F}_{net}= -m \vec{g} - k |v|\vec{v}$
 
-On a computer, we can not literally take the limit of $\Delta t$ to zero, but we can make $\Delta t$ very small. If we do that, we can rewrite the difference equation (thus not taken the limit):
+On a computer, we cannot literally take the limit of $\Delta t$ to zero, but we can make $\Delta t$ very small. If we do that, we can rewrite the difference equation (thus not taken the limit):
 
 $$ \vec{v}(t+ \Delta t) = \vec{v}(t) + \frac{\vec{F}}{m}\Delta t $$
 

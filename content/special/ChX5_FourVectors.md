@@ -11,7 +11,7 @@ In 3D space we define a point/coordinate by its components $(x,y,z)$ where all c
 
 If we want to measure distances $\Delta s$ between two points $(x_1,y_1,z_1)$ and $(x_2,y_2,z_2)$ we do this in 3D Euclidean space as $\Delta s^2 = (x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2 = \Delta x^2 + \Delta y^2 + \Delta z^2$. These distances are Galileo invariant, observer $S$ and $S'$ moving with $\vec{V}$ measure the same distance $\Delta s^2 = \Delta s^{'2}$. Note, that we take these two pints at the sam time $t$: $t_1=t_2$. Or rephrased: we perform the measurement in the rest frame of the object we measure. That makes sense: measuring the length of an object that is moving requires that we measure the left and right side at the same time. Otherwise, the motion of the object will interfere with our measurements of the length.
 
-The above statement is easily shown by invoking the Galilei Transformation:
+The above statement is easily shown by invoking the Galilean Transformation:
 
 $$\begin{split}
 x' &= x - V t \\
@@ -276,7 +276,7 @@ In the animation below, we see the effect of different values of $V/c$ on the li
 
 ### The ladder & barn revisited
 
-We will now take a look back at the [ladder and barn paradox](./ChX3_IntroSpecialRelativity.md#paradox-twins-and-barns). We had a barn of $10 \mathrm{m}$ wide and a ladder of $26 \mathrm{m}$ long (both measured in their rest frame). The ladder was moving towards the barn with high velocity. We start by drawing the barn $S$ (black) and ladder $S'$ (<span style="color:blue">blue</span>) coordinate systems in the Minkowski diagram. Now we add the barn world line into the diagram (light blue) with 2 lines of constant space coordinate (parallel to $ct$) in $S$.
+We will now take a look back at the [ladder and barn paradox](./ChX3_IntroSpecialRelativity.md#paradox-twins-and-barns). We had a barn of $10\ \mathrm{m}$ wide and a ladder of $26\ \mathrm{m}$ long (both measured in their rest frame). The ladder was moving towards the barn with high velocity. We start by drawing the barn $S$ (black) and ladder $S'$ (<span style="color:blue">blue</span>) coordinate systems in the Minkowski diagram. Now we add the barn world line into the diagram (light blue) with 2 lines of constant space coordinate (parallel to $ct$) in $S$.
 
 ```{figure} ../images/chx5_mink1.svg
 :label: fig:chx5_mink1.svg
@@ -285,7 +285,7 @@ We will now take a look back at the [ladder and barn paradox](./ChX3_IntroSpecia
 
 ```
 
-Now we can add the <span style="color:red">ladder</span> to $S'$. It has rest length of $26 \mathrm{m}$ and in the $(x',ct')$ plane it is a world line of constant space coordinate, therefore parallel to $ct'$. The ladder itself is a line of constant time in $ct'$ and therefore parallel to $x'$.
+Now we can add the <span style="color:red">ladder</span> to $S'$. It has rest length of $26\ \mathrm{m}$ and in the $(x',ct')$ plane it is a world line of constant space coordinate, therefore parallel to $ct'$. The ladder itself is a line of constant time in $ct'$ and therefore parallel to $x'$.
 
 
 ```{figure} ../images/chx5_mink2.svg
@@ -318,7 +318,7 @@ From this diagram it is obvious that the events $B$ and $C$ are not the same, th
 
 ### The twin paradox
 
-Let there be  two twins, Alice and Bob. Bob leaves earth in a space ship with relativistic speed $\vec{v}$, while Alice remains back home on earth. At some time Bob turns around, with $-\vec{v}$ and comes back to Alice. Based on time dilation Alice will argue that Bob is younger than she due to $\Delta T = \gamma \Delta T_0$. For the $\gamma$-factor it does not matter if Bob is moving away or approaching as it is quadratic in the velocity. For each year she ages, her brother only ages $1/\gamma$ years. Bob can argue that due to the principle of relativity, he is at rest and his twin sister is moving away and then coming back, therefore she will be younger than he - and we have a paradox.
+Let there be  two twins, Alice and Bob. Bob leaves earth in a spaceship with relativistic speed $\vec{v}$, while Alice remains back home on earth. At some time Bob turns around, with $-\vec{v}$ and comes back to Alice. Based on time dilation Alice will argue that Bob is younger than she due to $\Delta T = \gamma \Delta T_0$. For the $\gamma$-factor it does not matter if Bob is moving away or approaching as it is quadratic in the velocity. For each year she ages, her brother only ages $1/\gamma$ years. Bob can argue that due to the principle of relativity, he is at rest and his twin sister is moving away and then coming back, therefore she will be younger than he - and we have a paradox.
 
 This paradox has two issues:
 
@@ -333,7 +333,7 @@ This paradox has two issues:
 .
 ```
 
-Extra: We symmetries the problem. Both Alice and Bob move in space ships away from each other at the same but opposite speed, then turn around and meet again. Who is older now?
+Extra: We symmetries the problem. Both Alice and Bob move in spaceships away from each other at the same but opposite speed, then turn around and meet again. Who is older now?
 
 **Answer**
 

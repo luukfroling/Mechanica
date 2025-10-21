@@ -124,13 +124,13 @@ There is no way that the plum pudding model could explain this. The argumentatio
 This value can be found from the density of gold, the mass of a gold atom and the mass and volume of the gold foil (or any other amount of gold). By treating the atoms as small spheres that are stacked back to back, the size of the atom is easily found.   
 - An $\alpha$-particle has a charge of $2e$ and is deflected by a gold atom due to the charge of the gold atom. As gold has number 79 in the periodic table, we know that the charge of a gold atom is +79e in the 'plum pudding' and -79e of all electrons floating in the pudding.  
 However, an $\alpha$-particle is much heavier than an electron. Hence in the Coulomb interaction between the $\alpha$ -particle and an electron, the acceleration (of deflection) of the 'heavy' $\alpha$-particle is negligible: the electrons are pushed out of the way (or actually attracted); they don't influence the trajectory of the $\alpha$-particle.  
-It is the positive charge of the pudding itself, that does the deflection. The atom (i.e. the pudding) can not move out of the way as it is part of the gold foil which is many orders of magnitude heavier than the incoming particle.     
+It is the positive charge of the pudding itself, that does the deflection. The atom (i.e. the pudding) cannot move out of the way as it is part of the gold foil which is many orders of magnitude heavier than the incoming particle.     
 
 Rutherford knew the theory of Maxwell for electromagnetism and could estimate the force an $\alpha$-particle would feel from the atom. He deduced that the force on the $\alpha$-particle is always smaller than:
 
 $$ F_c \leq \frac{q_\alpha Q_g}{4 \pi \epsilon_0} \frac{1}{r_0^2} $$ 
 
-with $Q$ the charge of the atom (i.e. +79e), $q_\alpha$ the charge ($+2e$) of the $\alpha$-particle, $\epsilon_0$ the permittivity of vacuum ($\frac{1}{4 \pi \epsilon} = 9 \cdot 10^9 \mathrm{Nm}^2/\mathrm{C}^2$) and $r_0$ the radius of a gold atom.
+with $Q$ the charge of the atom (i.e. +79e), $q_\alpha$ the charge ($+2e$) of the $\alpha$-particle, $\epsilon_0$ the permittivity of vacuum ($\frac{1}{4 \pi \epsilon} = 9 \cdot 10^9\ \mathrm{Nm}^2/\mathrm{C}^2$) and $r_0$ the radius of a gold atom.
 
 The deflection of the particle is biggest if the Coulomb force is perpendicular to the trajectory. So, we take that for our estimate. The true effect, when passing through the atom, will be smaller.  
 
@@ -331,7 +331,7 @@ Now we still need to find a transformation $E_z\to E'_{z'}$ (and $c'\to c)$ tryi
 
 ### Hypothesis of the aether
 
-As light is a wave, people naturally thought there must be a medium to transport the wave, *something* must be oscillating. Vacuum was considered nothing, not something. A water wave, needs water as medium to transport the wave; the water oscillates. Or take sound waves, they need gas, liquid or a solid to oscillate. What could be the medium  that light, electromagnetic waves, use to oscillate? This medium must be all around us, in the space between the sun and earth, just everywhere. To save the Galilei invariance of Maxwell's equations this also needs to be a very special kind of medium that behaves differently than other media. This strange hypothetical medium was termed *aether* (ether). The search for the properties of the aether lead to the Michelson-Morley experiment - which showed that there was no aether at all!  [Lorentz](https://en.wikipedia.org/wiki/Hendrik_Lorentz) and [Fitzgerald](https://en.wikipedia.org/wiki/George_Francis_FitzGerald) found an ad hoc way to save the day by postulating an adapted version of the Galilei transformation and a contraction of length. Later more about that, and how Einstein showed that all of this ad hoc business is not needed, things follow directly from his second axiom.
+As light is a wave, people naturally thought there must be a medium to transport the wave, *something* must be oscillating. Vacuum was considered nothing, not something. A water wave, needs water as medium to transport the wave; the water oscillates. Or take sound waves, they need gas, liquid or a solid to oscillate. What could be the medium  that light, electromagnetic waves, use to oscillate? This medium must be all around us, in the space between the sun and earth, just everywhere. To save the Galilei invariance of Maxwell's equations this also needs to be a very special kind of medium that behaves differently than other media. This strange hypothetical medium was termed *aether* (ether). The search for the properties of the aether lead to the Michelson-Morley experiment - which showed that there was no aether at all!  [Lorentz](https://en.wikipedia.org/wiki/Hendrik_Lorentz) and [Fitzgerald](https://en.wikipedia.org/wiki/George_Francis_FitzGerald) found an ad hoc way to save the day by postulating an adapted version of the Galilean Transformation and a contraction of length. Later more about that, and how Einstein showed that all of this ad hoc business is not needed, things follow directly from his second axiom.
 
 
 ## The Michelson-Morley experiment
@@ -398,7 +398,7 @@ Extra reading [Hoe de ether verdween uit de natuurkunde](../images/HoeDeEtherVer
 ```{exercise}
 :label: 15.1a
 
-Assume the Michelson-Morley experiment uses arms of length $L = 11 \mathrm{m}$ and an aether wind speed $v$ due to the motion of the earth around the sun.  
+Assume the Michelson-Morley experiment uses arms of length $L = 11\ \mathrm{m}$ and an aether wind speed $v$ due to the motion of the earth around the sun.  
 Distance earth-sun: $150 \cdot 10^6 \; \mathrm{km}$.  
 
 1. Calculate the expected time difference $\Delta t$ between light traveling parallel and perpendicular to the aether wind.
@@ -415,13 +415,13 @@ Note: in the experiment of 1887, Michelson and Morley had used multiple mirrors 
 ```{solution} 15.1a
 :class: dropdown
 
-The orbit of the earth around the sun is almost circular. Thus, we can estimate the velocity of the earth as $V = \frac{2\pi R}{T}$ with $R=150 \cdot 10^6 \; \mathrm{km}$ and $T = 1 \mathrm{year} = 31.6 10^6 \; \mathrm{s}$. This gives $V = 30 \; \mathrm{km/s}$.
+The orbit of the earth around the sun is almost circular. Thus, we can estimate the velocity of the earth as $V = \frac{2\pi R}{T}$ with $R=150 \cdot 10^6 \; \mathrm{km}$ and $T = 1\ \mathrm{year} = 31.6 10^6 \; \mathrm{s}$. This gives $V = 30 \; \mathrm{km/s}$.
 
 We compute the traveling time from light leaving the beam splitter, reflecting at the mirror on the side of the table and reaching the beam splitter again. The rest of the path is identical for both light beams and does not lead to a time difference.
 
 Time for light parallel to $V$: 
 
-* one part - tail wind from aether and velocity (according to Classical Mechanics with Galilei Transformation) $c+V$. 
+* one part - tail wind from aether and velocity (according to Classical Mechanics with Galilean Transformation) $c+V$. 
 * Other part: head wind with velocity $c-V$. Thus traveling time:
 
 $$t_{//} = \frac{L}{c-V} + \frac{L}{c+V} = \frac{2L}{c} \frac{1}{1-\frac{V^2}{c^2}}$$
@@ -432,7 +432,7 @@ $$t_\perp = \frac{L}{\sqrt{c^2 - V^2}} + \frac{L}{\sqrt{c^2 - V^2}} = \frac{2L}{
 
 Putting in the numbers, we find $ \Delta t = 3.67 \cdot 10^{-16} \mathrm{s}$
 
-This time difference may be way to small to measure. And indeed, no 'stop-watch' experiment will work. But Michelson & Morley used interferometry, i.e. interference of light. So, relevant is the difference in phase of the two light beams. This can be assessed by turning the time difference into a length: $\Delta s = c \Delta t =1.1 \cdot 10^{-7} \mathrm{m}$. Compare this to the wave length of the (yellow) light used by Michelson and Morley: $\lambda \approx 500 \mathrm{nm} = 5 \cdot 10^{-7} \mathrm{m}$.
+This time difference may be way to small to measure. And indeed, no 'stop-watch' experiment will work. But Michelson & Morley used interferometry, i.e. interference of light. So, relevant is the difference in phase of the two light beams. This can be assessed by turning the time difference into a length: $\Delta s = c \Delta t =1.1 \cdot 10^{-7} \mathrm{m}$. Compare this to the wave length of the (yellow) light used by Michelson and Morley: $\lambda \approx 500\ \mathrm{nm} = 5 \cdot 10^{-7} \mathrm{m}$.
 Conclusion: the expected time difference is well in reach of interferometry.
 
 ```

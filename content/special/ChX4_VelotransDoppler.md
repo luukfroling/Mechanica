@@ -10,9 +10,9 @@ kernelspec:
 ---
 # Velocity Transformation & Doppler shift
 
-Imagine we have two space ships moving each with a speed of $\frac{3}{4}c$ as shown below. What is the speed that either the red or yellow space ships sees for the other space ship speed?
+Imagine we have two spaceships moving each with a speed of $\frac{3}{4}c$ as shown below. What is the speed that either the red or yellow spaceships sees for the other spaceship speed?
 
-We should, first of all realize, that the information regarding the velocity of the two space ships is given by an observer $S$ who is neither in the red nor the yellow ship. We need to transform this information to an observer in the red or in the yellow ship.
+We should, first of all realize, that the information regarding the velocity of the two spaceships is given by an observer $S$ who is neither in the red nor the yellow ship. We need to transform this information to an observer in the red or in the yellow ship.
 
 
 ```{figure} ../images/chx4_addvel.svg
@@ -20,7 +20,7 @@ We should, first of all realize, that the information regarding the velocity of 
 :width: 80%
 :align: center
  
-Two space ships approaching each other.
+Two spaceships approaching each other.
 ```   
 
 For the GT we have derived the velocity transformation to be 
@@ -91,11 +91,11 @@ $$
 u'_{y'} = \frac{\Delta y}{\gamma \Delta ct - \gamma \frac{V}{c}\Delta x} = \frac{u_y}{\gamma \left (1-\frac{Vu_x}{c^2}\right )}
 $$
 
-In the limit of $u_x,V\ll c$ both formulas reduce to the Galileo transformation as required. For $u_x\to c$ and $V\to -c$ the combined velocity will stay smaller than $c$. Check yourself that this is true.
+In the limit of $u_x,V\ll c$ both formulas reduce to the Galilean Transformation as required. For $u_x\to c$ and $V\to -c$ the combined velocity will stay smaller than $c$. Check yourself that this is true.
 
 The formula for the velocity transformation/addition are not so easy to remember. Later you will see how to derive them from the transformation properties of the 4-velocity, which is easy to remember.  
 
-For our example of the two approaching space ships,  $u_x=-\frac{3}{4}c, V=\frac{3}{4}c$ we find for the speed of the yellow approaching the red ship
+For our example of the two approaching spaceships,  $u_x=-\frac{3}{4}c, V=\frac{3}{4}c$ we find for the speed of the yellow approaching the red ship
 
 $$
 u''_{x''} = \frac{-\frac{3}{4}-\frac{3}{4}}{1+\frac{3}{4}\frac{3}{4}}c=-\frac{24}{25}c <c
@@ -203,7 +203,7 @@ At end of the 1920s [Georges Lemaître](https://en.wikipedia.org/wiki/Georges_Le
 
 The Big Bang theory was highly debated early on, in particular by Einstein, but is now fully accepted. The strongest experimental evidence was the discovery of the *cosmic background radiation* in 1965 (by accident).
 
-The whole cosmos is nearly uniformly filled by a background radiation of about $2.7 \mathrm{K}$ (wavelength in the $\mu$m range) with small inhomogeneities as shown in the picture by the Planck satellite around 2013.
+The whole cosmos is nearly uniformly filled by a background radiation of about $2.7\ \mathrm{K}$ (wavelength in the $\mu$m range) with small inhomogeneities as shown in the picture by the Planck satellite around 2013.
 
 
 ```{figure} ../images/1280px-WMAP_2012.png
@@ -233,7 +233,7 @@ Here for the first time $h$, Planck's constant, was introduced to quantize energ
 
 Phenomenologically, the relation between the peak of the spectrum and the temperature was found by <a herf="https://en.wikipedia.org/wiki/Wilhelm_Wien">Wien</a> already earlier to be $\lambda_{peak} = \frac{b}{T}$ with $b$ Wien's constant $b\sim 2900\ \mu m\cdot K$.
 	
-NB: If you buy a light bulb for a lamp, then a temperature is indicated on the packaging, e.g. $2700 \mathrm{K}$ for "warm white", $4000 \mathrm{K}$ for "cool white" to describe the light color. Quantum physics at your local super market.
+NB: If you buy a light bulb for a lamp, then a temperature is indicated on the packaging, e.g. $2700\ \mathrm{K}$ for "warm white", $4000\ \mathrm{K}$ for "cool white" to describe the light color. Quantum physics at your local super market.
 
 ```{code-cell} python
 :tag: hide-input
