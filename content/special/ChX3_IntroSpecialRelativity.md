@@ -298,7 +298,7 @@ Now does this make any sense? It does! If we concentrate on $S$ only and what he
 
 * $E_1$ - $S$ observes -comet hits moon: $(ct_1,x_1) = (1.2, 0) \mathrm{ls}$
 * $E_2$ - the comet actually hits the moon: $(ct_2,x_2) = (0.5, 1.2) \mathrm{ls}$
-* $E_3$ - $S'$ observes that the comet hits the moon: $(ct_3,x_3) = (0.945, 756) \mathrm{ls}$
+* $E_3$ - $S'$ observes that the comet hits the moon: $(ct_3,x_3) = (0.945, 0.756) \mathrm{ls}$
 
 Obviously, if the actual impact is at positive $t$, then $S'$ will see it before $S$ does as for positive time $t$ $S'$ is closer the moon than $S$. And this is all reflected in the events. Moreover, if you would compute the events as $S$ will model things, you will find event $E_3$ just based on event $E_2$ and the motion of spaceship according to $S$ (and when it will encounter a photon that was generated at the actual impact of the comet on the moon). Do the calculation yourself and see, that nothing strange happens.
 
