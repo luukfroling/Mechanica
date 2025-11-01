@@ -325,7 +325,7 @@ An animation is given above.
 * the three squares represent the position of Earth, moon and spaceship according to $S$ at $ct=-1$ls. In the diagram for $S$, these three are, of course, on a horizontal line as they are at the same time according to $S$. However, $S'$ sees that differently: there are absolutely not at the same time!!!
 * Earth, moon and spaceship do travel in the space-time diagrams. Their trajectories are shown by dashed lines. Their space-time location is represented by the (moving) dots. The diagrams are made such, that indeed both observers pass each other at $ct=ct'=0$ and $x=x'=0$. The dots represent, where according to $S$ (left diagram) and $S'$ (right diagram) Earth, moon and spaceship are at a certain time on the clock of that observer. Note that both position and time have really different values if you compare the diagrams of $S$ and $S'$.
 * In both diagrams, at some point in time the comet impacts the moon and a photon starts traveling in the negative $x$ and $x'$-direction. The photon is shown by the blue dot. Again nothing happens at the same time. But the order of events is the same: first the photon is emitted and only after that it is observed. That should of course hold!
-* Notice that the photon is emitted at $ct=0.5$ls according to $S$ and observed at $ct=1.7\mathrm{ls}$. So for $S$, the photon traveled for 1.2ls (and covered a distance of $1.2\mathrm{ls}$: of course, photons travel with velocity c). However, for $S'$ this is quite different: the photon is emitted at $ct'=-23/30$, that is much earlier than $S$ reports. Moreover, it is only registered by $S$ on $ct'=85/30\mathrm{ls}$. It traveled for $3.6\ \mathrm{seconds}$ on the clock of $S'$!!
+* Notice that the photon is emitted at $ct=0.5$ls according to $S$ and observed at $ct=1.7\mathrm{ls}$. So for $S$, the photon traveled for 1.2ls (and covered a distance of $1.2\mathrm{ls}$: of course, photons travel with velocity c). However, for $S'$ this is quite different: the photon is emitted at $ct'=-23/30 \mathrm{ls}$, that is much earlier than $S$ reports. Moreover, it is only registered by $S$ on $ct'=85/30\mathrm{ls}$. It traveled for $3.6\ \mathrm{seconds}$ on the clock of $S'$!!
 
 Puzzled by this all? Confused? Hard to believe?
 
@@ -375,7 +375,7 @@ $$
 \begin{array}{rcl}
 ct'_1 &=& \gamma \left ( ct_1 -\frac{V}{c}x_1\right )\\
 ct'_2 &=& \gamma \left ( ct_2 -\frac{V}{c}x_2\right )\\
-\Rightarrow ct'_1 -ct'_2 &=& \gamma (ct_1-ct_2) + \gamma \frac{V}{c}(x_1-x_2) 
+\Rightarrow ct'_1 -ct'_2 &=& \gamma (ct_1-ct_2) - \gamma \frac{V}{c}(x_1-x_2) 
 \end{array}
 $$
 
