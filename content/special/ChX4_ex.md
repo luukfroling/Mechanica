@@ -1,3 +1,11 @@
+---
+numbering:
+  title:
+    offset: 0
+
+
+updated: November 1, 2025
+---
 # Examples, exercises and solutions
 
 ## Examples

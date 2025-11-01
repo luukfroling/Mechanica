@@ -1,3 +1,11 @@
+---
+numbering:
+  title:
+    offset: 0
+
+
+updated: November 1, 2025
+---
 # Exercises, examples \& solutions
 ## Exercises
 ```{exercise} Connected events &#127798;

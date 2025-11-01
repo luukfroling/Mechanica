@@ -1,3 +1,11 @@
+---
+numbering:
+  title:
+    offset: 0
+
+
+updated: November 1, 2025
+---
 # Exercises, examples \& solutions
 
 ```{exercise} Deterministic nature of physics &#127798;
