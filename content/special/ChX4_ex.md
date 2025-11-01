@@ -1,7 +1,7 @@
 ---
 numbering:
   title:
-    offset: 0
+    offset: 1
 
 
 updated: November 1, 2025
