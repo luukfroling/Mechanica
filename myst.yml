@@ -12,6 +12,7 @@ project:
     # - https://github.com/jupyter-book/myst-plugins/releases/download/iframe-to-qr-pdf/iframe-to-qr-pdf.mjs
     # - plugins/iframe2.mjs    
     - plugins/typst_eq.mjs              # for unknown symbols in typst
+    - https://github.com/jupyter-book/myst-plugins/releases/download/page-last-updated/page-last-updated.mjs
      
   title: Classical Mechanics & Special Relativity for Starters
   authors:
