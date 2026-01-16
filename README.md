@@ -6,7 +6,9 @@ An interactive, open-access Mechanics & Special Relativity textbook designed for
 
 ## 📖 Read the Book
 
-The complete interactive textbook is available at: [https://interactivetextbooks.tudelft.nl/mecharela](https://interactivetextbooks.tudelft.nl/mecharela)
+The complete interactive textbook will be available at [https://interactivetextbooks.tudelft.nl/mecharela](https://interactivetextbooks.tudelft.nl/mecharela) once it is published through our university's library.
+but is currently available [here](https://freekpols.github.io/Mechanica/)
+
 
 ## 🎯 About This Textbook
 
