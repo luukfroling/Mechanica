@@ -4,7 +4,7 @@ numbering:
     offset: 0
 
 
-updated: November 1, 2025
+
 ---
 #  Relativistic dynamics and collisions
     

@@ -3,8 +3,6 @@ numbering:
   title:
     offset: 0
 
-
-updated: October 19, 2025
 ---
 
 # Cracks in Classical Mechanics

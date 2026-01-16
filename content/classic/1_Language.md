@@ -1,8 +1,6 @@
 ---
 title: The language of Physics
 
-updated: October 11, 2025
-
 numbering:
   title:
     offset: 0

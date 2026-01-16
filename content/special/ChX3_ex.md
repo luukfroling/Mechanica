@@ -4,7 +4,6 @@ numbering:
     offset: 1
 
 
-updated: November 1, 2025
 ---
 # Exercises, examples \& solutions
 ## Examples

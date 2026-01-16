@@ -3,7 +3,6 @@ numbering:
   title: 
     offset: 0
 
-updated: October 11, 2025
 
 kernelspec:
   name: python3

@@ -3,8 +3,6 @@ numbering:
   title:
     offset: 1
 
-
-updated: November 1, 2025
 ---
 # Examples, exercises and solutions
 

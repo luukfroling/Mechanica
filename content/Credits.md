@@ -6,8 +6,6 @@ numbering:
     enabled: false
   headings: false
 
-updated: October 13, 2025
-
 kernelspec:
   name: python3
   display_name: 'Python 3'
