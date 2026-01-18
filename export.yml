@@ -1,7 +1,6 @@
 version: 1
 
 project:
-
   exports:
     - format: typst
       template: https://github.com/myst-templates/plain_typst_book.git 

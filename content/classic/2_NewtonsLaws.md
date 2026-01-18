@@ -954,12 +954,10 @@ Let's do this one together. We follow the standard approach of IDEA: Interpret (
 First a sketch: draw what is needed, no more, no less. 
 
 ```{figure} ../images/ch2_Example2.svg
----
-name: fig:Example2
-width: 20%
+:name: fig:Example2
+:width: 20%
 :alt: At the top, a small gray circle is drawn to denote the mass. At the bottom, a large blue circle is drawn to denote Earth. An arrow points downward from the center of the small mass, and is labelled -mg. An upward arrow points from the Earth's center, and is labelled mg.  
 align: center
----
 ```
 :::
 
@@ -1221,12 +1219,11 @@ plt.show()
 So far we did not address how to measure force. Neither did we discuss how to measure mass. This is less trivial than it looks at first side. Obviously, force and mass are coupled via N2: $ F = m a $. 
 
 ```{figure} ../images/ch2_UsingABalance.svg
----
-name: fig:UsingABalance
-width: 40%
-align: center
+:name: fig:UsingABalance
+:width: 40%
+:align: center
 :alt: A simplified drawing of a scale, with a stack of six small standard masses on the left and one big unknown mass on the right. The scale is in balance. 
---- 
+ 
 Can force be measured using a balance?
 ```
 
@@ -1285,12 +1282,11 @@ The essence of the Eötvös experiment is finding a set up in which both gravity
 
 
 ```{figure} ../images/ch2_EotvosExperiment.svg
----
-name: fig:EotvosExperiment
-width: 50%
+:name: fig:EotvosExperiment
+:width: 50%
 align: center
 :alt: Mass m1 and m2 are connected to either end of a horizontal rod. The rod, in turn, is connected by a vertical wire to the ceiling. The rod can rotate around its suspension point. 
---- 
+ 
 Torsion balance used by Eötvös.
 ```
 
