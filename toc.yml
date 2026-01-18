@@ -66,6 +66,7 @@ project:
           children:
             - file: content/special/ChX7_ex.md
 
+    - file: content/Indexing.md
     # - file: content/appendix/appendix.md
     #   children:
     #     - file: content/appendix/indeces.md

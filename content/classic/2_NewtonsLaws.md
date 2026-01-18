@@ -9,13 +9,10 @@ kernelspec:
   display_name: 'Python 3'
 ---
 
-:::{index} Newton's laws, Forces, Acceleration, Inertia 
-:::
 
 (ch_NewtonsLaws)=
 # Newton's Laws
-
-Now we turn to one of the most profound breakthroughs in the history of science: the laws of motion formulated by Isaac Newton. These laws provide a systematic framework for understanding how and why objects move. They form the backbone of classical mechanics. Using these three laws we can predict the motion of a falling apple, a car accelerating down the road, or a satellite orbiting Earth (though some adjustments are required in this context to make use of e.g. GPS!). More than just equations, they express deep principles about the nature of force, mass, and interaction.
+Now we turn to one of the most profound breakthroughs in the history of science: the laws of motion formulated by Isaac {index}`Newton`. These laws provide a systematic framework for understanding how and why objects move. They form the backbone of classical mechanics. Using these three laws we can predict the motion of a falling apple, a car accelerating down the road, or a satellite orbiting Earth (though some adjustments are required in this context to make use of e.g. GPS!). More than just equations, they express deep principles about the nature of force, mass, and interaction.
 
 In this chapter, you will begin to develop the core physicist’s skill: building a simplified model of the real world, applying physical principles, and using mathematical tools to reach meaningful conclusions.
 
@@ -46,10 +43,11 @@ If object 1 exerts a force $ \vec{F}_{12} $ on object 2, then object 2 exerts a 
 $$ \vec{F}_{21} = -\vec{F}_{12} $$
 ```
 
-N1 has, in fact, been formulated by Galileo Galilei. Newton has, in his N2, build upon it: N1 is included in N2, after all:  
+
+{index}`N1 <Newton>` has, in fact, been formulated by Galileo Galilei. Newton has, in his N2, build upon it: N1 is included in N2, after all:  
 if $\vec{F} = 0$, then $\frac{d\vec{p}}{dt} = 0 \rightarrow \vec{p} = \text{constant} \rightarrow \vec{v} = \text{constant}$, provided $m$ is a constant. 
 
-Most people know N2 as 
+Most people know {index}`N2 <Newton>`as 
 
 $$ \vec{F} = m \vec{a} $$
 
@@ -156,6 +154,8 @@ Although this sounds silly, when comparing this idea to the sun and the planets,
 
 (sec_NewtonsLaws_conservation)=
 ## Conservation of Momentum
+```{index} conservation of momentum; introduction
+```
 From Newton's 2$^{\text{nd}}$ and 3$^\text{rd}$ law we can easily derive the law of conservation of momentum. Assume there are only two point-particle (i.e. particles with no size but with mass), that exert a force on each other. No other forces are present. From N2 we have:
 
 $$ 
@@ -219,11 +219,9 @@ $$
 For a system of $N$ particles, extension is straight forward. 
 
 
-
-
-
 ````{intermezzo} Intermezzo: Isaac Newton
-
+```{index} Newton; live
+``` 
 At the end of the year of Galilei's death, Isaac Newton was born in Woolsthorpe-by-Colsterworth in England. He is regarded as the founder of classical mechanics and with that he can be seen as the father of physics. 
 
 ```{figure} ../images/ch2_Newton.jpg
@@ -242,7 +240,6 @@ Interesting to know is that his mentioning of *standing on shoulders* can be int
 
 
 ```{important}
-
 In Newtonian mechanics time does not have a preferential direction. That means, in the equations derived based on the three laws of Newton, we can replace $t$ by $-t$ and the motion will have different sign, but that's it. The path/orbit will be the same, but traversed in opposite direction. Also in special relativity this stays the same.
 
 However, in daily life we experience a clear distinction between past, present and future. This difference is not present in this lecture at all. Only by the second of law thermodynamics the time axis obtains a direction, more about this in classes on Statistical Mechanics.
@@ -253,7 +250,9 @@ However, in daily life we experience a clear distinction between past, present a
 
 (sec_NewtonsLaws_forces)=
 ### Force addition, subtraction and decomposition
-Newton's laws describe how forces affect motion. Applying them often requires combining multiple forces acting on an object, see {numref}`fig_additionF`. This is done through vector addition, subtraction, and decomposition—allowing us to find the net force and to analyze its components in different directions (see [this chapter in the book on linear algebra](https://interactivetextbooks.tudelft.nl/linear-algebra/Chapter1/Vectors.html#arrows-in-the-plane) for a full elaboration on vector addition and subtraction).
+```{index} forces; addition subtraction and decomposition
+```
+Newton's laws describe how forces affect motion. Applying them often requires combining multiple forces acting on an object , see {numref}`fig_additionF`. This is done through vector addition, subtraction, and decomposition—allowing us to find the net force and to analyze its components in different directions (see [this chapter in the book on linear algebra](https://interactivetextbooks.tudelft.nl/linear-algebra/Chapter1/Vectors.html#arrows-in-the-plane) for a full elaboration on vector addition and subtraction).
 
 ```{figure} ../images/ch2_fig_additionF.svg
 :label: fig_additionF
