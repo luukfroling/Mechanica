@@ -12,7 +12,7 @@ kernelspec:
 
 (ch_NewtonsLaws)=
 # Newton's Laws
-Now we turn to one of the most profound breakthroughs in the history of science: the laws of motion formulated by Isaac {index}`Newton`. These laws provide a systematic framework for understanding how and why objects move. They form the backbone of classical mechanics. Using these three laws we can predict the motion of a falling apple, a car accelerating down the road, or a satellite orbiting Earth (though some adjustments are required in this context to make use of e.g. GPS!). More than just equations, they express deep principles about the nature of force, mass, and interaction.
+Now we turn to one of the most profound breakthroughs in the history of science: the laws of motion formulated by Isaac {index}`Newton <Newton>`. These laws provide a systematic framework for understanding how and why objects move. They form the backbone of classical mechanics. Using these three laws we can predict the motion of a falling apple, a car accelerating down the road, or a satellite orbiting Earth (though some adjustments are required in this context to make use of e.g. GPS!). More than just equations, they express deep principles about the nature of force, mass, and interaction.
 
 In this chapter, you will begin to develop the core physicist’s skill: building a simplified model of the real world, applying physical principles, and using mathematical tools to reach meaningful conclusions.
 
@@ -44,10 +44,10 @@ $$ \vec{F}_{21} = -\vec{F}_{12} $$
 ```
 
 
-{index}`N1 <Newton>` has, in fact, been formulated by Galileo Galilei. Newton has, in his N2, build upon it: N1 is included in N2, after all:  
+{index}`N1 <Newton; N1>` has, in fact, been formulated by Galileo Galilei. Newton has, in his N2, build upon it: N1 is included in N2, after all:  
 if $\vec{F} = 0$, then $\frac{d\vec{p}}{dt} = 0 \rightarrow \vec{p} = \text{constant} \rightarrow \vec{v} = \text{constant}$, provided $m$ is a constant. 
 
-Most people know {index}`N2 <Newton>`as 
+Most people know {index}`N2 <Newton; N2>`as 
 
 $$ \vec{F} = m \vec{a} $$
 
