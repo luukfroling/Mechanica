@@ -68,14 +68,18 @@ The interactive elements, such as Python code, hover over functionality, embedde
 
 ```
 
+We also include interactive exercises made with [Grasple](https://grasple.com/). These exercises provide immediate feedback on your answers, allowing you to learn from your mistakes and deepen your understanding of the material. Here is an example exercise:
+
+```{iframe}  https://embed.grasple.com/exercises/f6c1bb4b-e63e-492e-910a-5a8c433de281?id=75093
+``` 
+
 New concepts, such as *{abbr}`Free body diagram (a simplified drawing that shows all the external forces acting on a single object, isolated from its surroundings.)`*, are introduced with a hover-over. If you move your mouse over the italicized part of the text, you will get a short explanation. 
 
 You have the opportunity to download some of the materials as Jupyter Notebook file and play with the code offline. We advise you to use [Jupyter Lab in combination with MyST](https://mystmd.org/guide/quickstart-jupyter-lab-myst).
 
 
 ### Feedback
-
-This is the first version of this book. Although many have work on it and several iterations have been made, there might still be issues. Do you see a mistake? Do you have suggestions for exercises? Are parts missing or abundant? Tell us! You can use the `Feedback` button in the top right of the screen. You will need a (free) GitHub account to report an issue!
+This is the first version (second cycle) of this book. Although many have worked on it and several iterations have been made, there might still be issues. Do you see a mistake? Do you have suggestions for exercises? Are parts missing or abundant? Tell us! You can use the `Feedback` button in the top right of the screen. You will need a (free) GitHub account to report an issue!
 
 
 ## Authors
@@ -149,15 +153,7 @@ At various places we use pictures which are in the public domain. We comply to t
 
 The Intermezzos, which elaborate on the lives of various scientists and the efforts behind key physical discoveries, are composed by drawing from a range of different sources. Rather than directly reproducing any one account, these stories have been reworked into a narrative that fits the context and audience of this book. 
 
-### Interactive materials
-```{iframe}  https://embed.grasple.com/exercises/f6c1bb4b-e63e-492e-910a-5a8c433de281?id=75093
-``` 
-
-```{iframe}  https://embed.grasple.com/exercises/490cb3e2-e7ed-4e2a-b521-efe7274c8176?id=129324
-```
-
 ### How to cite this book
-
 R.F. Mudde, B. Rieger, C.F.J. Pols, *Classical Mechanics \& Special Relativity for Beginners*, CC BY-NC<!--TU Delft Open, 2025, [LINK DOI]-->
 
 ```bibtex

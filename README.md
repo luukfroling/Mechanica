@@ -109,5 +109,5 @@ For questions about this textbook, please contact Freek Pols.
 
 ---
 
-**TU Delft** | **Faculty of Appled Sciences** 
+**TU Delft** | **Faculty of Applied Sciences** 
 
