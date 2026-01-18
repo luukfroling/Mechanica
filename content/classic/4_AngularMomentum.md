@@ -526,12 +526,14 @@ Thus, the angular momentum still points in the negative $z$-direction but increa
 
 ````
 
++++{"no-pdf": true}
 ```{solution} 73
 :class: dropdown
 
 We can take the situation of {numref}`71`, but shift our origin such that at $t=0 \rightarrow x=0$. Now the particle will fall along the $y$-axis. It has its momentum also in the $y$-direction and consequently $\vec{l} = \vec{r} \times \vec{p} =0$ and stays zero!
 
 ```
++++
 
 ## Central Forces
 

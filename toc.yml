@@ -25,14 +25,13 @@ project:
 
         - file: content/classic/5_ConservationEquations.md
           children:
-            - file: content/classic/5_ConservationEquations_ex.ipynb
+            - file: content/classic/5_ConservationEquations_ex.md
 
         - file: content/classic/Ch8_Oscillations.ipynb
           children:
             - file: content/classic/6_Oscillations_ex.ipynb
 
         - file: content/classic/7_Collisions.md
-
           children:
             - file: content/classic/7_Collisions_ex.ipynb
 
@@ -41,7 +40,6 @@ project:
             - file: content/classic/8_TwoBody_ex.ipynb
 
 
-#######################################################################
     - file: content/special/SpecialRelativity.md
       children:        
         - file: content/special/ChX2_CracksInMecha.md
@@ -84,4 +82,3 @@ project:
     #     - file: content/howto/test2.md
     #     - file: content/howto/GHGL.md
         
-#########################################################################
