@@ -4,8 +4,10 @@ numbering:
     offset: 0
 ---
 
+(ch_WorkEnergy)=
 # Work and Energy
 
+(sec_WorkEnergy_work)=
 ## Work
 Work and energy are two important concepts. Work is the transfer of energy that occurs when a force is applied to an object and causes displacement in the direction of that force, calculated as 'force times path'. However, we need a formal definition:
 

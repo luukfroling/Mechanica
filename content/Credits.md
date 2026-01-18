@@ -17,7 +17,7 @@ This book provides an introduction for freshman students into the world of class
 ```
 +++
 
-
+(about)=
 ## About this book
 
 Classical mechanics is the starting point of physics. Over the centuries, via [Newton's](https://en.wikipedia.org/wiki/Isaac_Newton) three fundamental laws formulated around 1687, we have built a solid framework describing the material world around us. On these pages, you will find a textbook with animations, demos, interactive elements and exercises for studying introductory classical mechanics. Moreover, we will consider the first steps of [Einstein's](https://en.wikipedia.org/wiki/Albert_Einstein) Special Theory of Relativity published 1905.
@@ -32,7 +32,7 @@ With this e-book our aim is to provide learning material that is:
 
 This book is based on [Mudde & Rieger 2025](https://interactivetextbooks.tudelft.nl/dev/mechanica/). <!-- replace link by DOI --> That book was already beyond introductory level and presumed a solid basis in both calculus and basic mechanics. All texts in this book were revised, additional examples and exercises were included, picture and drawings have been updated and interactive materials have been included. Hence, this book should be considered a stand-alone new version. Note that we made good use of other open educational resources, several exercises stem from such resources. Where we use external materials, we acknowledge and credit the original sources.
 
-
+(features)=
 ### Special features
 
 In this book you will find some 'special' features. Some of these are indicated by their own formatting:
@@ -77,11 +77,11 @@ New concepts, such as *{abbr}`Free body diagram (a simplified drawing that shows
 
 You have the opportunity to download some of the materials as Jupyter Notebook file and play with the code offline. We advise you to use [Jupyter Lab in combination with MyST](https://mystmd.org/guide/quickstart-jupyter-lab-myst).
 
-
+(feedback)=
 ### Feedback
 This is the first version (second cycle) of this book. Although many have worked on it and several iterations have been made, there might still be issues. Do you see a mistake? Do you have suggestions for exercises? Are parts missing or abundant? Tell us! You can use the `Feedback` button in the top right of the screen. You will need a (free) GitHub account to report an issue!
 
-
+(authors)=
 ## Authors
 :::{grid} 1 2 3 3
 ````{card}
@@ -122,6 +122,7 @@ Special thanks to Hanna den Hertog for (re)making most of the drawings, Luuk Fr√
 +++ { "page-break": true }
 +++
 
+(opened)=
 ## Open Educational Resource
 
 This book is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/) unless stated otherwise. It is part of the collection of [Interactive Open Textbooks](https://textbooks.open.tudelft.nl/textbooks/catalog/category/interactive) of [TU Delft Open](https://textbooks.open.tudelft.nl/textbooks/index).
@@ -132,11 +133,11 @@ This website is a [Jupyter Book](https://jupyterbook.org/intro.html). Source fil
 
 <!-- ![](https://i.creativecommons.org/l/by/4.0/88x31.png) -->
 
-
+(software)=
 ### Software and license
 This website is a [Jupyter Book](https://jupyterbook.org/intro.html). Markdown source files are available for download using the button on the top right, licensed under CC-BY-NC (unless stated otherwise). All python codes / apps are freely reusable, adaptable and redistributable (CC0).
 
-
+(images)=
 ### Images, videos, apps, intermezzos 
 
 The cover image is inspired by the work of [3Blue1Brown](https://www.3Blue1Brown.com/) developer Grant Sanderson. 
@@ -153,6 +154,7 @@ At various places we use pictures which are in the public domain. We comply to t
 
 The Intermezzos, which elaborate on the lives of various scientists and the efforts behind key physical discoveries, are composed by drawing from a range of different sources. Rather than directly reproducing any one account, these stories have been reworked into a narrative that fits the context and audience of this book. 
 
+(cite)=
 ### How to cite this book
 R.F. Mudde, B. Rieger, C.F.J. Pols, *Classical Mechanics \& Special Relativity for Beginners*, CC BY-NC<!--TU Delft Open, 2025, [LINK DOI]-->
 

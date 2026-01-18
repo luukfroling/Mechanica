@@ -13,13 +13,15 @@ kernelspec:
 :::{index} Vectors, IDEA, Numerical computation
 :::
 
-
+(ch_language)=
+# The language of Physics
 Physics is the science that seeks to understand the fundamental workings of the universe: from the motion of everyday objects to the structure of atoms and galaxies. To do this, physicists have developed a precise and powerful language: one that combines mathematics, both colloquial and technical language, and visual representations. This language allows us not only to describe how the physical world behaves, but also to predict how it will behave under new conditions.
 
 In this chapter, we introduce the foundational elements of this language, covering how to express physical ideas using equations, graphs, diagrams, and words. You’ll also get a first taste of how physics uses numerical simulations as an essential complement to analytical problem solving.
 
 This language is more than just a set of tools—it is how physicists *think*. Mastering it is the first step in becoming fluent in physics.
 
+(sec_language_representations)=
 ## Representations
 
 Physics problems and concepts can be represented in multiple ways, each offering a different perspective and set of insights. The ability to translate between these representations is one of the most important skills you will develop as a physics student. In this section, we examine three key forms of representation: equations, graphs and drawings, and verbal descriptions using the context of a base jumper, see {numref}`fig_basejump`.
@@ -32,6 +34,7 @@ Physics problems and concepts can be represented in multiple ways, each offering
 A base jumper is used as context to get familiar with representation, picture from https://commons.wikimedia.org/wiki/File:04SHANG4963.jpg
 ```
 
+(sec_language_verbal)=
 ### Verbal descriptions
 
 Words are indispensable in physics. Language is used to describe a phenomenon, explain concepts, pose problems and interpret results. A good verbal description makes clear:
@@ -50,6 +53,7 @@ We know (probably from experience) that the jumper will accelerate. Picking up s
 Can we find out what the terminal velocity of this jumper will be and how long it takes to reach that velocity?
 ```
 
+(sec_language_visual)=
 ### Visual representations
 
 *Visual representations* help us interpret physical behavior at a glance. Graphs, motion diagrams, free-body diagrams, and vector sketches are all ways to make abstract ideas more concrete.
@@ -77,6 +81,7 @@ Force acting on the jumper.
 
 ````
 
+(sec_language_equations)=
 ### Equations
 
 Equations are the compact, symbolic expressions of physical relationships. They tell us how quantities like velocity, acceleration, force, and energy are connected.
@@ -107,6 +112,7 @@ Note that in the example above we neglected directions. In our equation we shoul
 +++ { "page-break": true }
 +++
 
+(sec_language_problem_solving)=
 ## How to solve a physics problem?
 
 One of the most common mistakes made by 'novices' when studying problems in physics is trying to jump as quickly as possible to the solution of a given problem or exercise by picking an equation and slotting in the numbers. For simple questions, this may work. But when stuff gets more complicated, it is almost a certain route to frustration.
@@ -134,6 +140,7 @@ The first two steps (Interpret and Develop) typically take up most of the time s
 +++ { "page-break": true }
 +++
 
+(sec_language_example)=
 ### Example
 
 ::::{tab-set}
@@ -254,6 +261,7 @@ For a more elaborate description of quantities, units and dimension analysis, se
 +++ { "page-break": true }
 +++
 
+(sec_language_calculus)=
 ## Calculus
 
 Most of the undergraduate theory in physics is presented in the language of Calculus. We do a lot of differentiating and integrating, and for good reasons. The basic concepts and laws of physics can be cast in mathematical expressions, providing us the rigor and precision that is needed in our field. Moreover, once we have solved a certain problem using calculus, we obtain a very rich solution, usually in terms of functions. We can quickly recognize and classify the core features, that help us understanding the problem and its solution much deeper.
@@ -266,7 +274,7 @@ $$ m \frac{dv}{dt} = m g - \frac{1}{2} \rho_{air} C_D A v^2$$
 
 Clearly this is some kind of differential equation: the change in velocity depends on the velocity itself. Before we even try to solve this problem ($v(t)=...$), we have to dig deeper in the precise notation, otherwise we will get lost in directions and sign conventions.
 
-
+(sec_language_differentiation)=
 ### Differentiation
 
 Many physical phenomena are described by differential equations. That may be because a system evolves in time or because it changes from location to location. In our treatment of the principles of classical mechanics, we will use differentiation with respect to time a lot. The reason is obviously found in Newton's $2^{nd}$ law: $F = ma$. 
@@ -299,7 +307,7 @@ $$a = \frac{dv}{dt} = \dot{v} = \frac{d^2x}{dt^2}=\ddot{x}$$
 
 It is just a matter of notation.
 ```
-
+(sec_language_definition)=
 ## Definition of velocity, acceleration and momentum
 
 In mechanics, we deal with forces on particles. We try to describe what happens to the particles, that is, we are interested in the position of the particles, their velocity and acceleration. We need a formal definition, to make sure that we all know what we are talking about.
@@ -343,7 +351,7 @@ In the above, we have not worried about how we measure position or time. The lat
 Calculating velocity requires both position and time, both easily measured e.g. using a stopmotion where one determines the position of the car per frame given a constant time interval.
 ```
 
-
+(sec_language_vectors)=
 ### Vectors - more dimensional case
 
 Position, velocity, momentum, force: they are all *{abbr}`vectors (physical quantities that have both a length/magnitude and a direction)`*. In physics we will use vectors a lot. It is important to use a proper notation to indicate that you are working with a vector. That can be done in various ways, all of which you will probably use at some point in time. We will use the position of a particle located at point P as an example.
@@ -627,6 +635,7 @@ $$\label{eq_Ff} \vec{F_f} = -\frac{1}{2}\rho_{air}C_DA|v|\vec{v}$$
 Note that $\hat{z}$ is missing in {eq}`eq_Ff` on purpose. That would be a simplification that is valid in the given situation, but not in general.
 ````
 
+(sec_language_numerical)=
 ## Numerical computation and simulation
 
 In simple cases we can come to an analytical solution. In the case of the base jumper, an analytical solution exists, though it is not trivial and requires some advanced operations as separation of variables and partial fractions:

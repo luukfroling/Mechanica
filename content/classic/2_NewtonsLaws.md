@@ -12,12 +12,14 @@ kernelspec:
 :::{index} Newton's laws, Forces, Acceleration, Inertia 
 :::
 
+(ch_NewtonsLaws)=
 # Newton's Laws
 
 Now we turn to one of the most profound breakthroughs in the history of science: the laws of motion formulated by Isaac Newton. These laws provide a systematic framework for understanding how and why objects move. They form the backbone of classical mechanics. Using these three laws we can predict the motion of a falling apple, a car accelerating down the road, or a satellite orbiting Earth (though some adjustments are required in this context to make use of e.g. GPS!). More than just equations, they express deep principles about the nature of force, mass, and interaction.
 
 In this chapter, you will begin to develop the core physicist’s skill: building a simplified model of the real world, applying physical principles, and using mathematical tools to reach meaningful conclusions.
 
+(sec_NewtonsLaws_laws)=
 ## Newton's Three Laws
 Much of physics, in particular Classical Mechanics, rests on three laws that carry Newton's name:
 
@@ -147,6 +149,7 @@ The gravitational force acts from the earth on the jumper. Newton's law states t
 Although this sounds silly, when comparing this idea to the sun and the planets, we must draw the conclusion that the sun is actually wobbling as it is pulled towards the various planets! See also this [animated explanation](https://youtube.com/shorts/SLRGX5H1bt4?si=ded_KLH9kxSxQwQs)
 ```
 
+(sec_NewtonsLaws_conservation)=
 ## Conservation of Momentum
 From Newton's 2$^{\text{nd}}$ and 3$^\text{rd}$ law we can easily derive the law of conservation of momentum.  
 Assume there are only two point-particle (i.e. particles with no size but with mass), that exert a force on each other. No other forces are present. From N2 we have:
@@ -241,9 +244,10 @@ In Newtonian mechanics time does not have a preferential direction. That means, 
 However, in daily life we experience a clear distinction between past, present and future. This difference is not present in this lecture at all. Only by the second of law thermodynamics the time axis obtains a direction, more about this in classes on Statistical Mechanics.
 ```
 
-
+(sec_NewtonsLaws_applied)=
 ## Newton's laws applied
 
+(sec_NewtonsLaws_forces)=
 ### Force addition, subtraction and decomposition
 Newton's laws describe how forces affect motion, and applying them often requires combining multiple forces acting on an object, see {numref}`fig_additionF`. This is done through vector addition, subtraction, and decomposition—allowing us to find the net force and analyze its components in different directions, see [this chapter in the book on linear algebra](https://interactivetextbooks.tudelft.nl/linear-algebra/Chapter1/Vectors.html#arrows-in-the-plane) for a full elaboration on vector addition and subtraction.
 
@@ -360,7 +364,7 @@ Remember from secondary school how to break down a force vector into components.
 
 
 
-
+(sec_NewtonsLaws_acceleration_gravity)=
 ### Acceleration due to gravity
 
 In most cases the forces acting on an object are not constant. However, there is a classical case that is treated in physics (already at secondary school level) where only one, constant force acts and other forces are neglected. Hence, according to Newton's second law, the acceleration is constant. 
@@ -771,6 +775,7 @@ HTML(ani.to_jshtml())
 
 ```
 
+(sec_NewtonsLaws_friction)=
 ### Frictional forces
 There are two main types of frictional force:
 * **Static friction** prevents an object from starting to move. It adjusts in magnitude up to a maximum value, depending on how much force is trying to move the object. This maximum is given by
@@ -923,7 +928,7 @@ $$a = g(\sin(\theta)-\mu_k\cos(\theta))$$
 ```
 
 
-
+(sec_NewtonsLaws_momentum)=
 ### Momentum example
 The above theoretical concept is simple in its ideas: 
 - a particle changes its momentum whenever a force acts on it; 
@@ -1011,7 +1016,7 @@ We found that the particle changed its momentum from $p_i=0$ to $p_f=-mv$. The e
 ````
 
 
-
+(sec_NewtonsLaws_forces_inertia)=
 ## Forces & Inertia
 Newton's laws introduce the concept of force. Forces have distinct features:
 * forces are vectors, that is, they have magnitude and direction;
@@ -1084,7 +1089,7 @@ import ipywidgets
 ````
 
 
-
+(sec_NewtonsLaws_inertia)=
 ### Inertia
 Inertia is denoted by the letter $ m $ for mass. And mass is that property of an object that characterizes its resistance to changing its velocity. Actually, we should have written something like $ m_i $, with subscript i denoting inertia.
 
@@ -1270,6 +1275,7 @@ In recent years, it became clear that using such a standard kilogram does not al
 
 ````
 
+(sec_NewtonsLaws_eotvos)=
 ### Eötvös experiment on mass
 The question whether inertial mass and gravitational mass are the same has put experimentalists to work. It is by no means an easy question. Gravity is a very weak force. Moreover, determining that two properties are identical via an experiment is virtually impossible due to experimental uncertainty. Experimentalist can only tell the outcome is 'identical' within a margin. Newton already tried to establish experimentally that the two forms of mass are the same. However, in his days the inaccuracy of experiments was rather large. Dutch scientist Simon Stevin concluded in 1585 that the difference must be less than 5\%. He used his famous 'drop masses from the church' experiments for this (they were primarily done to show that every mass falls with the same acceleration).
 
@@ -1301,7 +1307,5 @@ The question is not if $m_i / m_g$ is different from 1. If that was the case but
 ```{tip}
 Want to know more about this experiment? Watch this [videoclip](https://youtu.be/w2r9ISVJOhs?si=xmfY4f8MLoup1fM4).
 ```
-
-
 
 [^1]: Cannot be reprinted without permission.
