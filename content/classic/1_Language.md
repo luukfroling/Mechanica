@@ -15,7 +15,7 @@ kernelspec:
 
 (ch_language)=
 # The language of Physics
-Physics is the science that seeks to understand the fundamental workings of the universe: from the motion of everyday objects to the structure of atoms and galaxies. To do this, physicists have developed a precise and powerful language: one that combines mathematics, both colloquial and technical language, and visual representations. This language allows us not only to describe how the physical world behaves, but also to predict how it will behave under new conditions.
+Physics is the science that seeks to understand the fundamental workings of the universe: from the motion of everyday objects to the structure of atoms and galaxies. To do this, physicists have developed a precise and powerful language: one that combines mathematics, colloquial and technical language, and visual representations. This language allows us not only to describe how the physical world behaves, but also to predict how it will behave under new conditions.
 
 In this chapter, we introduce the foundational elements of this language, covering how to express physical ideas using equations, graphs, diagrams, and words. You’ll also get a first taste of how physics uses numerical simulations as an essential complement to analytical problem solving.
 
@@ -56,9 +56,10 @@ Can we find out what the terminal velocity of this jumper will be and how long i
 (sec_language_visual)=
 ### Visual representations
 
-*Visual representations* help us interpret physical behavior at a glance. Graphs, motion diagrams, free-body diagrams, and vector sketches are all ways to make abstract ideas more concrete.
-- **Graphs** (e.g., position vs. time, velocity vs. time) reveal trends and allow for estimation of slopes and areas, which have physical meanings like velocity and displacement.
+*Visual representations* help us interpret physical behavior at a glance. Graphs, motion diagrams, free-body diagrams, and vector sketches are all ways to make abstract ideas more tangible.
 - **Drawings** help illustrate the situation: what objects are involved, how they are moving, and what forces act on them.
+- **Graphs** (e.g., position vs. time, velocity vs. time) reveal trends and allow for estimation of slopes and areas, which have physical meanings like velocity and displacement.
+
 
 ````{example} Base jumper: Free body diagram
 The situation of the base jumper is sketched in {numref}`fig:HailStoneFriction` using a Free body diagram. Note that all details of the jumper are ignored in the sketch.
@@ -91,7 +92,7 @@ The forces acting on the jumper are already shown in {numref}`fig:HailStoneFrict
 
 $$F_g = F_f + F_b$$
 
-We can specify each of the force:
+We can specify each of the forces:
 
 $$\begin{aligned}
 F_g &= - mg = -\rho_p V_p g\\
@@ -106,7 +107,7 @@ with $g$ the acceleration of gravity, $\rho_p$ the density of the jumper ($\appr
 A physicist is able to switch between these representations, carefully considering which representations suits best for the given situation. We will practice these when solving problems.
 
 ```{danger}
-Note that in the example above we neglected directions. In our equation we should have been using vector notation, which we will cover in one of the next sections in this chapter.
+Note that in the example above we neglected directions. In our equations we should have been using vector notation, which we will cover in one of the next sections in this chapter.
 ```
 
 +++ { "page-break": true }
@@ -131,7 +132,7 @@ IDEA
 * **Interpret** - First think about the problem. What does it mean? Usually, making a sketch helps. ***Actually:*** *always start with a sketch*;
 * **Develop** - Build a model, from coarse to fine, that is, first think in the governing phenomena and then subsequently put in more details. Work towards writing down the equation of motion and boundary conditions;
 * **Evaluate** - Solve your model, i.e. the equation of motion;
-* **Assess** - Check whether your answer makes any sense (e.g. units OK? What order of magnitude did we expect?).
+* **Assess** - Check whether your answer makes any sense (e.g. units OK? What order of magnitude did we expect?). Is our answer in the order of magnitude that we expected?
 
 We will practice this and we will see that it actually is a very relaxed way of working and thinking. We strongly recommend to apply this strategy for your homework and exams (even though it seems strange in the beginning).
 
@@ -184,7 +185,7 @@ $$
 
 :::
 :::{tab-item} Assess
-We may know that raindrops typically reach a terminal velocity of less than $10 \: \mathrm{m/s}$. A terminal velocity of $40 \: \mathrm{m/s}$ seems therefore plausible. 
+We may know that raindrops typically reach a terminal velocity of less than $10 \: \mathrm{m/s}$. A terminal velocity of $40 \: \mathrm{m/s}$ seems therefore plausible for a much heavier object. 
 
 ***Note*** that we didn't solve the problem entirely! We only calculated the terminal velocity, where the question was how long it would roughly take to reach such a velocity.
 :::
@@ -192,9 +193,9 @@ We may know that raindrops typically reach a terminal velocity of less than $10 
 
 ```{danger} Good Practice
 
-It is a good habit to make your mathematical steps small: one-by-one. Don't make big jumps or multiple steps in one step. If you make a mistake, it will be very hard to trace it back.
+It is a good habit to make your mathematical steps small: one-by-one. Don't make big jumps or do multiple steps at once. If you make a mistake, it will be very hard to trace it back.
 
-Next: check constantly the dimensional correctness of your equations: that is easy to do and you will find the majorities of your mistakes.
+Next: check always the dimensional correctness of your equations: that is easy to do and you will find the majorities of your mistakes.
 
 Finally, use letters to denote quantities, including $ \pi $.
 The reason for this is:
@@ -226,10 +227,13 @@ We use prefixes to denote these powers of ten in front of the standard units, e.
 | Base           | -      | $10^{0}$    | Yotta          | Y      | $10^{24}$   |
 ```
 
++++ { "page-break": true }
++++
+
 ```{note} On quantities and units
 :class: dropdown
 
-Each quantity has a unit. As there are only so many letters in the alphabet (even when including the Greek alphabet), letters are used for multiple quantities. How can we distinguish then meters from mass, both denoted with the letter m? Quantities are expressed in italics ($m$) and units are not ($\mathrm{m}$).
+Each quantity has a unit. As there are only so many letters in the alphabet (even when including the Greek alphabet), letters are used for multiple quantities. How can we distinguish then meters from mass, both denoted with the letter 'm'? Quantities are expressed in italics ($m$) and units are not ($\mathrm{m}$).
 
 We make extensively use of the International System of Units (SI) to ensure consistency and precision in measurements across all scientific disciplines. The seven base SI units are:
 
@@ -264,22 +268,22 @@ For a more elaborate description of quantities, units and dimension analysis, se
 (sec_language_calculus)=
 ## Calculus
 
-Most of the undergraduate theory in physics is presented in the language of Calculus. We do a lot of differentiating and integrating, and for good reasons. The basic concepts and laws of physics can be cast in mathematical expressions, providing us the rigor and precision that is needed in our field. Moreover, once we have solved a certain problem using calculus, we obtain a very rich solution, usually in terms of functions. We can quickly recognize and classify the core features, that help us understanding the problem and its solution much deeper.
+Most of the undergraduate theory in physics is presented in the language of Calculus. We do a lot of differentiating and integrating, and for good reasons. The basic concepts and laws of physics can be cast in mathematical expressions, providing us the rigor and precision that is needed in our field. Moreover, once we have solved a certain problem using calculus, we obtain a very rich solution, usually in terms of functions. We can quickly recognize and classify the core features that help us understand the problem and its solution much deeper.
 
-Given the example of the base jumper, we would like to know how the jumper's position as a function of time. We can answer this question by applying Newton's second law (though it is covered in secondary school, the next [chapter](./Ch2_NewtonsLaws.ipynb) explains in detail Newton's laws of motion):
+Given the example of the base jumper, we would like to know the jumper's position as a function of time. We can answer this question by applying Newton's second law (though it is covered in secondary school, the next [chapter](./Ch2_NewtonsLaws.ipynb) explains in detail Newton's laws of motion):
 
 $$\sum F = F_g - F_f = m a = m \frac{dv}{dt} $$ 
 
 $$ m \frac{dv}{dt} = m g - \frac{1}{2} \rho_{air} C_D A v^2$$
 
-Clearly this is some kind of differential equation: the change in velocity depends on the velocity itself. Before we even try to solve this problem ($v(t)=...$), we have to dig deeper in the precise notation, otherwise we will get lost in directions and sign conventions.
+Clearly this is some kind of differential equation: the change in velocity depends on the velocity itself ($\frac{dv}{dt} = .. v(t)$). Before we even try to solve this problem ($v(t)=...$), we have to dig deeper in the precise notation, otherwise we will get lost in directions and sign conventions.
 
 (sec_language_differentiation)=
 ### Differentiation
 
-Many physical phenomena are described by differential equations. That may be because a system evolves in time or because it changes from location to location. In our treatment of the principles of classical mechanics, we will use differentiation with respect to time a lot. The reason is obviously found in Newton's $2^{nd}$ law: $F = ma$. 
+Many physical phenomena are described by differential equations. That may be because a system evolves in time, or because it changes from location to location. In our treatment of the principles of classical mechanics, we will use differentiation with respect to time a lot. The reason is obviously found in Newton's $2^{nd}$ law: $F = ma$. 
 
-The acceleration $a$ is the derivative of the velocity with respect to time; velocity in itself is the derivative of position with respect to time. Or when we use the equivalent formulation with momentum: $\frac{dp}{dt} = F$. So, the change of momentum in time is due to forces. Again, we use differentiation, but now of momentum.
+The acceleration $a$ is the derivative of the velocity with respect to time ($a=\frac{dv}{dt}$); velocity in itself is the derivative of position with respect to time ($v=\frac{dx}{dt}$). Or when we use the equivalent formulation with momentum: $\frac{dp}{dt} = F$. So, the change of momentum in time is due to forces. Again, we use differentiation, but now of momentum.
 
 There are three common ways to denote differentiation. The first one is by 'spelling it out': 
 
@@ -319,6 +323,8 @@ In one dimensional problems, we only have one coordinate to take into account to
 ```{important} Definition Velocity
 $$v \equiv \lim_{\Delta t \to 0 } \frac{x(t+\Delta t) - x(t)}{(t+\Delta t) - t} = \frac{dx}{dt} $$
 ```
+
+Note that we here use $\equiv$ rather than $=$ to indicate that this is a definition.
 
 Similarly, we define the acceleration as the change of the velocity over a time interval $\Delta t$: $a = \frac{\Delta v}{\Delta t}$. Again, this is actually the average acceleration and we need the momentary one:
 
@@ -360,8 +366,6 @@ Position, velocity, momentum, force: they are all *{abbr}`vectors (physical quan
 See the [linear algebra book on vectors](https://interactivetextbooks.tudelft.nl/linear-algebra/Chapter1/Vectors.html).
 ```
 
-
-
 **Position vector**
 
 We write the position **vector** of the particle as $\vec{r}$.
@@ -400,7 +404,7 @@ $$ \begin{split}
 \vec{r} &= x \vec{e}_x + y \vec{e}_y + z \vec{e}_z
 \end{split} $$
 
-Note that these representations are completely equivalent: the difference is in how the unit vectors are named. Also note, that these three representations are all given in terms of vectors. That is important to realize: in contrast to the column notation, now all is written at a single line. But keep in mind: $\hat{x}$ and $\hat{y}$ are perpendicular **vectors**.
+Note that these representations are equivalent: the difference is in how the unit vectors are named. Also note, that these three representations are all given in terms of vectors. That is important to realize: in contrast to the column notation, now all is written at a single line. But keep in mind: $\hat{x}$ and $\hat{y}$ are perpendicular **vectors**.
 
 ```{important} Other textbooks
 Note that other textbooks may use bold symbols to represent vectors:
@@ -498,7 +502,7 @@ $$ -->
 
 
 
-
++++{"no-pdf": true}
 ```{code-cell} python
 :tag: hide-input
 # App on vector addition
@@ -555,12 +559,12 @@ interact(
 )
 
 ```
-
++++
 
 
 **Differentiating a vector**
 
-We often have to differentiate physical quantities: velocity is the derivative of position with respect to time; acceleration is the derivative of velocity with respect to time. But you will also come across differentiation with respect to position.  
+We often have to differentiate physical quantities: velocity is the derivative of position with respect to time; acceleration is the derivative of velocity with respect to time. But you will also come across differentiation with respect to position ($\frac{d}{dx}$).  
 As an example, let's take velocity. Like in the 1-dimensional case, we can ask ourselves: how does the position of an object change over time? That leads us naturally to the definition of velocity: a change of position divided by a time interval:
 
 ```{important} Definition Velocity (Vector)
@@ -575,7 +579,7 @@ In 3 dimensions we will have that we go from point P, represented by $\vec{r} = 
 Consequently, we can write $\vec{r} + d\vec{r}$ as
 
 $$\begin{aligned} 
-\vec{r} + d\vec{r} &= x\hat{x} + y\hat{y} + z\hat{z} + dx\hat{dx} + dy\hat{y} + dz\hat{z} \\
+\vec{r} + d\vec{r} &= x\hat{x} + y\hat{y} + z\hat{z} + dx\hat{x} + dy\hat{y} + dz\hat{z} \\
 &= (x+dx)\hat{x} + (y+dy)\hat{y} + (z+dz)\hat{z}
 \end{aligned}$$
 
@@ -602,6 +606,8 @@ Now that the velocity of an object is defined, we can introduce its momentum:
 ```{important} Definition Momentum (Vector)
 $$\vec{p} \equiv m\vec{v} = m\frac{d\vec{r}}{dt} $$
 ```
+
+Albeit we have now a formal definition of momentum, we come later to its physical interpretation.  
 
 We can use the same reasoning and notation for acceleration:
 
@@ -638,7 +644,7 @@ Note that $\hat{z}$ is missing in {eq}`eq_Ff` on purpose. That would be a simpli
 (sec_language_numerical)=
 ## Numerical computation and simulation
 
-In simple cases we can come to an analytical solution. In the case of the base jumper, an analytical solution exists, though it is not trivial and requires some advanced operations as separation of variables and partial fractions:
+In simple cases we can obtain a physical model where we can derive an analytical solution. In the case of the base jumper, an analytical solution exists, though it is not trivial and requires some advanced operations as separation of variables and partial fractions:
 
 $$ v(t) = \sqrt{\frac{mg}{k}}\tanh(\sqrt{\frac{kg}{m}}t) $$ 
 

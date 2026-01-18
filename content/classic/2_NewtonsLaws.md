@@ -24,10 +24,14 @@ In this chapter, you will begin to develop the core physicist’s skill: buildin
 Much of physics, in particular Classical Mechanics, rests on three laws that carry Newton's name:
 
 ```{important} Newton's first law (N1)
+*Corpus omne perseverare in statu suo quiescendi vel movendi uniformiter in directum, nisi quatenus illud a viribus impressis cogitur statum suum mutare.*
+
 If no force acts on an object, the object moves with constant velocity.
 ```
 
 ```{important} Newton's second law (N2)
+*Mutationem motus proportionalem esse vi motrici impressæ, & fieri secundum lineam rectam qua vis illa imprimitur.*
+
 If a (net) force acts on an object, the momentum of the object will change according to:
 
 $$ \frac{d\vec{p}}{dt} = \vec{F} $$ 
@@ -35,11 +39,12 @@ $$ \frac{d\vec{p}}{dt} = \vec{F} $$
 ```
 
 ```{important} Newton's third law (N3)
+*Actioni contrariam semper & æqualem esse reactionem: sive corporum duorum actiones in se mutuo semper esse æquales & in partes contrarias dirigi.*
+
 If object 1 exerts a force $ \vec{F}_{12} $ on object 2, then object 2 exerts a force $\vec{F}_{21}$ equal in magnitude and opposite in direction on object 1:
 
 $$ \vec{F}_{21} = -\vec{F}_{12} $$
 ```
-
 
 N1 has, in fact, been formulated by Galileo Galilei. Newton has, in his N2, build upon it: N1 is included in N2, after all:  
 if $\vec{F} = 0$, then $\frac{d\vec{p}}{dt} = 0 \rightarrow \vec{p} = \text{constant} \rightarrow \vec{v} = \text{constant}$, provided $m$ is a constant. 
@@ -53,7 +58,7 @@ if $ m = \text{constant} $, then
 
 $$\frac{d\vec{p}}{dt} = m\frac{d\vec{v}}{dt} = m\vec{a} $$
 
-Nevertheless, in many cases using the momentum representation is beneficial. The reason is that momentum is one of the key quantities in physics. This is due to the underlying conservation law, that we will derive in a minute. Momentum is a more fundamental concept in physics than acceleration. That is another reason why physicists prefer the second way of looking at forces. 
+Nevertheless, in many cases using the momentum representation is beneficial. The reason is that momentum is one of the key quantities in physics. This is due to the underlying conservation law that we will derive in a minute. Momentum is a more fundamental concept in physics than acceleration. That is another reason why physicists prefer the second way of looking at forces. 
 
 Moreover, using momentum allows for a new interpretation of force: force is that quantity that - provided it is allowed to act for some time interval on an object - changes the momentum of that object. This can be formally written as:
 
@@ -65,7 +70,7 @@ The latter quantity $\vec{I} \equiv \int \vec{F} dt$ is called the impulse.
 **Momentum** is in Dutch **impuls**; the English **impulse** is in Dutch **stoot**.
 ```
 
-In Newton's Laws, velocity, acceleration and momentum are key quantities. We repeat here their formal definition.
+In Newton's laws, velocity, acceleration and momentum are key quantities. We repeat here their formal definition.
 
 
 ```{important} Definition
@@ -151,8 +156,7 @@ Although this sounds silly, when comparing this idea to the sun and the planets,
 
 (sec_NewtonsLaws_conservation)=
 ## Conservation of Momentum
-From Newton's 2$^{\text{nd}}$ and 3$^\text{rd}$ law we can easily derive the law of conservation of momentum.  
-Assume there are only two point-particle (i.e. particles with no size but with mass), that exert a force on each other. No other forces are present. From N2 we have:
+From Newton's 2$^{\text{nd}}$ and 3$^\text{rd}$ law we can easily derive the law of conservation of momentum. Assume there are only two point-particle (i.e. particles with no size but with mass), that exert a force on each other. No other forces are present. From N2 we have:
 
 $$ 
 \frac{d\vec{p}_1}{dt} = \vec{F}_{21} \\
@@ -190,7 +194,7 @@ $$
 $$ 
 
 
-Note the importance of the last conclusion: **if objects interact via a mutual force then the total momentum of the objects cannot change.** No matter what the interaction is. It is easily extended to more interacting particles. The crux is that particles interact with one another via forces that obey N3. Thus for three interacting point particles we would have (with $ \vec{F}_{ij}$ the force from particle *i* felt by particle *j*):
+Note the importance of the last conclusion: **if objects interact via a mutual force then the total momentum of the objects cannot change.** No matter what the interaction is. This notion is easily extended to more interacting particles. The crux is that particles interact with one another via forces that obey N3. Thus for three interacting point particles we would have (with $ \vec{F}_{ij}$ the force from particle *i* felt by particle *j*):
 
 $$
 \left.
@@ -231,7 +235,7 @@ At the end of the year of Galilei's death, Isaac Newton was born in Woolsthorpe-
 Isaac Newton (1642-1727). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Portrait_of_Sir_Isaac_Newton,_1689.jpg), public domain.
 ```
 
-In 1661, he started studying at Trinity College, Cambridge. In 1665, the university temporarily closed due to an outbreak of the plague. Newton returned to his home and started working on some of his breakthroughs in calculus, optics and gravitation. Newton's list of discoveries is unsurpassed. He invented calculus (at about the same time and independent of Leibniz). Newton is known for 'the binomium of Newton', the cooling law of Newton. He proposed that light is made of particles. And he formulated his law of gravity. Finally, he postulated his three laws that started classical mechanics and worked on several ideas towards energy and work. Much of our concepts in physics are based on the early ideas and their subsequent development in classical mechanics. The laws and rules apply to virtually all daily life physical phenomena and only do they require adaptation when we go to very small scale or extreme velocities and cosmology. In what follows, we will follow his footsteps, but in a modern way that we owe to many physicist and mathematicians that over the years shaped the theory of classical mechanics in a much more comprehensive form. We do not only stand on shoulders of giants, we stand on a platform carried by many.
+In 1661, he started studying at Trinity College, Cambridge. In 1665, the university temporarily closed due to an outbreak of the plague. Newton returned to his home and started working on some of his breakthroughs in calculus, optics and gravitation. Newton's list of discoveries is unsurpassed. He 'invented' calculus (at about the same time and independent of Leibniz). Newton is known for 'the binomium of Newton', the cooling law of Newton. He proposed that light is made of particles and formulated his law of gravity. Finally, he postulated his three laws that started classical mechanics and worked on several ideas towards energy and work. Much of our concepts in physics are based on the early ideas and their subsequent development in classical mechanics. The laws and rules apply to virtually all daily life physical phenomena and only require adaptation when we go to very small scale or extreme velocities and cosmology. In what follows, we will follow his footsteps, but in a modern way that we owe to many physicist and mathematicians that over the years shaped the theory of classical mechanics in a much more comprehensive form. We do not only stand on shoulders of giants, we stand on a platform carried by many.
 
 Interesting to know is that his mentioning of *standing on shoulders* can be interpreted as a sneer towards Robert Hooke (1635-1703), with he was in a [fight with over several things](https://en.wikipedia.org/wiki/Newton%E2%80%93Hooke_priority_controversy_for_the_inverse_square_law). Hooke was a rather short man... See, e.g., {cite:t}`gribbin2019scientists`.
 ````
@@ -249,12 +253,12 @@ However, in daily life we experience a clear distinction between past, present a
 
 (sec_NewtonsLaws_forces)=
 ### Force addition, subtraction and decomposition
-Newton's laws describe how forces affect motion, and applying them often requires combining multiple forces acting on an object, see {numref}`fig_additionF`. This is done through vector addition, subtraction, and decomposition—allowing us to find the net force and analyze its components in different directions, see [this chapter in the book on linear algebra](https://interactivetextbooks.tudelft.nl/linear-algebra/Chapter1/Vectors.html#arrows-in-the-plane) for a full elaboration on vector addition and subtraction.
+Newton's laws describe how forces affect motion. Applying them often requires combining multiple forces acting on an object, see {numref}`fig_additionF`. This is done through vector addition, subtraction, and decomposition—allowing us to find the net force and to analyze its components in different directions (see [this chapter in the book on linear algebra](https://interactivetextbooks.tudelft.nl/linear-algebra/Chapter1/Vectors.html#arrows-in-the-plane) for a full elaboration on vector addition and subtraction).
 
 ```{figure} ../images/ch2_fig_additionF.svg
 :label: fig_additionF
 :width: 70%
-:alt: A central point mass with three forces working on it. The magnitue of each mass is displayed on an analg spring scale. 
+:alt: A central point mass with three forces working on it. The magnitude of each mass is displayed on an analog spring scale. 
 :align: center
 
 Three forces acting on a particle. In which direction will it accelerate?
@@ -332,7 +336,7 @@ If we assume that only friction as a third force is present, we require:
 
 $$\sum_i \vec{F}_i = 0 \Rightarrow \vec{F}_g + \vec{F_N} + \vec{F}_f = 0 \Rightarrow \vec{F}_f = - \vec{F}_g - \vec{F}_N$$
 
-We can progress further by assuming that the friction force acts parallel to the slope. With this assumption, we can decomposed gravity in its components perpendicular to the slope and parallel to the slope.
+We can progress further by assuming that the friction force acts parallel to the slope. With this assumption, we can decompose gravity in its components perpendicular to the slope and parallel to the slope.
 
 ```{figure} ../images/ch2_Inclined_plane_sol.svg
 :width: 50%
@@ -388,7 +392,7 @@ $$ \label{eq:vert_mot} s(t) = \frac{1}{2}at^2 + v_0t + s_0$$
 ```{exercise} Tossing a stone in the air &#127798;
 :label: ex-toss
 
-At a height of $1.5\ \mathrm{m}$ a stone is tossed in the air with a velocity of $10 \mathrm{m/s}$. 
+At a height of $1.5\ \mathrm{m}$ a stone is tossed in the air with a velocity of $10\ \mathrm{m/s}$. 
 
 1. Calculate the maximum height that it reaches.
 2. Calculate the time it takes to reach this point.
