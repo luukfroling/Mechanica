@@ -149,6 +149,13 @@ At various places we use pictures which are in the public domain. We comply to t
 
 The Intermezzos, which elaborate on the lives of various scientists and the efforts behind key physical discoveries, are composed by drawing from a range of different sources. Rather than directly reproducing any one account, these stories have been reworked into a narrative that fits the context and audience of this book. 
 
+### Interactive materials
+```{iframe}  https://embed.grasple.com/exercises/f6c1bb4b-e63e-492e-910a-5a8c433de281?id=75093
+``` 
+
+```{iframe}  https://embed.grasple.com/exercises/490cb3e2-e7ed-4e2a-b521-efe7274c8176?id=129324
+```
+
 ### How to cite this book
 
 R.F. Mudde, B. Rieger, C.F.J. Pols, *Classical Mechanics \& Special Relativity for Beginners*, CC BY-NC<!--TU Delft Open, 2025, [LINK DOI]-->

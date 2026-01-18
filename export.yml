@@ -1,0 +1,16 @@
+version: 1
+
+project:
+
+  exports:
+    - format: typst
+      template: https://github.com/myst-templates/plain_typst_book.git 
+      output: exports/MechaRela.pdf
+      id: output-pdf1
+      logo: logo_TUD.png
+      cover: cover.png
+
+
+  # downloads:
+  # #   # - id: output-typst
+  #   - id: output-pdf1
