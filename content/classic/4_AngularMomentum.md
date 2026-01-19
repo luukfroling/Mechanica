@@ -8,10 +8,9 @@ kernelspec:
   display_name: 'Python 3'
 ---
 
-:::{index} Torque, Angular momentum, Kepler, Central forces, Dark matter
-:::
-
 # Angular Momentum, Torque \& Central Forces 
+```{index} Torque, Angular momentum, Kepler, Central forces, Dark matter
+```
 
 ## Torque \& Angular Momentum
 From experience we know that if we want to unscrew a bottle, lift a heavy object on one side, try to unscrew a screw, we better use 'leverage'.

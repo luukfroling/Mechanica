@@ -44,10 +44,10 @@ $$ \vec{F}_{21} = -\vec{F}_{12} $$
 ```
 
 
-{index}`N1 <Newton; N1>` has, in fact, been formulated by Galileo Galilei. Newton has, in his N2, build upon it: N1 is included in N2, after all:  
+{index}`N1 <Newton; first law>` has, in fact, been formulated by Galileo Galilei. Newton has, in his N2, build upon it: N1 is included in N2, after all:  
 if $\vec{F} = 0$, then $\frac{d\vec{p}}{dt} = 0 \rightarrow \vec{p} = \text{constant} \rightarrow \vec{v} = \text{constant}$, provided $m$ is a constant. 
 
-Most people know {index}`N2 <Newton; N2>`as 
+Most people know {index}`N2 <Newton; second law>`as 
 
 $$ \vec{F} = m \vec{a} $$
 

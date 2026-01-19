@@ -7,9 +7,12 @@ numbering:
 (ch_WorkEnergy)=
 # Work and Energy
 
+```{index} work; energy
+
+```
 (sec_WorkEnergy_work)=
 ## Work
-Work and energy are two important concepts. Work is the transfer of energy that occurs when a force is applied to an object and causes displacement in the direction of that force, calculated as 'force times path'. However, we need a formal definition:
+Work and energy are two important concepts. {index}`Work <Work; definition>` is the transfer of energy that occurs when a force is applied to an object and causes displacement in the direction of that force, calculated as 'force times path' . However, we need a formal definition:
 
 *if a point particle moves from $\vec{r}$ to $\vec{r} + d\vec{r}$ and during this interval a force $\vec{F}$ acts on the particle, then this force has performed an amount of work equal to:*
 
@@ -42,12 +45,10 @@ Keep in mind: in general the work depends on the starting point 1, the end point
 See also the chapter in the [linear algebra book on the inner product](https://interactivetextbooks.tudelft.nl/linear-algebra/Chapter1/Inner_Product.html)
 ```
 
-
-
 ## Kinetic Energy
-Kinetic energy is defined and derived using the definition of work and Newton's $ 2^{nd} $ Law.
+{index}`Kinetic energy <Energy; kinetic>` is defined and derived using the definition of work and Newton's $ 2^{nd} $ Law.
 
-The following holds: if work is done on a particle, then its kinetic energy must change. And vice versa: if the kinetic energy of an object changes, then work must have been done on that particle. The following derivation shows this.
+The following holds: if work is done on a particle, then its kinetic energy must change. And vice versa: if the kinetic energy of an object changes, then work must have been done on that particle. The following {index}`derivation <Energy; kinetic; derivation>` shows this.
 
 $$
 W_{12} = \int_1^2 \vec{F} \cdot d\vec{r} = \int_1^2 \vec{F} \cdot \frac{d\vec{r}}{dt}dt = \int_1^2 \vec{F} \cdot \vec{v} dt \\
@@ -58,12 +59,9 @@ $$
 
 It is from the above that we indicate $\frac{1}{2}m\vec{v}^2$ as kinetic energy.  It is important to realize that the concept of kinetic energy does not bring anything that is not contained in N2 to the table. But it does give a new perspective: kinetic energy can only be gained or lost if a force performs work on the particle. And vice versa: if a force performs work on a particle, the particle will change its kinetic energy. 
 
-Obviously, if more than one force acts, the net work done on the particle determines the change in kinetic energy. It is perfectly possible that force 1 adds an amount $ W $ to the particle, whereas at the same time force 2 will take out an amount $ -W $. This is the case for a particle that moves under the influence of two forces that cancel each other: $ \vec{F}_1 = -\vec{F}_2 $. From Newton 2, we immediately infer that if the two forces cancel each other, then the particle will move with a constant velocity. Hence, its kinetic energy stays constant. This is completely in line with the fact that in this case the net work done on the particle is zero: 
+Obviously, if more than one force acts, the net work done on the particle determines the change in kinetic energy. It is perfectly possible that force 1 adds an amount $ W $ to the particle, whereas at the same time force 2 will take out an amount $ -W $. This is the case for a particle that moves under the influence of two forces that cancel each other: $ \vec{F}_1 = -\vec{F}_2 $. From Newton 2, we immediately infer that if the two forces cancel each other, then the particle will move with a constant velocity. Hence, its kinetic energy stays constant. This is in line with the fact that in this case the net work done on the particle is zero: 
 
 $$ W_1 + W_2 = \int_1^2 \vec{F}_1 \cdot d\vec{r} + \int_1^2 \vec{F}_2 \cdot d\vec{r} = \int_1^2 \vec{F}_1 \cdot d\vec{r} - \int_1^2 \vec{F}_1 \cdot d\vec{r} = 0 $$
-
-
-
 
 
 ## Worked Examples
