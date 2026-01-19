@@ -45,14 +45,14 @@ Line up two coins on a table, placed edge to edge. Then position a third coin in
 
 Now use your other hand to flick the third coin strongly, aiming to hit the middle coin and cause a collision.
 
-What happens? Compare the velocities, qualitatively, before and after the collision.
-
 ```{figure} ../images/exp_coll.jpg
 :width: 30%
 :label: fig_exp_coll
 
 Try varying the setup—for example, using a heavier coin or a lighter one as the target—and observe the effects.
 ```
+
+What happens? Compare the velocities, qualitatively, before and after the collision.
 ````
 
 
