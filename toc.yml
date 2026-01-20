@@ -71,6 +71,10 @@ project:
       children:
         - file: content/appendix/Indexing.md
         - file: content/appendix/Math.md
+          children:
+            - file: content/appendix/Calculus.md
+            - file: content/appendix/LinAlg.md
+            - file: content/appendix/LinDif.md
 
     # - title: Project
     #   children:
