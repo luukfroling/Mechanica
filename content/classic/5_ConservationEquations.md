@@ -8,10 +8,9 @@ kernelspec:
   display_name: 'Python 3'
 ---
 
-:::{index} Galilean Transformation, Conservation laws, Momentum, Angular momentum
-:::
-
 # Conservation Laws / Galilean Transformation
+```{index} Galilean Transformation, Conservation laws, Momentum, Angular momentum
+```
 
 In the previous chapters, we have seen that from Newton's three laws, we can obtain conservation laws. That means, under certain conditions (depending on the law), a specific quantity cannot change.
 

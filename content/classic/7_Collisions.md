@@ -14,6 +14,8 @@ kernelspec:
 
 
 # Collisions
+```{index} collisions, elastic, inelastic
+```
 
 ## What are collisions?
 In daily life we do understand what a collision is: the bumping of two objects into each other. From a physics point of view, we see it slightly different. The objects don't have to touch. It is sufficient if they undergo a mutual interaction *'with a beginning and an end'*. What do we mean by this? 
@@ -25,10 +27,11 @@ In daily life we do understand what a collision is: the bumping of two objects i
 Collision of two particles.
 ```
 
-Firstly, the mutual interaction means that the objects interact with each other through a mutual force, i.e. a force (pair) that obeys Newton's third law.  
+Firstly, the mutual interaction means that the objects interact with each other through a mutual force, i.e. a force (pair) that obeys Newton's third law.
+
 Secondly, we assume that this force works over a small distance only. Or re-phrased we will only consider the situation before the objects feel the force and compare that to after they have felt it. We don't bother about the details of the motion of the objects *during* their interaction. Hence, when we depict a collision as in {numref}`fig:ch9_collision.svg`, we usually draw the situation before the collision, then some kind of 'comic way' of showing the collision and finally we draw the outcome of the collision, so after the interaction. In many cases, people leave the middle part out of their drawing.
 
-There are two principle types of collisions to distinguish: *elastic* and *inelastic* collisions. For an elastic collision the kinetic energy is conserved, whereas for an inelastic that is not the case. In the latter case, energy can be converted into deformation or heat.
+There are two principle types of collisions to distinguish: *elastic* and *inelastic* collisions. For an {index}`elastic collision <collisions; elastic>` the kinetic energy is conserved, whereas for an inelastic that is not the case. In the latter case, energy can be converted into deformation or heat.
 
 Since the objects interact under the influence of their mutual interaction, we have conservation of momentum:
 $$
@@ -42,14 +45,14 @@ Line up two coins on a table, placed edge to edge. Then position a third coin in
 
 Now use your other hand to flick the third coin strongly, aiming to hit the middle coin and cause a collision.
 
-What happens? Compare the velocities, qualitatively, before and after the collision.
-
 ```{figure} ../images/exp_coll.jpg
 :width: 30%
 :label: fig_exp_coll
 
 Try varying the setup—for example, using a heavier coin or a lighter one as the target—and observe the effects.
 ```
+
+What happens? Compare the velocities, qualitatively, before and after the collision.
 ````
 
 
@@ -70,7 +73,7 @@ $$ E_{kin, before} + V_{before} = E_{kin, after} +\underbrace{V_{after}}_{= V_{b
 
 ### Solving collision problems
 
-Given a collision experiment where the initial situation before the collision is known, how do we compute the situation after the collision? What will the velocities of the object be? 
+Given a {index}`collision <collisions; solving equations>` experiment where the initial situation before the collision is known, how do we compute the situation after the collision? What will the velocities of the object be? 
 
 Consider a head-on collision of two point particles on a line as shown in {numref}`fig:ch9_collision2.svg`. One particle with mass $3m$ is initially at rest ($u=0$), the other with mass $2m$ has velocity $2v$. What are the velocities $v',u'$ of the particles after the collision?
 
