@@ -168,7 +168,7 @@ plt.show()
 ```
 
 **45 degrees rotation**  
-In a similar way, we can define a rotation matrix for a 45-degree clockwise rotation. However, if we rotate the vector by 45 degrees, we should be aware that we take into account that the length of the vector (its magnitude) should not change. Thus, we need to include a scaling factor of $\frac{\sqrt{2}}{2}$ in the rotation matrix:
+In a similar way, we can define a rotation matrix for a 45-degree clockwise rotation: 
 
 $$ R = A\vec{r} = \begin{pmatrix} \cos(-45^\circ) & -\sin(-45^\circ) \\ \sin(-45^\circ) & \cos(-45^\circ) \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} \frac{\sqrt{2}}{2} & \frac{\sqrt{2}}{2} \\ -\frac{\sqrt{2}}{2} & \frac{\sqrt{2}}{2} \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} \frac{\sqrt{2}}{2}(x + y) \\ \frac{\sqrt{2}}{2}(-x + y) \end{pmatrix} $$
 
