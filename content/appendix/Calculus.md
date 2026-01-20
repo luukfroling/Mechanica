@@ -63,6 +63,30 @@ $$ h'(x) = \frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}{[g(x)]^2} = \frac{2x \cdot
 
 
 
+### List of standard derivatives
+Below is a list of some standard functions $Z(x,y)$ and their derivatives with respect to x.
+
+| Function $Z(x,y)$ | $\frac{dZ}{dx}$ | 
+|------------------|-----------------|
+| $x + y$          | 1               |
+| $x \cdot y$      | y               |
+| $x^n$            | $n\cdot x^{n-1}$|
+| $e^{cx}$         | $ce^{cx}$       |
+| $n^x$            | $n^x \ln{n}$    |
+| $\ln{x}$         | $\frac{1}{x}$   |
+| $\sin{x}$        | $\cos{x}$       |
+| $\cos{x}$        | $-\sin{x}$      |
+| $\tan{x}$        | $1+\tan^2{x}$   |
+
+
+### sumarrized
+
+| Function                | Derivative                          |
+|------------------------|------------------------------------|
+| $f(x)\cdot g(x)$       | $f'(x)g(x) + f(x)g'(x)$            |
+| $\frac{f(x)}{g(x)}$    | $\frac{g(x)f'(x)-f(x)g'(x)}{g'(x)^2}$ |
+| $f(g(x))$              | $f'(g(x))g'(x)$                    |
+
 
 ## Partial derivatives
 

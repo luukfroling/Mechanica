@@ -58,3 +58,7 @@ $$ x(t) = A \cos(\omega t) + B \sin(\omega t) $$
 where $\omega = \sqrt{\frac{k}{m}}$ is the angular frequency, and $A$ and $B$ are constants determined by initial conditions. 
 
 
+## notation
+curl
+div
+gradient
