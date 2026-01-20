@@ -1,5 +1,5 @@
 ---
-title: Relevant math
+title: Linear Algebra
 
 # numbering:
 #   title:
