@@ -22,7 +22,7 @@ $$ ||\vec{r}|| = \sqrt{x^{2} + y^{2} + z^{2}} $$
 
 In Python, we can represent vectors using NumPy arrays and calculate their magnitude as follows:
 
-```{code-block} python
+```{code-cell} python
 import numpy as np
 x, y, z = 3, 4, 5
 r = np.array([x, y, z])
