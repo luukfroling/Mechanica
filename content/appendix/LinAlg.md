@@ -71,7 +71,7 @@ $$\mathbf{v} \cdot\mathbf{w} = a_1b_1 + a_2b_2 + \cdots + a_nb_n.$$
 
 Using Python, we can compute the inner product as follows:
 
-```{code-block} python
+```{code-cell} python
 import numpy as np
 F1 = np.array([0, 1, 0])
 r1 = np.array([2, 0, 0])
@@ -100,7 +100,7 @@ $$ \vec{\tau} = \begin{pmatrix} \hat{i} & \hat{j} & \hat{k} \\ r_{x} & r_{y} & r
 
 The outcome of a cross product is a vector quantity, thus with both a magnitude and direction. Moreover, the direction of the resulting vector is orthogonal to both $\vec{r}$ and $\vec{F}$, following the right-hand rule. Note: $F\times r = - (r \times F)$, meaning the direction is reversed.
 
-```{code-block} python
+```{code-cell} python
 import numpy as np
 r = np.array([2, 0, 0])
 F = np.array([0, 1, 0])
@@ -109,15 +109,31 @@ print(torque)  # Output: [0 0 2]
 ```
 
 ### Vector fields
-A vector field, for instance a force field or an electric field, assigns a vector to every point in space. When visualized, each point in space has an arrow indicating both the direction and the magnitude of the vector. 
+A vector field, for instance a force field or an electric field, assigns a vector to every point in space. When visualized, each point in space has an arrow indicating both the direction and the magnitude of the vector. By changing the function F below, you can create your own vector fields.
 
 ```{code-cell} python
 import numpy as np
 import matplotlib.pyplot as plt
 
+def plot_vector_field(F, xlim=(-2, 2), ylim=(-2, 2), N=20, scale=None):
+    x = np.linspace(xlim[0], xlim[1], N)
+    y = np.linspace(ylim[0], ylim[1], N)
+    X, Y = np.meshgrid(x, y)
 
-plt.figure(figsize=(6,6))
-plt.show()
+    Fx, Fy = F(X, Y)
+
+    plt.figure(figsize=(5, 5))
+    plt.quiver(X, Y, Fx, Fy, scale=scale)
+    plt.xlabel("x")
+    plt.ylabel("y")
+    plt.xlim(xlim)
+    plt.ylim(ylim)
+    plt.show()
+
+def F(x, y):
+    return -y, x
+
+plot_vector_field(F)
 ```
 
 
