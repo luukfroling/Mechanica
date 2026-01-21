@@ -1,3 +1,14 @@
+---
+title: Linear Algebra
+
+# numbering:
+#   title:
+#     offset: 0
+
+kernelspec:
+  name: python3
+  display_name: 'Python 3'
+---
 # Differential equations
 
 Already in chapter 1 we have seen the concept of a differential equation: an equation that relates a function to its derivatives. In mechanics, differential equations arise naturally when we express Newton's laws in terms of position, velocity, and acceleration. 

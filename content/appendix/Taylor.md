@@ -1,3 +1,14 @@
+---
+title: Linear Algebra
+
+# numbering:
+#   title:
+#     offset: 0
+
+kernelspec:
+  name: python3
+  display_name: 'Python 3'
+---
 # Taylor series
 
 Every function can be approximated by a polynomial, called its Taylor series. The Taylor series of a function $f(x)$ around the point $a$ is given by:
