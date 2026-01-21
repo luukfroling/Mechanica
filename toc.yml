@@ -9,7 +9,7 @@ project:
         - file: content/classic/1_Language.md
           children:
             - file: content/classic/1_Language_ex.ipynb        
-
+                      
         - file: content/classic/2_NewtonsLaws.md
           children:
             - file: content/classic/2_NewtonsLaws_ex.ipynb
@@ -74,7 +74,8 @@ project:
             - file: content/appendix/Calculus.md
             - file: content/appendix/LinAlg.md
             - file: content/appendix/LinDif.md
-            - file: content/classic/1_Language_ex.ipynb        
+            - file: content/appendix/Taylor.md
+
 
     # - title: Project
     #   children:
