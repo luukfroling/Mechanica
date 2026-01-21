@@ -27,7 +27,7 @@ project:
           children:
             - file: content/classic/5_ConservationEquations_ex.md
 
-        - file: content/classic/Ch8_Oscillations.ipynb
+        - file: content/classic/Ch6_Oscillations.md
           children:
             - file: content/classic/6_Oscillations_ex.ipynb
 
