@@ -59,6 +59,11 @@ where $\omega = \sqrt{\frac{k}{m}}$ is the angular frequency, and $A$ and $B$ ar
 
 
 ## notation
+
+For two or three dimensional vector fields, the derivative can apply to all directions. For this, the nabla operator $\nabla$ exists. In 3 dimensions, the nabla operator is a vector that takes the partial derivative along each coordinate: 
+
+$$\nabla = \begin{pmatrix} \frac{\partial}{\partial x} \\ \frac{\partial}{\partial y} \\ \frac{\partial}{\partial z} \end{pmatrix}$$
+
 curl
 div
 gradient
