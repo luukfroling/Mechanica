@@ -1,11 +1,4 @@
 version: 1
-
-project:
-  toc:
-    - file: index.md
-    - file: content/Credits.md      
-      version: 1
-
 project:
   toc:
     - file: index.md
