@@ -392,3 +392,86 @@ The N-body problem is, of course, even more complex than the three-body problem.
 All kind of computational techniques have been developed and various averaging techniques are employed in statistical techniques are introduced from the start. the reason is often, that a particular 'realisation' of all positions and velocities of all particles is needed nor sought for. A system is at its macro level described by averaged properties, the exact location of the individual atoms is not needed. You will find applications in cosmology all the way to molecular dynamics, trying to simulate the behavior of proteins or pharmaceuticals. 
 
 
+
+## Three body Problem
+
+Now that we have reduced a two-particle system to a single particle problem, the question arises: can we repeat this 'trick' and turn a three-body problem in a two body problem, that in its turn can be reduced to a single particle problem?
+
+The answer is: no. There is no general strategy to reduce a three body problem two a two body-one. 
+
+The three body problem is an old one. Already Newton himself worked on it. Its importance stems e.g. from navigation on sea. It would be of great help if the position of the moon could be predicted in advance with great accuracy. Then sailors in the 17$^{\text{th}}$, 18$^{\text{th}}$ and 19$^{\text{th}}$ could have found much better their position at full sea. But no one succeeded in providing a closed solution in basic functions. 
+
+The king of Sweden, Oscar II, announced, as celebration of his 60$^{\text{th}}$ birthday, a competition with the price awarded to the one that came up with a general solution. But it took a different course. The price went to the French mathematician and physicist Henri Poincaré. 
+
+```{figure} ../images/HenriPoincare.jpg
+:label: fig:HenriPoincare.jpg
+:width: 40%
+:align: center
+
+[Click here for the Wikipedia page of Poincaré.](https://en.wikipedia.org/wiki/Henri_Poincar%C3%A9)
+```
+
+He showed that it was impossible to find such a solution as he reached the conclusion that the three body problem showed chaotic features. It led Poincaré to develop a whole new field: dynamic systems and what we call now *deterministic chaos*.  
+The work of Poincaré was the trigger of yet another 'revolution' in our understanding of the universe. 
+
+
+It doesn't mean that there are no known solutions of specific cases of the three body problem. On the contrary, in the animation below 20 solutions are given. Notice that they all have a high degree of symmetry. 
+
+```{figure} ../images/20SolutionsThreeBodyProblem.gif
+:label: fig:20SolutionsThreeBodyProblem.gif
+:width: 80%
+:align: center
+
+[Click here to see some exact solutions of the three body problem](https://upload.wikimedia.org/wikipedia/commons/5/5a/5_4_800_36_downscaled.gif) (By Perosello - Uploaded by Author, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=133294338).
+```
+
+
+### Alpha Centauri A, Alpha Centauri B and Alpha Centauri C
+The three body problem can also be studied by numerical means. As the equations of motion are easily set up and put into a computer code, this allows us to investigate for instance the three stars of the Alpha Centauri system: Alpha Centauri A, Alpha Centauri B and Alpha Centauri C. This system is a little over 4 million light years away from us: these stars are our closest (star) neighbors. Although they form a three body system, it is stable due to the much smaller mass op Alpha Centauri C compared to the other two. Alpha Centauri A and Alpha Centauri B are of similar mass, that is 1.1 and 0.9 the mass of our sun, respectively. Alpha Centauri C, on the other hand has a mass of only 0.12 of that of the sun.
+
+[Gaurav Deshmukh](https://towardsdatascience.com/modelling-the-three-body-problem-in-classical-mechanics-using-python-9dc270ad7767) has written a nice python-based web-page on this system. Below we show some examples of the simulations, that you can do yourself with the code given by Deshmukh.
+
+
+First, we ignore Alpha Centauri C and used that A and B have about the same mass. The two stars start rotating around each other in ellipsoidal orbits, as we already know from the two body problem.
+
+```{figure} ../images/TwoBody_animation.gif
+:label: fig:TwoBody_animation.gif
+:width: 100%
+:align: center
+ 
+Alpha Centauri A and B circling each other.
+```
+
+Then, we add third small one object (not Centauri C, but one with a much smaller mass): $m_A$ = 1.1, $m_B$ = 0.907 (both actual relative masses), $m_C$ = 0.001.
+
+$m_C$ tries to orbit its closest star, but at some point comes under the influence of the second star and gets 'tossed around'.
+
+```{figure} ../images/ThreeBody_animation_long.gif
+:label: fig:ThreeBody_animation_long.gif
+:width: 100%
+:align: center
+ 
+Alpha Centauri A and B circling each other with a third object.
+```
+
+If we let the simulations run for a much longer time, we see that at some point the conditions for our small star are such that it is 'shot' into space and disappears for ever.
+
+```{figure} ../images/ThreeBody_animation_long.png
+:label: fig:ThreeBody_animation_long.png
+:width: 100%
+:align: center
+ 
+Alpha Centauri A and B circling each other with a third object. The third 'planet' is finally escaping into space.
+```
+
+Note: this is a chaotic system and computations need great care. 
+
+```{iframe} https://trinket.io/embed/glowscript/b541844f22
+:width: 100%
+
+A stable solution of the three body problem, but slightly change one of the parameters and the solution is not stable anymore!
+```
+
+```{tip} Three body problem
+NetFlix has a great tv series called [3 Body Problem](https://www.netflix.com/nl-en/title/81024821)
+```

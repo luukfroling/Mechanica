@@ -32,12 +32,19 @@ The book covers the following chapters:
 5. **Oscillations** 
 6. **Collisions**
    
-**Special Relativity**
+**Special Relativity**  
 7. **Lorentz Transformation**  
 8. **Velocity Transformation**  
 9. **Spacetime and 4vectors**  
 10. **4-Momentum**  
 11. **Relativistic dynamics and collisions**
+
+**Appendix**
+index
+math
+  - calculus
+  - linear algebra
+  - differential equations
 
 ## 🛠️ Building the Book
 

@@ -27,7 +27,7 @@ project:
     #       children:
     #         - file: content/classic/5_ConservationEquations_ex.md
 
-    #     - file: content/classic/Ch8_Oscillations.ipynb
+    #     - file: content/classic/Ch6_Oscillations.md
     #       children:
     #         - file: content/classic/6_Oscillations_ex.ipynb
 
@@ -75,6 +75,7 @@ project:
             - file: content/appendix/Calculus.md
             - file: content/appendix/LinAlg.md
             - file: content/appendix/LinDif.md
+            - file: content/classic/1_Language_ex.ipynb        
 
     # - title: Project
     #   children:

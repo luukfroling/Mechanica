@@ -1,15 +1,9 @@
 ---
-jupytext:
-    formats: md:myst
-    text_representation:
-        extension: .md
-        format_name: myst
-kernelspec:
-    display_name: Python 3 (ipykernel)
-    language: python
-    name: python3
+numbering:
+  title:
+    enabled: true
+    offset: 0
 ---
-
 # Analytical or Numerical
 
 ## Calculus
@@ -51,15 +45,53 @@ We find $B$ with the initial condition and get as final solution:
 
 $$x(t) = \frac{m v_0}{b} \left ( 1 - e^{-\frac{b}{m}t} \right ) $$
 
-If we inspect and assess our solution, we see: the particle slows down (as is to be expected with a frictional force acting on it) and eventually comes to a stand still. At that moment, the force has also decreased to zero, so the particle will stay put.
+If we inspect and assess our solution (see Python script below), we see: the particle slows down (as is to be expected with a frictional force acting on it) and eventually comes to a stand still. At that moment, the force has also decreased to zero, so the particle will stay put.
 
 ```{tip}
 DIRECTE LINK MAKEN MET ODE, EN CALCULUS BOEK / VIDEO
 ```
 
-```{tip}
-plot van de oplossing
+
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+import ipywidgets
+
+
+# Setup time range and constants
+t = np.linspace(0, 5, 200)
+v0 = 10  # initial velocity
+
+def func(m, b):
+    
+    x_t = (m * v0 / b) * (1 - np.exp(-b * t / m))
+    
+    plt.figure(figsize=(8, 4))
+    plt.plot(t, x_t, 'r-', label=r'$x(t)$')
+    plt.xlabel('$t$ [s]')
+    plt.ylabel('$x(t)$ [m]')
+    plt.title(r'$x(t) = \frac{mv_0}{b}(1 - e^{-\frac{b}{m}t})$')
+    plt.xlim(0, 5)
+    plt.ylim(0, 50)  # dynamic upper bound
+    plt.grid(True)
+    
+  
+
+ipywidgets.interact(func, m=(0.1, 10.0, .1),
+                          b=(0.1, 10.0, .1))
+
 ```
+
+
+    interactive(children=(FloatSlider(value=5.0, description='m', max=10.0, min=0.1), FloatSlider(value=5.0, descr…
+
+
+
+
+
+    <function __main__.func(m, b)>
+
 
 
 ## Numerical ##
@@ -104,8 +136,9 @@ In the graph, we have plotted both the analytical solution and the numerical one
 ## More difficult example ##
 In the above, the friction force was proportional to the velocity. What if we make the force more realistic? For instance, let's consider a small hail stone that comes falling out of the sky. We will assume that the hail stone is formed in a cloud at a height of 1km above the ground. Furthermore, we will take that the stone drops from that height with zero initial velocity. Finally, we will assume that the problem is 1-dimensional: the hail stone drops vertically down and experiences only gravity, buoyancy and air-friction. The situation is sketched in {numref}`fig:HailStoneFriction`.
 
-```{figure} images/HailStoneFriction.png
-:label: fig:HailStoneFriction
+```{figure} ../images/HailStoneFriction.png
+---
+name: fig:HailStoneFriction
 width: 50%
 align: center
 --- 
@@ -147,170 +180,95 @@ python code for calculating and plotting the velocity of a falling hail stone as
 ```
 
 ### Simulation of a falling hail stone: friction versus no friction with the surrounding air ###
-```{code-cell} ipython3
-:tags: [hide-input] #, remove-output]
 
-import plotly.graph_objects as go
+
+
+
+
+```python
 import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.widgets import Slider
 
 ################ Code used for physics ################
 # Define constants
 rho_p   = 915
 rho_air = 1.2
 mu_air  = 1.8e-5
-D       = 2.5e-3
 H       = 1e3
 g       = 9.813
 v0      = 0
 z0      = H
+dt      = 1e-2
+Ndata   = 501
 
-m   = np.pi/6 * D**3 * rho_p
-A   = np.pi/4 * D**2
-Vol = np.pi/6 * D**3
-
-dt  = 1e-2
-Ndata = 501
-
-# Update D values
 def recalc(D):
-    '''Function to recompute all values that depend on D'''
-    D   = D
     m   = np.pi/6 * D**3 * rho_p
     A   = np.pi/4 * D**2
     Vol = np.pi/6 * D**3
-    return D, m, A, Vol
+    return m, A, Vol
 
 def CD(v,D):
-    '''Function to compute the drag coefficient'''
     Re = rho_air * np.abs(v) * D / mu_air
     if Re < 1e-6:
         Re = 1e-6
-    CD = 24./Re*(1 + 0.15 * Re**0.678 )
-    return CD
+    return 24./Re*(1 + 0.15 * Re**0.678 )
 
 def force(v,D,m,Vol,A):
-    '''Function to compute the force'''
-    f = -m*g + rho_air*Vol*g - CD(v,D)*A*1/2*rho_air*np.abs(v)*v
-    return f
+    return -m*g + rho_air*Vol*g - CD(v,D)*A*0.5*rho_air*np.abs(v)*v
 
 def velo(D):
-    '''Parametrized function to determine t, v and v without friction used in plotting'''
-    recalc(D)
-    v = []
-    v_nofriction = []
-    z = []
-    t = []
-    v.append(v0)
-    v_nofriction.append(v0)
-    z.append(z0)
-    t.append(0)
-    teller = 0
-    while teller < Ndata:
-        teller = teller + 1
+    m, A, Vol = recalc(D)
+    v, v_nofriction, z, t = [v0], [v0], [z0], [0]
+    for teller in range(1, Ndata+1):
         t.append(teller*dt)
-        v_new = v[teller-1] + force(v[teller-1],D,m,Vol,A)/m*dt
-        z_new = z[teller-1] + v_new * dt
+        v_new = v[-1] + force(v[-1],D,m,Vol,A)/m*dt
+        z_new = z[-1] + v_new * dt
         v.append(v_new)
         z.append(z_new)
         v_nofriction.append(-g*teller*dt)
-    return t, v, v_nofriction
+    return np.array(t), np.array(v), np.array(v_nofriction)
 
-# Compute initial values                             
-[t,v,v_nofriction] = velo(D)
+################ Interactive Plot with matplotlib ################
+# Initial diameter in meters
+D_init = 2.5e-3
+t, v, v_nofriction = velo(D_init)
 
-################ Code used for Interactive Plot ################
-line_red = '#e96868' # red line
-line_blue = '#68a0e9' # blue line
-fig = go.Figure()
+fig, ax = plt.subplots()
+plt.subplots_adjust(left=0.1, bottom=0.25)
 
-# Define the steps for the slider and an empty array of the minimum values used later for setting the y-axis range
-slider_steps = np.arange(0.1,5,0.1)
-vmin = np.zeros_like(slider_steps)
+line1, = ax.plot(t, v, label='friction', color='#e96868')
+line2, = ax.plot(t, v_nofriction, label='no friction', color='#68a0e9')
 
-for ind,val in enumerate(slider_steps):
-    # Rescale D to meters and compute values
-    D = val * 1e-3
-    recalc(D)
-    [t,v,v_nofriction] = velo(D)
-    vmin[ind] = min(v)
+ax.set_xlabel('t [s]')
+ax.set_ylabel('v(t)')
+ax.set_xlim(0, 5)
+ax.set_ylim(2 * np.min(v), 0)
+ax.legend()
 
-    # Add the trace with friction
-    fig.add_trace(
-        go.Scatter(
-            visible=False,
-            x = t,
-            y = v,
-            line = dict(color=line_red),
-            mode = 'lines',
-            name = 'friction'))
-    
-    # Add the trace without friction
-    fig.add_trace(
-        go.Scatter(
-            visible=False,
-            x = t,
-            y = v_nofriction,
-            line = dict(color=line_blue),
-            mode = 'lines',
-            name = 'no friction'))
-    
-    # Update the y-axis range
-    fig.update_yaxes(range=[2 * v[-1], 0], title_text=r'v(t)')
+# Slider setup
+ax_diam = plt.axes([0.1, 0.1, 0.8, 0.05], facecolor='lightgoldenrodyellow')
+diam_slider = Slider(ax_diam, 'Diameter [mm]', 0.1, 5.0, valinit=2.5, valstep=0.1)
 
-base_traces = 0 
-traces_per_step = 2 # Number of traces per value of a
+def update(val):
+    D = diam_slider.val * 1e-3
+    t, v, v_nofriction = velo(D)
+    line1.set_ydata(v)
+    line2.set_ydata(v_nofriction)
+    ax.set_ylim(2 * np.min(v), 0)
+    fig.canvas.draw_idle()
 
-# Show the traces for one value of a when loading the plot (initial setup)
-active_index = slider_steps.shape[0]//2
+diam_slider.on_changed(update)
 
-# Set the traces for the active value of D to visible
-for i in range(traces_per_step):
-    current_index = int(base_traces + active_index*traces_per_step + i)
-    fig.data[current_index].visible = True
+plt.show()
 
-steps = []
-for i in range(0, slider_steps.shape[0]):
+```
 
-    # Make only the traces for the current value of a visible
-    visarray = [False] * len(fig.data)
-    visarray[0:base_traces] = [True] * base_traces
-
-    current_index = int(base_traces + i * traces_per_step)
-    next_idx = int(base_traces + (i+1) * traces_per_step)
-    visarray[current_index:next_idx] = [True] * traces_per_step
-
-    # Define content of the slider step
-    step = dict(
-        method="update",
-        args=[
-            {"visible": visarray},
-            {"yaxis.range": [2 * vmin[i], 0]},
-            {"yaxis.titletext": r'v(t)'}
-        ],
-        label=str(round(slider_steps[i], 1))
-    )
-    
-    steps.append(step)
-
-sliders = [dict(
-    active = active_index,
-    currentvalue = {"prefix": "diameter: ", "suffix": " mm", "font": {"size": 20}},
-    steps = steps
-)]
-
-fig.update_layout(
-    sliders=sliders,
-    legend_title="Legend"
-)
-
-fig.update_xaxes(title_text=r't [s]', range=[0, 5])
-
-# Update yaxis properties
-fig
 ```
 
 ```{glue:figure} HailStone
-:label: fig:HailStone
+---
+name: fig:HailStone
 
 ---
 Velocity of a hail stone falling from 1km height taking air friction into account.
@@ -332,6 +290,7 @@ Write a simulation that determines the position of the particle as a function of
 
 Inspect what happens for initial values of the velocity around 2 m/s. Any clue what this means? If not: don't worry. You will get the 'tools' when we discuss work and energy.
 
+```{exercise-end}
 ```
 
 ```{exercise}
@@ -341,8 +300,9 @@ In the examples so far, we looked at 1-dimensional problems, for instance, the f
 
 The standard classical mechanical example is that of the 'canon ball': a point mass of mass m is shot into the air from $z=0$ with initial velocity $v_0$ at an angle $\alpha$ with the horizontal. The only force taken into account is gravity and the question is: "at what value does the ball travel furthest?" This is a 2-dimensional, which makes it in principle more complicated. However, in this case, the equations for the motion in the horizontal and vertical direction are uncoupled and can be solved separately. it is relatively simple to show that the path is longest at $\alpha = 45^\circ$, independent of the initial velocity of the ball.
 
-```{figure} images/Kogelbaan.png
-:label: fig:Kogelbaan
+```{figure} ../images/Kogelbaan.png
+---
+name: fig:Kogelbaan
 width: 70%
 align: center
 --- 
@@ -384,12 +344,14 @@ Write a computer code for the case of a spherical sand particle of 1 mm (density
 
 You should find something like shown in the graph below.
 
-```{figure} images/Kogelbaanfrictie.png
-:label: fig:Kogelbaanfrictie
+```{figure} ../images/Kogelbaanfrictie.png
+---
+name: fig:Kogelbaanfrictie
 width: 70%
 align: center
 --- 
 ```
+```{exercise-end}
 ```
 
 ```{exercise}
@@ -418,12 +380,14 @@ You will experience, that small changes in the initial condition have large cons
 
 Note that for a reliable solution, better numerical schemes than the one we are using here are needed. An example of five different initial conditions giving five different solutions, but now made with higher order schemes, is given in the figure below.
 
-```{figure} images/DrivenPendulumChaos.png
-:label: fig:DrivenPendulumChaos
+```{figure} ../images/DrivenPendulumChaos.png
+---
+name: fig:DrivenPendulumChaos
 width: 70%
 align: center
 --- 
 ```
+```{exercise-end}
 ```
 
 
