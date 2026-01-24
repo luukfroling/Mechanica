@@ -132,3 +132,67 @@ We encounter closed loop integrals in chapter ... There we see that a closed loo
 $$ \oint_C \vec{F} \cdot d\vec{r} $$
 
 If we use again the idea of a conservative force field, we can see that in such a field the closed loop integral is always zero, as the work done going from point A to point B is exactly canceled out by the work done going back from point B to point A. 
+
+
+## Curl, divergence and gradient
+
+For two or three dimensional vector fields, the derivative can apply to all directions. For this, the nabla operator $\nabla$ exists. In three dimensions, the nabla operator is a vector that takes the partial derivative along each coordinate: 
+
+$$\nabla = \begin{pmatrix} \frac{\partial}{\partial x} \\ \frac{\partial}{\partial y} \\ \frac{\partial}{\partial z} \end{pmatrix}$$
+
+The nabla operator can be applied to a scalar (gradient) or to a vector(field) using the dot or cross product (divergence and curl). We will discuss each of these below.
+
+(Curl)=
+### Curl
+The curl is used in the [chapter on work and energy](#ch_WorkEnergy), specifically in the context of assessing whether a force field is conservative (if so, the path from A to B does not matter on the amount of work that is done). The curl of a vector field $\mathbf{F}$ is denoted as $\nabla \times \mathbf{F}$. In mathematical terms, it provides a measure of the rotation (or swirling strength) of the field at a given point. A zero curl indicates that the field is irrotational, which is a characteristic of conservative fields. To get a better conceptual understanding, we can inspect the two fields below. The left is clearly rotating around the center, while the right one is not as all vectors point to the same direction (0,0). Hence, we expect that if we take the curl of the left field, it will be non-zero, while for the right field it will be zero.
+
+```{code-cell} python
+import numpy as np
+import matplotlib.pyplot as plt
+
+def plot_vector_field(F, xlim=(-2, 2), ylim=(-2, 2), N=20, scale=None):
+    x = np.linspace(xlim[0], xlim[1], N)
+    y = np.linspace(ylim[0], ylim[1], N)
+    X, Y = np.meshgrid(x, y)
+
+    Fx, Fy = F(X, Y)
+
+    plt.figure(figsize=(5, 5))
+    plt.quiver(X, Y, Fx, Fy, scale=scale)
+   
+def F1(x, y):
+    return -y, -x
+
+def F2(x, y):
+    r = np.sqrt(x**2 + y**2)
+    r = np.where(r == 0, 1e-10, r)  # Avoid division by zero
+    return -x / r**3, -y / r**3
+
+ax, fig = plt.figure()
+plot_vector_field(F1)
+plt.xlabel("x")
+plt.ylabel("y")
+plt.xlim(xlim)
+plt.ylim(ylim)
+plt.show()
+```
+
+Mathematically, the curl in three dimensions is defined as:
+$$ \nabla \times \mathbf{F} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\ F_x & F_y & F_z \end{vmatrix} $$
+
+where $\hat{i}$, $\hat{j}$, and $\hat{k}$ are the unit vectors in the x, y, and z directions, respectively, and $F_x$, $F_y$, and $F_z$ are the components of the vector field $\mathbf{F}$. Note that the outcome of taking the curl at a point returns a vector.
+
+(divergence)=
+### divergence
+Divergence is used in [chapter ](#link) on ... Divergence of a vector field $\mathbf{F}$ is denoted as $\nabla \cdot \mathbf{F}$. It quantifies the magnitude of a source or sink at a given point in the field. A positive divergence indicates a source (where field lines are diverging), while a negative divergence indicates a sink (where field lines are converging). Mathematically, the divergence in three dimensions is defined as:
+
+$$ \nabla \cdot \mathbf{F} = \frac{\partial F_x}{\partial x} + \frac{\partial F_y}{\partial y} + \frac{\partial F_z}{\partial z} $$
+
+where $F_x$, $F_y$, and $F_z$ are the components of the vector field $\mathbf{F}$. Note that taking the divergence at a point returns a scalar value, not a vector.
+
+(gradient)=
+###  Gradient
+
+The gradient of function $f$ is $\nabla f$. It creates a vector that indicates the directions in which $f$ increases or decreases:
+
+$$ \nabla f = \begin{pmatrix} \frac{\partial f}{\partial x} \\ \frac{\partial f}{\partial y} \\ \frac{\partial f}{\partial z} \end{pmatrix}$$
