@@ -1,5 +1,5 @@
 ---
-title: Taylor series
+title: Series
 
 # numbering:
 #   title:
@@ -54,3 +54,5 @@ def update(n):
 # Use FloatSlider for smooth interaction
 interact(update, n=widgets.FloatSlider(min=1, max=20, step=1, value=4))
 ```
+
+# Fourier series
