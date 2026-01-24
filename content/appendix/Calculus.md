@@ -140,7 +140,9 @@ For two or three dimensional vector fields, the derivative can apply to all dire
 
 $$\nabla = \begin{pmatrix} \frac{\partial}{\partial x} \\ \frac{\partial}{\partial y} \\ \frac{\partial}{\partial z} \end{pmatrix}$$
 
-The nabla operator can be applied to a scalar (gradient) or to a vector(field) using the dot or cross product (divergence and curl). We will discuss each of these below.
+The nabla operator can be applied to a scalar (*gradient*) or to a vector(field) using the dot or cross product (*divergence* and *curl*). We will discuss each of these below.
+
+Note that some of the explanation below is better understood when looking at [linear algebra](#linalg) first.
 
 (Curl)=
 ### Curl
@@ -150,37 +152,44 @@ The curl is used in the [chapter on work and energy](#ch_WorkEnergy), specifical
 import numpy as np
 import matplotlib.pyplot as plt
 
-def plot_vector_field(F, xlim=(-2, 2), ylim=(-2, 2), N=20, scale=None):
-    x = np.linspace(xlim[0], xlim[1], N)
-    y = np.linspace(ylim[0], ylim[1], N)
-    X, Y = np.meshgrid(x, y)
-
-    Fx, Fy = F(X, Y)
-
-    plt.figure(figsize=(5, 5))
-    plt.quiver(X, Y, Fx, Fy, scale=scale)
    
 def F1(x, y):
-    return -y, -x
+    return y, -x
 
 def F2(x, y):
     r = np.sqrt(x**2 + y**2)
     r = np.where(r == 0, 1e-10, r)  # Avoid division by zero
     return -x / r**3, -y / r**3
 
-ax, fig = plt.figure()
-plot_vector_field(F1)
-plt.xlabel("x")
-plt.ylabel("y")
-plt.xlim(xlim)
-plt.ylim(ylim)
+N = 7
+xlim=(-2, 2) 
+ylim=(-2, 2)
+x = np.linspace(xlim[0], xlim[1], N)
+y = np.linspace(ylim[0], ylim[1], N)
+X, Y = np.meshgrid(x, y)
+
+Fx1, Fy1 = F1(X, Y)
+Fx2, Fy2 = F2(X, Y)
+    
+fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(5, 10))
+ax1.quiver(X, Y, Fx1, Fy1)
+ax2.quiver(X, Y, Fx2, Fy2)
+
+ax1.set_xlabel("x")
+ax1.set_ylabel("y")
+ax1.set_xlim(xlim)
+ax1.set_ylim(ylim)
+ax2.set_xlabel("x")
+ax2.set_ylabel("y")
+ax2.set_xlim(xlim)
+ax2.set_ylim(ylim)
 plt.show()
 ```
 
 Mathematically, the curl in three dimensions is defined as:
-$$ \nabla \times \mathbf{F} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\ F_x & F_y & F_z \end{vmatrix} $$
+$$ \nabla \times \mathbf{F} = \begin{vmatrix} \hat{x} & \hat{y} & \hat{z} \\ \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\ F_x & F_y & F_z \end{vmatrix} $$
 
-where $\hat{i}$, $\hat{j}$, and $\hat{k}$ are the unit vectors in the x, y, and z directions, respectively, and $F_x$, $F_y$, and $F_z$ are the components of the vector field $\mathbf{F}$. Note that the outcome of taking the curl at a point returns a vector.
+where $\hat{x}$, $\hat{y}$, and $\hat{z}$ are the unit vectors in the x, y, and z directions, respectively, and $F_x$, $F_y$, and $F_z$ are the components of the vector field $\mathbf{F}$. Note that the outcome of taking the curl at a point returns a vector.
 
 (divergence)=
 ### divergence
