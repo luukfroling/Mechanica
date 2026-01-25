@@ -1,4 +1,18 @@
 
+
+/* Grasple exercise */
+iframe[src*="embed.grasple.com"] {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+
+div:has(> iframe[src*="embed.grasple.com"]) {
+  width: 100% !important;
+  height: 500px !important;
+}
+
+
 /* Code toegevoegd 17/05. Leuke kleurtjes zodat het makkelijk te zien is wat waar komt */
 
 
