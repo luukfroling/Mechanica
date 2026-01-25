@@ -5,7 +5,7 @@
 
 iframe[src*="embed.grasple.com"] {
   /* width: 90% !important; */
-  zoom: 0.8;
+  zoom: 0.8 !important;
   max-width: 100% !important;
 }
 
