@@ -189,7 +189,7 @@ plt.show()
 Mathematically, the curl in three dimensions is defined as:
 $$ \nabla \times \mathbf{F} = \begin{vmatrix} \hat{x} & \hat{y} & \hat{z} \\ \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\ F_x & F_y & F_z \end{vmatrix} $$
 
-where $\hat{x}$, $\hat{y}$, and $\hat{z}$ are the unit vectors in the x, y, and z directions, respectively, and $F_x$, $F_y$, and $F_z$ are the components of the vector field $\mathbf{F}$. Note that the outcome of taking the curl at a point returns a vector.
+where $\hat{x}$, $\hat{y}$, and $\hat{z}$ are the unit vectors in the x, y, and z directions, respectively, and $F_x$, $F_y$, and $F_z$ are the components of the vector field $\mathbf{F}$. Note that the outcome of taking the curl at a point returns a vector (or taking the curl of the vector field results in another vector field).
 
 (divergence)=
 ### divergence
