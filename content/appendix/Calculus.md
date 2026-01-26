@@ -27,6 +27,11 @@ Three perspectives on the derivative (werk van .. in TPT):
 From 
 
 
+
+```{grasple} https://embed.grasple.com/exercises/5681833d-5762-42f1-a1e7-8959da537fb7?id=129579
+
+```
+
 ### Chain rule
 A function with a function $f(g(x))$ (like $\sin(x^2)$) can be differentiated using the chain rule:
 
