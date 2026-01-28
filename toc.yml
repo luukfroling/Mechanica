@@ -39,31 +39,31 @@ project:
             - file: content/classic/8_TwoBody_ex.ipynb
 
 
-    # - file: content/special/SpecialRelativity.md
-    #   children:        
-    #     - file: content/special/ChX2_CracksInMecha.md
-    #       children:
-    #         - file: content/special/ChX2_ex.md
+    - file: content/special/SpecialRelativity.md
+      children:        
+        - file: content/special/ChX2_CracksInMecha.md
+          children:
+            - file: content/special/ChX2_ex.md
 
-    #     - file: content/special/ChX3_IntroSpecialRelativity.md
-    #       children:
-    #         - file: content/special/ChX3_ex.md
+        - file: content/special/ChX3_IntroSpecialRelativity.md
+          children:
+            - file: content/special/ChX3_ex.md
 
-    #     - file: content/special/ChX4_VelotransDoppler.md
-    #       children:
-    #         - file: content/special/ChX4_ex.md
+        - file: content/special/ChX4_VelotransDoppler.md
+          children:
+            - file: content/special/ChX4_ex.md
 
-    #     - file: content/special/ChX5_FourVectors.md
-    #       children:
-    #         - file: content/special/ChX5_ex.md
+        - file: content/special/ChX5_FourVectors.md
+          children:
+            - file: content/special/ChX5_ex.md
 
-    #     - file: content/special/ChX6_FourMomentum.md
-    #       children:
-    #         - file: content/special/ChX6_ex.md
+        - file: content/special/ChX6_FourMomentum.md
+          children:
+            - file: content/special/ChX6_ex.md
 
-    #     - file: content/special/ChX7_RelDynColl.md
-    #       children:
-    #         - file: content/special/ChX7_ex.md
+        - file: content/special/ChX7_RelDynColl.md
+          children:
+            - file: content/special/ChX7_ex.md
  
     
     - file: content/appendix/appendix.md
