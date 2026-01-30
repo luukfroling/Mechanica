@@ -1022,7 +1022,7 @@ This is an ellipse with semi major and minor-axis $a$ and $b$, respectively. The
 The half and short long axis are given by:
 
 $$a = \frac{\alpha}{1-e^2} = \frac{GMm}{2|E|}$$
-$$b = a\alpha = \frac{l^2}{2m|E|}$$
+$$b^2 = a\alpha = \frac{l^2}{2m|E|}$$
 
 with 
 
