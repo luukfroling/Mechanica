@@ -42,15 +42,15 @@ $$ x(t) = x(t_0) + \int_{t_0}^{t} (-2\tau + 1) d\tau = x(t_0) + \left[ -\tau^2 +
 
 Note that these two examples are dependent on a function that is itself only dependent on time. More complex first-order differential equations can involve the function itself, such as:
 
-$$ \frac{dx}{dt} = -kx $$
+$$ \frac{dx}{dt} = -kx(t) $$
 
 where $k$ is a constant. This type of equation often arises in contexts such as radioactive decay or cooling processes. We can solve this equation using separation of variables or integrating factors, leading to an exponential solution $x(t)=Ae^{-kt}$. We can verify this solution by differentiating it:
 
-$$ \frac{dx}{dt} = -kAe^{-kt} = -kx $$
+$$ \frac{dx}{dt} = -kAe^{-kt} = -kx(t) $$
 
 Slotting in this equation in the above allows us to solve for the constant $A$ based on initial conditions:
 
-$$ \frac{dx}{dt} = -kx \implies x(t) = x(t_0)e^{-k(t-t_0)} $$
+$$ \frac{dx}{dt} = -kx(t) \implies x(t) = x(t_0)e^{-k(t-t_0)} $$
 
 
 ## Second order

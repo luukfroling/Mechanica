@@ -930,8 +930,26 @@ $$a = g(\sin(\theta)-\mu_k\cos(\theta))$$
 
 ```
 
-```{h5p} https://tudelft.h5p.com/content/1292811209119377557/embed
+````{exercise} Frictional force [^GK]
+```{figure} ../../external/bookwall.png
+:label: fig_bookwall
+:width: 50%
+
+A book is held in place against a wall. The magnitude of the force applied by the hand on the book is the same in the left and the right scenarios.
 ```
+
+```{iframe} https://tudelft.h5p.com/content/1292811209119377557/embed
+```
+
+```{iframe} https://tudelft.h5p.com/content/1292812006862571247/embed
+```
+
+```{iframe} https://tudelft.h5p.com/content/1292812009060439827/embed
+```
+
+````
+
+[^GK]: https://doi.org/10.60893/figshare.pte.30542921
 
 (sec_NewtonsLaws_momentum)=
 ### Momentum example
