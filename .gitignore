@@ -11,6 +11,7 @@ pdf_plagiarism check.pdf
 secrets.docx
 secrets.txt
 aantekeningen.pdf
+*.pptx
 
 #Ignore backup files/folders
 **/.ipynb_checkpoints/

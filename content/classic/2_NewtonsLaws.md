@@ -931,6 +931,8 @@ $$a = g(\sin(\theta)-\mu_k\cos(\theta))$$
 ```
 
 ````{exercise} Frictional force [^GK]
+:label: ex_ch2_frictional_force
+:class: dropdown
 ```{figure} ../../external/bookwall.png
 :label: fig_bookwall
 :width: 50%
@@ -950,6 +952,38 @@ A book is held in place against a wall. The magnitude of the force applied by th
 ````
 
 [^GK]: https://doi.org/10.60893/figshare.pte.30542921
+
+
+````{solution} ex_ch2_frictional_force
+:class: dropdown
+::::{tab-set}
+:::{tab-item} Interpret
+The question resolves around which forces are acting on the book. What we already know is that the book is not moving in any direction and thus the net force must be zero.
+:::
+:::{tab-item} Develop
+Let's draw the free body diagram of the book for the left scenario:
+```{figure} ../images/FBD_ex_book.*
+:width: 60%
+:label: fig_FBD_book
+```
+We see two forces with a horizontal component: the force of the hand and the normal force of the wall. The forces with a vertical component are the gravitational force, the force of the hand and the frictional force.
+:::
+:::{tab-item} Evaluate
+From N1 and N3 we know that the net force must be zero. Looking at {numref}`fig_FBD_book`, we can write for the horizontal and vertical directions:
+
+$$\Sigma F_x = F_{hand,x} - F_{normal} = 0 $$
+
+$$\Sigma F_y = F_{hand,y} + F_{friction} - F_{gravity} = 0 $$
+
+Now it is clear that if the force of the hand is perpendicular to the wall, the frictional force must compensate for the gravitational force. If the hand applies a force at an angle, the normal force decreases (as the horizontal component of the hand's force decreases). As the force of the hand has a verticale component, the frictional force of the wall can decrease as well. **Note** that the force of the hand might be so big that the direction of the frictional force flip!
+:::
+:::{tab-item} Assess
+We can check that the direction of the force of our hand matters by doing the experiment {numref}`exp_friction`.
+:::
+
+::::
+````
+
 
 (sec_NewtonsLaws_momentum)=
 ### Momentum example
