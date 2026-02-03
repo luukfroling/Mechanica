@@ -231,7 +231,7 @@ $$
 
 Here for the first time $h$, Planck's constant, was introduced to quantize energy packages $hf$ of oscillation.
 
-Phenomenologically, the relation between the peak of the spectrum and the temperature was found by <a herf="https://en.wikipedia.org/wiki/Wilhelm_Wien">Wien</a> already earlier to be $\lambda_{peak} = \frac{b}{T}$ with $b$ Wien's constant $b\sim 2900\ \mu m\cdot K$.
+Phenomenologically, the relation between the peak of the spectrum and the temperature was found by [Wien](https://en.wikipedia.org/wiki/Wilhelm_Wien) already earlier to be $\lambda_{peak} = \frac{b}{T}$ with $b$ Wien's constant $b\sim 2900\ \mu m\cdot K$.
 	
 NB: If you buy a light bulb for a lamp, then a temperature is indicated on the packaging, e.g. $2700\ \mathrm{K}$ for "warm white", $4000\ \mathrm{K}$ for "cool white" to describe the light color. Quantum physics at your local super market.
 
