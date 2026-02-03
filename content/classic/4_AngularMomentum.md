@@ -1099,8 +1099,8 @@ The planets aren't the only objects that move around the sun. Several icy, rocky
 One of the best visible comets is Haley's comet. However, its orbital period is about 75 years. It last appeared in the inner parts of the Solar System in 1986. So, you will have to wait until mid-2061 to see it again.
 
 
-```{figure} ../images/Halley's_Comet_animation.*
-:label: fig:Halley's_Comet_animation.gif
+```{figure} ../images/Halleys_Comet_animation.*
+:label: fig:Halleys_Comet_animation.gif
 :width: 80%
 :alt: An animated gif showing the elliptical trajectory of Halley's Comet in our solar system. 
 :align: center
