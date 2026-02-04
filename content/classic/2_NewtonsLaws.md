@@ -978,7 +978,7 @@ $$\Sigma F_y = F_{hand,y} + F_{friction} - F_{gravity} = 0 $$
 Now it is clear that if the force of the hand is perpendicular to the wall, the frictional force must compensate for the gravitational force. If the hand applies a force at an angle, the normal force decreases (as the horizontal component of the hand's force decreases). As the force of the hand has a verticale component, the frictional force of the wall can decrease as well. **Note** that the force of the hand might be so big that the direction of the frictional force flip!
 :::
 :::{tab-item} Assess
-We can check that the direction of the force of our hand matters by doing the experiment {numref}`exp_friction`.
+We can check that the direction of the force of our hand matters by doing the experiment {numref}`ex_ch2_frictional_force`.
 :::
 
 ::::

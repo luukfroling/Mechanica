@@ -68,7 +68,7 @@ project:
     
     - file: content/appendix/appendix.md
       children:
-        - file: content/appendix/Indexing.md
+        # - file: content/appendix/Indexing.md
         - file: content/appendix/Math.md
           children:
             - file: content/appendix/Calculus.md
