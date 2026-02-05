@@ -6,9 +6,21 @@ export const plugin = {
       doc: 'Converts mystTarget to spans for Typst export and improves link text.',
       stage: 'document',
       plugin: (node, utils) => {
+        // --- 1. Log all unique node types ---
+        const allNodeTypes = new Set();
+        // Traverse the entire tree to collect types
+        utils.selectAll('*', node).forEach((n) => {
+          if (n.type) allNodeTypes.add(n.type);
+        });
+        
+        console.log('--- Found Node Types in Document ---');
+        console.log(Array.from(allNodeTypes).sort().join(', '));
+        console.log('------------------------------------');
+        
         // 1. Find all index targets
         const targets = utils.selectAll('mystTarget', node);
-
+        console.log(targets);
+        
         targets.forEach((targetNode) => {
           // Fix the Typst "Missing Label" issue
           // By changing type to 'span' and label to 'identifier', 
