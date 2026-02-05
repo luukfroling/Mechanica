@@ -7,11 +7,25 @@ export const plugin = {
       stage: 'document',
       plugin: (opts, utils) => (tree) => {
 
-        const rootChildren = tree.children?.[0]?.children || [];
-        
-        rootChildren.forEach((node) => {
-          console.log(node?.type)
+        const types = new Set();
+
+        // Recursive function to walk nodes
+        function walk(node) {
+          if (!node || typeof node !== 'object') return;
+
+          if (node.type) {
+            types.add(node.type);
+          }
+
+          if (Array.isArray(node.children)) {
+            node.children.forEach(walk);
+          }
         }
+
+        const rootChildren = tree.children?.[0]?.children || [];
+        rootChildren.forEach(walk);
+
+        console.log("Node types found:", [...types].sort());
         
         // 1. Find all index targets
         // const targets = utils.selectAll('mystTarget', tree);
