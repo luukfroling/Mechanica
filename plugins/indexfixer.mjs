@@ -7,7 +7,13 @@ export const plugin = {
       stage: 'document',
       plugin: (opts, utils) => (tree) => {
 
-        const rootChildren = tree.children?.[0]?.children || [];
+        let rootChildren = tree.children?.[0]?.children || [];
+        
+        rootChildren.forEach((node) => {
+          console.log(node?.type)
+        })
+
+        rootChildren = tree.children || [];
         
         rootChildren.forEach((node) => {
           console.log(node?.type)
