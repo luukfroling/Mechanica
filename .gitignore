@@ -1,5 +1,4 @@
 # Ignore al built files & folders 
-_build
 videos
 
 # Ignore .DS_Store files
