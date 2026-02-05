@@ -16,8 +16,10 @@ export const plugin = {
         rootChildren = tree.children || [];
         
         rootChildren.forEach((node) => {
-          console.log(node?.type)
+          console.log(node)
         })
+
+        console.log(tree)
         
         // 1. Find all index targets
         // const targets = utils.selectAll('mystTarget', tree);
