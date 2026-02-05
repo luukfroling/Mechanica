@@ -9,9 +9,44 @@ export const transform = {
 
         children.forEach((child)=> {
             child.children.forEach((node) => {
-                console.log(node)
+                //console.log(node)
+                  try {
+                    // Try and get out the index links
+                        node // paragraph node
+                        node.children.forEach((n)=>{
+                              if('indexEntries' in n){
+                                    console.log(n)
+                              }
+                        })
+                  } catch (error) {
+                    let a = 1;
+                  }
             })
         })
+
+// {
+//   type: 'paragraph',
+//   position: { start: { line: 34, column: 1 }, end: { line: 34, column: 1 } },
+//   children: [
+//     {
+//       type: 'text',
+//       value: 'There are two principle types of collisions to distinguish: ',
+//       position: [Object]
+//     },
+//     { type: 'emphasis', position: [Object], children: [Array] },
+//     { type: 'text', value: ' and ', position: [Object] },
+//     { type: 'emphasis', position: [Object], children: [Array] },
+//     { type: 'text', value: ' collisions. For an ', position: [Object] },
+//     { type: 'span', children: [Array], indexEntries: [Array] },
+//     {
+//       type: 'text',
+//       value: ' the kinetic energy is conserved, whereas for an inelastic that is not the case. In the latter case, energy can be converted into deformation or heat.',
+//       position: [Object]
+//     }
+//   ]
+// }
+
+            // Line 26630
         
 
         // rootChildren = tree.children || [];
