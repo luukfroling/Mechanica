@@ -1,0 +1,264 @@
+/* Written by MyST v1.8.0 */
+
+#import "myst-imports.typ": *
+
+=== Calculus
+
+Updated: 05 feb 2026
+==== Derivatives <derivatives>
+
+$ f (x) = x^2 arrow.r.double.long frac(d, d x) f (x) = 2 x $
+or in general:
+
+$ f (x) = x^n arrow.r.double.long frac(d, d x) f (x) = n x^(n -1) $
+Three perspectives on the derivative (werk van .. in TPT):
+
++ *Geometric*: The derivative at a point gives the slope of the tangent line to the curve at that point.
++ *Physical*: The derivative represents the instantaneous rate of change, such as velocity being the derivative of position with respect to time.
++ *Analytical*: The derivative is defined as the limit of the average rate of change as the interval approaches zero.
+
+From
+
+#noteBlock(heading: [Grasple 1])[
+#show figure: set block(breakable: breakableDefault)
+#figure([
+],
+  kind: "div",
+  supplement: [Div],
+)
+]
+
+===== Chain rule <chain-rule>
+
+A function with a function $f (g (x))$ (like $sin (x^2)$) can be differentiated using the chain rule:
+
+$ frac(d, d x) f (g (x)) = f ' (g (x)) dot.op g ' (x) $
+#noteBlock(heading: [Example: Chain rule example])[
+Differentiate $h (x) = sin (x^2)$.
+
+Here we first identify our two functions ($f (g (x)) = sin (g (x))$ and $g (x) = x^2$). Using the chain rule we get:
+
+$ h ' (x) = f ' (g (x)) dot.op g ' (x) = cos (x^2) dot.op 2 x = 2 x cos (x^2) $
+]
+
+===== Product rule <product-rule>
+
+A function that is the product of two functions $f (x)$ and $g (x)$ can be differentiated using the product rule:
+
+$ frac(d, d x) [ f (x) dot.op g (x) ] = f ' (x) dot.op g (x) + f (x) dot.op g ' (x) $
+A simple example would be differentiating $h (x) = x dot.op x^2$ where we know this could be written as $h (x) = x^3$ and its derivative is $h ' (x) = 3 x^2$. Using the product rule we get:
+
+$ h ' (x) = frac(d, d x) [ x dot.op x^2 ] = 1 dot.op x^2 + x dot.op 2 x = x^2 + 2 x^2 = 3 x^2 $
+#noteBlock(heading: [Example: Product rule example])[
+Differentiate $h (x) = x^3 dot.op sin (x)$.
+
+Here we identify our two functions ($f (x) = x^3$ and $g (x) = sin (x)$). Using the product rule we get:
+
+$ h ' (x) = f ' (x) dot.op g (x) + f (x) dot.op g ' (x) = 3 x^2 dot.op sin (x) + x^3 dot.op cos (x) $
+]
+
+===== Quotient rule <quotient-rule>
+
+The quotient rule is applied when differentiating a function that is the quotient of two functions $f (x)$ and $g (x)$: $h (x) = frac(f (x), g (x))$. The derivative is then give by:
+
+$ h ' (x) = frac(f ' (x) dot.op g (x) -f (x) dot.op g ' (x), [ g (x) ]^2) $
+#noteBlock(heading: [Example: Quotient rule example])[
+Differentiate $h (x) = frac(x^2, sin (x))$.
+
+Here we identify our two functions ($f (x) = x^2$ and $g (x) = sin (x)$). Using the quotient rule we get:
+
+$ h ' (x) = frac(f ' (x) dot.op g (x) -f (x) dot.op g ' (x), [ g (x) ]^2) = frac(2 x dot.op sin (x) -x^2 dot.op cos (x), sin^2 (x)) $
+]
+
+===== Summarized <summarized>
+
+#tablex(columns: 2, header-rows: 1, repeat-header: true, ..tableStyle, ..columnStyle,
+[
+Function
+],
+[
+Derivative
+],
+[
+$f (x) dot.op g (x)$
+],
+[
+$f ' (x) g (x) + f (x) g ' (x)$
+],
+[
+$frac(f (x), g (x))$
+],
+[
+$frac(g (x) f ' (x) -f (x) g ' (x), g ' (x)^2)$
+],
+[
+$f (g (x))$
+],
+[
+$f ' (g (x)) g ' (x)$
+],
+)
+===== List of standard derivatives <list-of-standard-derivatives>
+
+Below is a list of some standard functions $Z (x, y)$ and their derivatives with respect to x.
+
+#tablex(columns: 2, header-rows: 1, repeat-header: true, ..tableStyle, ..columnStyle,
+[
+Function $Z (x, y)$
+],
+[
+$frac(d Z, d x)$
+],
+[
+$x + y$
+],
+[
+1
+],
+[
+$x dot.op y$
+],
+[
+y
+],
+[
+$x^n$
+],
+[
+$n dot.op x^(n -1)$
+],
+[
+$e^(c x)$
+],
+[
+$c e^(c x)$
+],
+[
+$n^x$
+],
+[
+$n^x ln n$
+],
+[
+$ln x$
+],
+[
+$frac(1, x)$
+],
+[
+$sin x$
+],
+[
+$cos x$
+],
+[
+$cos x$
+],
+[
+$-sin x$
+],
+[
+$tan x$
+],
+[
+$1 + tan^2 x$
+],
+)
+==== Partial derivatives <partial-derivatives>
+
+Above we have only discussed derivatives of functions with one variable. However, many functions depend on multiple variables, e.g. $Z (x, y)$. In such cases, we can compute the partial derivative with respect to one of the variables, treating the other variables as constants. Consider the function $Z (x, y) = x^2 y + y^3$. The partial derivative of $Z$ with respect to $x$ is computed as follows:
+
+$ frac(∂ Z, ∂ x) = frac(∂, ∂ x) (x^2 y + y^3) = 2 x y + 0 = 2 x y $
+and with respect to $y$:
+
+$ frac(∂ Z, ∂ y) = frac(∂, ∂ y) (x^2 y + y^3) = x^2 + 3 y^2 $
+Noted that in the first year physics course, you will encounter this as well as you often have to deal with uncertainties in multiple quantities. To find the total uncertainty, you will need to compute the partial derivatives of the function with respect to each variable.
+
+==== Integration <integration>
+
+==== Line integrals <line-integrals>
+
+We encounter line integrals in chapter 4 on work. The amount of work done by a force field $arrow(F)$ when moving an object along a path $C$ is given by the line integral:
+
+$ W = ∫_C arrow(F) dot.op d arrow(r) $
+We can visualize this by drawing the force field as arrows in space and the path as a curve. The line integral sums up the contributions of the force along the path, taking into account both the magnitude and direction of the force relative to the path. By looking whether the path goes with or against the force field, we can determine whether the work on the object or by the object.
+
+VISUALIZATION
+
+In a conservative force field, such as gravity or electrostatic forces, the work done is path-independent and only depends on the initial and final positions.
+
+==== Closed loop integrals <closed-loop-integrals>
+
+We encounter closed loop integrals in chapter ... There we see that a closed loop integral is the same as a line integral where the start and end point are the same. A closed loop integral is denoted as:
+
+$ ∮_C arrow(F) dot.op d arrow(r) $
+If we use again the idea of a conservative force field, we can see that in such a field the closed loop integral is always zero, as the work done going from point A to point B is exactly canceled out by the work done going back from point B to point A.
+
+==== Curl, divergence and gradient <curl-divergence-and-gradient>
+
+For two or three dimensional vector fields, the derivative can apply to all directions. For this, the nabla operator $∇$ exists. In three dimensions, the nabla operator is a vector that takes the partial derivative along each coordinate:
+
+$ ∇ = mat(delim: "(", frac(∂, ∂ x); frac(∂, ∂ y); frac(∂, ∂ z)) $
+The nabla operator can be applied to a scalar (_gradient_) or to a vector(field) using the dot or cross product (_divergence_ and _curl_). We will discuss each of these below.
+
+Note that some of the explanation below is better understood when looking at #link("/content/appendix/linalg")[linear algebra] first.
+
+===== Curl <curl>
+
+The curl is used in the #link("/content/classic/workenergy")[chapter on work and energy], specifically in the context of assessing whether a force field is conservative (if so, the path from A to B does not matter on the amount of work that is done). The curl of a vector field $bold(F)$ is denoted as $∇ times bold(F)$. In mathematical terms, it provides a measure of the rotation (or swirling strength) of the field at a given point. A zero curl indicates that the field is irrotational, which is a characteristic of conservative fields. To get a better conceptual understanding, we can inspect the two fields below. The left is clearly rotating around the center, while the right one is not as all vectors point to the same direction (0,0). Hence, we expect that if we take the curl of the left field, it will be non-zero, while for the right field it will be zero.
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+   
+def F1(x, y):
+    return y, -x
+
+def F2(x, y):
+    r = np.sqrt(x**2 + y**2)
+    r = np.where(r == 0, 1e-10, r)  # Avoid division by zero
+    return -x / r**3, -y / r**3
+
+N = 7
+xlim=(-2, 2) 
+ylim=(-2, 2)
+x = np.linspace(xlim[0], xlim[1], N)
+y = np.linspace(ylim[0], ylim[1], N)
+X, Y = np.meshgrid(x, y)
+
+Fx1, Fy1 = F1(X, Y)
+Fx2, Fy2 = F2(X, Y)
+    
+fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(5, 10))
+ax1.quiver(X, Y, Fx1, Fy1)
+ax2.quiver(X, Y, Fx2, Fy2)
+
+ax1.set_xlabel("x")
+ax1.set_ylabel("y")
+ax1.set_xlim(xlim)
+ax1.set_ylim(ylim)
+ax2.set_xlabel("x")
+ax2.set_ylabel("y")
+ax2.set_xlim(xlim)
+ax2.set_ylim(ylim)
+plt.show()
+```
+
+Mathematically, the curl in three dimensions is defined as:
+
+$ ∇ times bold(F) = mat(delim: "|", hat(x), hat(y), hat(z); frac(∂, ∂ x), frac(∂, ∂ y), frac(∂, ∂ z); F_x, F_y, F_z) $
+where $hat(x)$, $hat(y)$, and $hat(z)$ are the unit vectors in the x, y, and z directions, respectively, and $F_x$, $F_y$, and $F_z$ are the components of the vector field $bold(F)$. Note that the outcome of taking the curl at a point returns a vector (or taking the curl of the vector field results in another vector field).
+
+===== divergence <divergence>
+
+Divergence is used in #link("\#link")[chapter] on ... Divergence of a vector field $bold(F)$ is denoted as $∇ dot.op bold(F)$. It quantifies the magnitude of a source or sink at a given point in the field. A positive divergence indicates a source (where field lines are diverging), while a negative divergence indicates a sink (where field lines are converging). Mathematically, the divergence in three dimensions is defined as:
+
+$ ∇ dot.op bold(F) = frac(∂ F_x, ∂ x) + frac(∂ F_y, ∂ y) + frac(∂ F_z, ∂ z) $
+where $F_x$, $F_y$, and $F_z$ are the components of the vector field $bold(F)$. Note that taking the divergence at a point returns a scalar value, not a vector.
+
+===== Gradient <gradient>
+
+The gradient of function $f$ is $∇ f$. It creates a vector that indicates the directions in which $f$ increases or decreases:
+
+$ ∇ f = mat(delim: "(", frac(∂ f, ∂ x); frac(∂ f, ∂ y); frac(∂ f, ∂ z)) $
