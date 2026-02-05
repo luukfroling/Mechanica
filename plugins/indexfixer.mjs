@@ -4,11 +4,15 @@ export const transform = {
       stage: 'document',
       plugin: (opts, utils) => (tree) => {
 
-        let rootChildren = tree.children?.[0]?.children || [];
-        
-        rootChildren.forEach((node) => {
-          console.log(node)
+
+        let children = tree.children;
+
+        children.forEach((child)=> {
+            child.children.forEach((node) => {
+                console.log(node)
+            })
         })
+        
 
         // rootChildren = tree.children || [];
         
