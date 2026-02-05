@@ -1,5 +1,3 @@
-what is wrong with this code? i just want to log all nodetypes
-
 export const plugin = {
   name: 'Index Typst Fixer',
   transforms: [
