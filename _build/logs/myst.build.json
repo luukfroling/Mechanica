@@ -1,0 +1,392 @@
+{
+  "input": {
+    "files": [],
+    "opts": {
+      "execute": false,
+      "executeParallel": 3,
+      "pdf": false,
+      "tex": false,
+      "typst": true,
+      "docx": false,
+      "md": false,
+      "xml": false,
+      "meca": false,
+      "cff": false,
+      "site": false,
+      "html": false,
+      "all": false,
+      "doiBib": false,
+      "watch": false,
+      "force": false,
+      "checkLinks": false,
+      "strict": false,
+      "ci": false,
+      "maxSizeWebp": 1572864,
+      "keepHost": false
+    }
+  },
+  "exports": [
+    {
+      "format": "typst",
+      "template": "https://github.com/myst-templates/plain_typst_book.git",
+      "output": "/home/runner/work/Mechanica/Mechanica/exports/MechaRela.pdf",
+      "id": "output-pdf1",
+      "cover": "cover.png",
+      "articles": [
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/Credits.md",
+          "level": 1,
+          "slug": "credits"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/classic/Mechanics.md",
+          "level": 1,
+          "slug": "mechanics",
+          "children": [
+            {
+              "children": [
+                {
+                  "file": "content/classic/1_Language_ex.ipynb"
+                }
+              ],
+              "file": "content/classic/1_Language.md"
+            },
+            {
+              "children": [
+                {
+                  "file": "content/classic/2_NewtonsLaws_ex.ipynb"
+                }
+              ],
+              "file": "content/classic/2_NewtonsLaws.md"
+            },
+            {
+              "children": [
+                {
+                  "file": "content/classic/3_WorkEnergy_ex.ipynb"
+                }
+              ],
+              "file": "content/classic/3_WorkEnergy.md"
+            },
+            {
+              "children": [
+                {
+                  "file": "content/classic/4_AngularMomentum_ex.ipynb"
+                }
+              ],
+              "file": "content/classic/4_AngularMomentum.md"
+            },
+            {
+              "children": [
+                {
+                  "file": "content/classic/5_ConservationEquations_ex.md"
+                }
+              ],
+              "file": "content/classic/5_ConservationEquations.md"
+            },
+            {
+              "children": [
+                {
+                  "file": "content/classic/6_Oscillations_ex.ipynb"
+                }
+              ],
+              "file": "content/classic/6_Oscillations.md"
+            },
+            {
+              "children": [
+                {
+                  "file": "content/classic/7_Collisions_ex.ipynb"
+                }
+              ],
+              "file": "content/classic/7_Collisions.md"
+            },
+            {
+              "children": [
+                {
+                  "file": "content/classic/8_TwoBody_ex.ipynb"
+                }
+              ],
+              "file": "content/classic/8_TwoBody.md"
+            }
+          ]
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/classic/1_Language.md",
+          "level": 2,
+          "slug": "language",
+          "children": "[Circular]"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/classic/1_Language_ex.ipynb",
+          "level": 3,
+          "slug": "language-ex"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/classic/2_NewtonsLaws.md",
+          "level": 2,
+          "slug": "newtonslaws",
+          "children": "[Circular]"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/classic/2_NewtonsLaws_ex.ipynb",
+          "level": 3,
+          "slug": "newtonslaws-ex"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/classic/3_WorkEnergy.md",
+          "level": 2,
+          "slug": "workenergy",
+          "children": "[Circular]"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/classic/3_WorkEnergy_ex.ipynb",
+          "level": 3,
+          "slug": "workenergy-ex"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/classic/4_AngularMomentum.md",
+          "level": 2,
+          "slug": "angularmomentum",
+          "children": "[Circular]"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/classic/4_AngularMomentum_ex.ipynb",
+          "level": 3,
+          "slug": "angularmomentum-ex"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/classic/5_ConservationEquations.md",
+          "level": 2,
+          "slug": "conservationequations",
+          "children": "[Circular]"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/classic/5_ConservationEquations_ex.md",
+          "level": 3,
+          "slug": "conservationequations-ex"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/classic/6_Oscillations.md",
+          "level": 2,
+          "slug": "oscillations",
+          "children": "[Circular]"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/classic/6_Oscillations_ex.ipynb",
+          "level": 3,
+          "slug": "oscillations-ex"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/classic/7_Collisions.md",
+          "level": 2,
+          "slug": "collisions",
+          "children": "[Circular]"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/classic/7_Collisions_ex.ipynb",
+          "level": 3,
+          "slug": "collisions-ex"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/classic/8_TwoBody.md",
+          "level": 2,
+          "slug": "twobody",
+          "children": "[Circular]"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/classic/8_TwoBody_ex.ipynb",
+          "level": 3,
+          "slug": "twobody-ex"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/special/SpecialRelativity.md",
+          "level": 1,
+          "slug": "specialrelativity",
+          "children": [
+            {
+              "children": [
+                {
+                  "file": "content/special/ChX2_ex.md"
+                }
+              ],
+              "file": "content/special/ChX2_CracksInMecha.md"
+            },
+            {
+              "children": [
+                {
+                  "file": "content/special/ChX3_ex.md"
+                }
+              ],
+              "file": "content/special/ChX3_IntroSpecialRelativity.md"
+            },
+            {
+              "children": [
+                {
+                  "file": "content/special/ChX4_ex.md"
+                }
+              ],
+              "file": "content/special/ChX4_VelotransDoppler.md"
+            },
+            {
+              "children": [
+                {
+                  "file": "content/special/ChX5_ex.md"
+                }
+              ],
+              "file": "content/special/ChX5_FourVectors.md"
+            },
+            {
+              "children": [
+                {
+                  "file": "content/special/ChX6_ex.md"
+                }
+              ],
+              "file": "content/special/ChX6_FourMomentum.md"
+            },
+            {
+              "children": [
+                {
+                  "file": "content/special/ChX7_ex.md"
+                }
+              ],
+              "file": "content/special/ChX7_RelDynColl.md"
+            }
+          ]
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/special/ChX2_CracksInMecha.md",
+          "level": 2,
+          "slug": "chx2-cracksinmecha",
+          "children": "[Circular]"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/special/ChX2_ex.md",
+          "level": 3,
+          "slug": "chx2-ex"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/special/ChX3_IntroSpecialRelativity.md",
+          "level": 2,
+          "slug": "chx3-introspecialrelativity",
+          "children": "[Circular]"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/special/ChX3_ex.md",
+          "level": 3,
+          "slug": "chx3-ex"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/special/ChX4_VelotransDoppler.md",
+          "level": 2,
+          "slug": "chx4-velotransdoppler",
+          "children": "[Circular]"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/special/ChX4_ex.md",
+          "level": 3,
+          "slug": "chx4-ex"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/special/ChX5_FourVectors.md",
+          "level": 2,
+          "slug": "chx5-fourvectors",
+          "children": "[Circular]"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/special/ChX5_ex.md",
+          "level": 3,
+          "slug": "chx5-ex"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/special/ChX6_FourMomentum.md",
+          "level": 2,
+          "slug": "chx6-fourmomentum",
+          "children": "[Circular]"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/special/ChX6_ex.md",
+          "level": 3,
+          "slug": "chx6-ex"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/special/ChX7_RelDynColl.md",
+          "level": 2,
+          "slug": "chx7-reldyncoll",
+          "children": "[Circular]"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/special/ChX7_ex.md",
+          "level": 3,
+          "slug": "chx7-ex"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/appendix/appendix.md",
+          "level": 1,
+          "slug": "appendix",
+          "children": [
+            {
+              "file": "content/appendix/Indexing.md"
+            },
+            {
+              "children": [
+                {
+                  "file": "content/appendix/Calculus.md"
+                },
+                {
+                  "file": "content/appendix/LinAlg.md"
+                },
+                {
+                  "file": "content/appendix/LinDif.md"
+                },
+                {
+                  "file": "content/appendix/Taylor.md"
+                }
+              ],
+              "file": "content/appendix/Math.md"
+            },
+            {
+              "file": "content/appendix/Example_exam.md"
+            }
+          ]
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/appendix/Indexing.md",
+          "level": 2,
+          "slug": "indexing"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/appendix/Math.md",
+          "level": 2,
+          "slug": "math",
+          "children": "[Circular]"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/appendix/Calculus.md",
+          "level": 3,
+          "slug": "calculus"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/appendix/LinAlg.md",
+          "level": 3,
+          "slug": "linalg"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/appendix/LinDif.md",
+          "level": 3,
+          "slug": "lindif"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/appendix/Taylor.md",
+          "level": 3,
+          "slug": "taylor"
+        },
+        {
+          "file": "/home/runner/work/Mechanica/Mechanica/content/appendix/Example_exam.md",
+          "level": 2,
+          "slug": "example-exam"
+        }
+      ],
+      "$file": "/home/runner/work/Mechanica/Mechanica/myst.yml",
+      "$project": "/home/runner/work/Mechanica/Mechanica"
+    }
+  ]
+}
