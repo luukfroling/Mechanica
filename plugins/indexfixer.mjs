@@ -1,7 +1,4 @@
-export const plugin = {
-  name: 'Index Typst Fixer',
-  transforms: [
-    {
+export const transform = {
       name: 'transform-index-targets',
       doc: 'Converts mystTarget to spans for Typst export and improves link text.',
       stage: 'document',
@@ -10,16 +7,16 @@ export const plugin = {
         let rootChildren = tree.children?.[0]?.children || [];
         
         rootChildren.forEach((node) => {
-          console.log(node?.type)
-        })
-
-        rootChildren = tree.children || [];
-        
-        rootChildren.forEach((node) => {
           console.log(node)
         })
 
-        console.log(tree)
+        // rootChildren = tree.children || [];
+        
+        // rootChildren.forEach((node) => {
+        //   console.log(node)
+        // })
+
+        // console.log(tree)
         
         // 1. Find all index targets
         // const targets = utils.selectAll('mystTarget', tree);
@@ -49,9 +46,13 @@ export const plugin = {
         //       }
         //     });
         //   }
-      },
-    },
-  ],
+      }
+};
+
+const plugin = {
+  name: "transform",
+  directives: [],
+  transforms: [transform],
 };
 
 export default plugin;
