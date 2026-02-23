@@ -13,6 +13,7 @@ but is currently available [here](https://freekpols.github.io/Mechanica/)
 ## 🎯 About This Textbook
 
 This textbook is suited for university level physics students with a basic prior knowledge on physics, often taught in secondary education.
+This is a test for a pull request. These additions add nothing helpful so should be removed. 
 
 ### Key Features
 
